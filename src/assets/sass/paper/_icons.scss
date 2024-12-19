@@ -1,0 +1,9287 @@
+@font-face {
+  font-family: 'lindua';
+  src:  url('../fonts/lindua.eot?1wuzov');
+  src:  url('../fonts/lindua.eot?1wuzov#iefix') format('embedded-opentype'),
+    url('../fonts/lindua.ttf?1wuzov') format('truetype'),
+    url('../fonts/lindua.woff?1wuzov') format('woff'),
+    url('../fonts/lindua.svg?1wuzov#lindua') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="lindua-"], [class*=" lindua-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lindua' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$lindua-home: "\e900";
+$lindua-home2: "\e901";
+$lindua-home3: "\e902";
+$lindua-home4: "\e903";
+$lindua-home-lock: "\e904";
+$lindua-home-sleep: "\e905";
+$lindua-home-smart: "\e906";
+$lindua-home-user: "\e907";
+$lindua-faucet: "\e908";
+$lindua-sink: "\e909";
+$lindua-plunger: "\e90a";
+$lindua-bathtub: "\e90b";
+$lindua-rubber-duck: "\e90c";
+$lindua-towel: "\e90d";
+$lindua-toothbrush: "\e90e";
+$lindua-razor: "\e90f";
+$lindua-bed: "\e910";
+$lindua-bed-time: "\e911";
+$lindua-bed-check: "\e912";
+$lindua-bed-cross: "\e913";
+$lindua-couch: "\e914";
+$lindua-chair: "\e915";
+$lindua-office: "\e916";
+$lindua-city: "\e917";
+$lindua-pencil: "\e918";
+$lindua-pencil2: "\e919";
+$lindua-pen: "\e91a";
+$lindua-pencil3: "\e91b";
+$lindua-eraser: "\e91c";
+$lindua-edit: "\e91d";
+$lindua-edit2: "\e91e";
+$lindua-notebook: "\e91f";
+$lindua-quill: "\e920";
+$lindua-edit3: "\e921";
+$lindua-blog: "\e922";
+$lindua-pen2: "\e923";
+$lindua-pen-plus: "\e924";
+$lindua-pen-minus: "\e925";
+$lindua-pen-drawing: "\e926";
+$lindua-bezier-curve: "\e927";
+$lindua-bezier-curve2: "\e928";
+$lindua-brush: "\e929";
+$lindua-brush2: "\e92a";
+$lindua-paint-roller: "\e92b";
+$lindua-spray: "\e92c";
+$lindua-spray-cross: "\e92d";
+$lindua-spray-bug: "\e92e";
+$lindua-spray2: "\e92f";
+$lindua-window: "\e930";
+$lindua-tape-measure: "\e931";
+$lindua-tape: "\e932";
+$lindua-tape-dispenser: "\e933";
+$lindua-stamp: "\e934";
+$lindua-texture: "\e935";
+$lindua-tile: "\e936";
+$lindua-eyedropper: "\e937";
+$lindua-palette: "\e938";
+$lindua-color-sampler: "\e939";
+$lindua-bucket: "\e93a";
+$lindua-sticker: "\e93b";
+$lindua-gradient: "\e93c";
+$lindua-magic-wand: "\e93d";
+$lindua-magnet: "\e93e";
+$lindua-magnet-cross: "\e93f";
+$lindua-magnet-grid: "\e940";
+$lindua-magnet-point: "\e941";
+$lindua-magnet-angle: "\e942";
+$lindua-magnet-scale: "\e943";
+$lindua-pencil-ruler: "\e944";
+$lindua-pencil-ruler2: "\e945";
+$lindua-compass: "\e946";
+$lindua-polygon: "\e947";
+$lindua-polygon2: "\e948";
+$lindua-polygon3: "\e949";
+$lindua-sword: "\e94a";
+$lindua-gun: "\e94b";
+$lindua-aim: "\e94c";
+$lindua-grenade: "\e94d";
+$lindua-bomb: "\e94e";
+$lindua-explosion: "\e94f";
+$lindua-nuclear: "\e950";
+$lindua-bottle: "\e951";
+$lindua-drop: "\e952";
+$lindua-droplet-plus: "\e953";
+$lindua-droplet-minus: "\e954";
+$lindua-droplet-cross: "\e955";
+$lindua-oil-price: "\e956";
+$lindua-coolant: "\e957";
+$lindua-snowflake: "\e958";
+$lindua-snowflake2: "\e959";
+$lindua-fire: "\e95a";
+$lindua-fire-forbidden: "\e95b";
+$lindua-fire-price: "\e95c";
+$lindua-fire-warning: "\e95d";
+$lindua-fire-hazard: "\e95e";
+$lindua-fireworks: "\e95f";
+$lindua-match-fire: "\e960";
+$lindua-hydrant: "\e961";
+$lindua-extinguisher: "\e962";
+$lindua-lighter: "\e963";
+$lindua-pocket-knife: "\e964";
+$lindua-tissue: "\e965";
+$lindua-toilet-paper: "\e966";
+$lindua-paper-towel: "\e967";
+$lindua-poop: "\e968";
+$lindua-umbrella: "\e969";
+$lindua-umbrella-rain: "\e96a";
+$lindua-droplets: "\e96b";
+$lindua-power: "\e96c";
+$lindua-volcano: "\e96d";
+$lindua-gas-mask: "\e96e";
+$lindua-tornado: "\e96f";
+$lindua-wind: "\e970";
+$lindua-fan: "\e971";
+$lindua-fan2: "\e972";
+$lindua-fan3: "\e973";
+$lindua-contrast: "\e974";
+$lindua-brightness: "\e975";
+$lindua-brightness-auto: "\e976";
+$lindua-brightness-auto2: "\e977";
+$lindua-brightness-contrast: "\e978";
+$lindua-sun: "\e979";
+$lindua-moon: "\e97a";
+$lindua-cloud: "\e97b";
+$lindua-cloud-rain: "\e97c";
+$lindua-cloud-rain2: "\e97d";
+$lindua-cloud-rain3: "\e97e";
+$lindua-cloud-snow: "\e97f";
+$lindua-cloud-snow2: "\e980";
+$lindua-sun-wind: "\e981";
+$lindua-cloud-wind: "\e982";
+$lindua-sun-fog: "\e983";
+$lindua-cloud-fog: "\e984";
+$lindua-cloud-sun: "\e985";
+$lindua-cloud-bolt: "\e986";
+$lindua-cloud-upload: "\e987";
+$lindua-cloud-download: "\e988";
+$lindua-cloud-sync: "\e989";
+$lindua-cloud-backup: "\e98a";
+$lindua-cloud-lock: "\e98b";
+$lindua-cloud-settings: "\e98c";
+$lindua-cloud-warning: "\e98d";
+$lindua-cloud-time: "\e98e";
+$lindua-cloud-check: "\e98f";
+$lindua-cloud-cross: "\e990";
+$lindua-cloud-connected: "\e991";
+$lindua-cloud-database: "\e992";
+$lindua-cloud-music: "\e993";
+$lindua-cloud-music2: "\e994";
+$lindua-cloud-message: "\e995";
+$lindua-branches: "\e996";
+$lindua-database: "\e997";
+$lindua-database-plus: "\e998";
+$lindua-database-minus: "\e999";
+$lindua-database-lock: "\e99a";
+$lindua-database-sync: "\e99b";
+$lindua-database-backup: "\e99c";
+$lindua-database-check: "\e99d";
+$lindua-database-time: "\e99e";
+$lindua-database-upload: "\e99f";
+$lindua-database-download: "\e9a0";
+$lindua-shield: "\e9a1";
+$lindua-shield-plus: "\e9a2";
+$lindua-shield-warning: "\e9a3";
+$lindua-shield-check: "\e9a4";
+$lindua-shield-cross: "\e9a5";
+$lindua-shield-sync: "\e9a6";
+$lindua-shield-info: "\e9a7";
+$lindua-shield-web: "\e9a8";
+$lindua-shield-user: "\e9a9";
+$lindua-shield-bolt: "\e9aa";
+$lindua-shield-droplet: "\e9ab";
+$lindua-shield-star: "\e9ac";
+$lindua-refresh-locked: "\e9ad";
+$lindua-lock: "\e9ae";
+$lindua-unlock: "\e9af";
+$lindua-unlock2: "\e9b0";
+$lindua-lock-check: "\e9b1";
+$lindua-lock-cross: "\e9b2";
+$lindua-lock-warning: "\e9b3";
+$lindua-lock2: "\e9b4";
+$lindua-unlock3: "\e9b5";
+$lindua-unlock4: "\e9b6";
+$lindua-lock-wireless: "\e9b7";
+$lindua-key: "\e9b8";
+$lindua-key2: "\e9b9";
+$lindua-key-hole: "\e9ba";
+$lindua-toggle-off: "\e9bb";
+$lindua-toggle-on: "\e9bc";
+$lindua-toggle-on2: "\e9bd";
+$lindua-toggle-off2: "\e9be";
+$lindua-switch-off: "\e9bf";
+$lindua-switch-on: "\e9c0";
+$lindua-equalizer: "\e9c1";
+$lindua-settings-icons: "\e9c2";
+$lindua-gear: "\e9c3";
+$lindua-gear2: "\e9c4";
+$lindua-gear3: "\e9c5";
+$lindua-wrench: "\e9c6";
+$lindua-wrench2: "\e9c7";
+$lindua-screwdriver: "\e9c8";
+$lindua-hammer: "\e9c9";
+$lindua-anvil: "\e9ca";
+$lindua-hammer-wrench: "\e9cb";
+$lindua-wrench-screwdriver: "\e9cc";
+$lindua-saw: "\e9cd";
+$lindua-axe: "\e9ce";
+$lindua-axe2: "\e9cf";
+$lindua-trowel: "\e9d0";
+$lindua-shovel: "\e9d1";
+$lindua-pickaxe: "\e9d2";
+$lindua-factory: "\e9d3";
+$lindua-robot-arm: "\e9d4";
+$lindua-conveyor: "\e9d5";
+$lindua-recycle: "\e9d6";
+$lindua-recycle2: "\e9d7";
+$lindua-trash: "\e9d8";
+$lindua-trash-cross: "\e9d9";
+$lindua-trash-full: "\e9da";
+$lindua-trash-warning: "\e9db";
+$lindua-trash-cross2: "\e9dc";
+$lindua-disposal: "\e9dd";
+$lindua-game: "\e9de";
+$lindua-gamepad: "\e9df";
+$lindua-dice: "\e9e0";
+$lindua-spades: "\e9e1";
+$lindua-spades2: "\e9e2";
+$lindua-diamonds: "\e9e3";
+$lindua-diamonds2: "\e9e4";
+$lindua-clubs: "\e9e5";
+$lindua-clubs2: "\e9e6";
+$lindua-heart: "\e9e7";
+$lindua-heart-shiny: "\e9e8";
+$lindua-star: "\e9e9";
+$lindua-star-half: "\e9ea";
+$lindua-star-empty: "\e9eb";
+$lindua-flag: "\e9ec";
+$lindua-flag2: "\e9ed";
+$lindua-flag3: "\e9ee";
+$lindua-mailbox-empty: "\e9ef";
+$lindua-mailbox-full: "\e9f0";
+$lindua-at-sign: "\e9f1";
+$lindua-envelope: "\e9f2";
+$lindua-envelope-open: "\e9f3";
+$lindua-envelope-open2: "\e9f4";
+$lindua-envelope-plus: "\e9f5";
+$lindua-envelope-warning: "\e9f6";
+$lindua-envelope-check: "\e9f7";
+$lindua-envelope-cross: "\e9f8";
+$lindua-paper-plane: "\e9f9";
+$lindua-paperclip: "\e9fa";
+$lindua-reply: "\e9fb";
+$lindua-reply-all: "\e9fc";
+$lindua-drawer: "\e9fd";
+$lindua-drawer-download: "\e9fe";
+$lindua-drawer-upload: "\e9ff";
+$lindua-drawer-full: "\ea00";
+$lindua-drawer-paper: "\ea01";
+$lindua-drawer-warning: "\ea02";
+$lindua-drawer-sync: "\ea03";
+$lindua-box: "\ea04";
+$lindua-drawer-full2: "\ea05";
+$lindua-drawer-paper2: "\ea06";
+$lindua-dresser: "\ea07";
+$lindua-dresser2: "\ea08";
+$lindua-cabinet: "\ea09";
+$lindua-eye: "\ea0a";
+$lindua-eye-cross: "\ea0b";
+$lindua-eye-plus: "\ea0c";
+$lindua-eye-minus: "\ea0d";
+$lindua-eye-droplet: "\ea0e";
+$lindua-eye2: "\ea0f";
+$lindua-binoculars: "\ea10";
+$lindua-binoculars2: "\ea11";
+$lindua-telescope: "\ea12";
+$lindua-server: "\ea13";
+$lindua-install: "\ea14";
+$lindua-upload: "\ea15";
+$lindua-hard-disk: "\ea16";
+$lindua-hard-disk-warning: "\ea17";
+$lindua-floppy-disk: "\ea18";
+$lindua-disc: "\ea19";
+$lindua-disc-audio: "\ea1a";
+$lindua-disc-play: "\ea1b";
+$lindua-cassette: "\ea1c";
+$lindua-printer: "\ea1d";
+$lindua-plotter: "\ea1e";
+$lindua-printer-3d: "\ea1f";
+$lindua-shredder: "\ea20";
+$lindua-file-empty: "\ea21";
+$lindua-file-text: "\ea22";
+$lindua-file-plus: "\ea23";
+$lindua-file-check: "\ea24";
+$lindua-file-lock: "\ea25";
+$lindua-file-user: "\ea26";
+$lindua-file-pencil: "\ea27";
+$lindua-files: "\ea28";
+$lindua-files2: "\ea29";
+$lindua-files-compare: "\ea2a";
+$lindua-folder: "\ea2b";
+$lindua-folder-history: "\ea2c";
+$lindua-folder-search: "\ea2d";
+$lindua-folder-home: "\ea2e";
+$lindua-folder-plus: "\ea2f";
+$lindua-folder-minus: "\ea30";
+$lindua-folder-zip: "\ea31";
+$lindua-folder-lock: "\ea32";
+$lindua-folder-download: "\ea33";
+$lindua-folder-upload: "\ea34";
+$lindua-folder-star: "\ea35";
+$lindua-folder-heart: "\ea36";
+$lindua-folder-user: "\ea37";
+$lindua-folder-share: "\ea38";
+$lindua-folder-code: "\ea39";
+$lindua-folder-picture: "\ea3a";
+$lindua-folder-camera: "\ea3b";
+$lindua-folder-music: "\ea3c";
+$lindua-folder-music2: "\ea3d";
+$lindua-folder-film: "\ea3e";
+$lindua-folder-video: "\ea3f";
+$lindua-scissors: "\ea40";
+$lindua-clipboard-empty: "\ea41";
+$lindua-clipboard-text: "\ea42";
+$lindua-paste: "\ea43";
+$lindua-paste2: "\ea44";
+$lindua-clipboard-check: "\ea45";
+$lindua-clipboard-down: "\ea46";
+$lindua-clipboard-left: "\ea47";
+$lindua-clipboard-warning: "\ea48";
+$lindua-clipboard-user: "\ea49";
+$lindua-clipboard-pencil: "\ea4a";
+$lindua-checklist: "\ea4b";
+$lindua-clipboard-list: "\ea4c";
+$lindua-clipboard-chart: "\ea4d";
+$lindua-register: "\ea4e";
+$lindua-enter: "\ea4f";
+$lindua-exit: "\ea50";
+$lindua-news: "\ea51";
+$lindua-read: "\ea52";
+$lindua-newsletter: "\ea53";
+$lindua-newsletters: "\ea54";
+$lindua-paper: "\ea55";
+$lindua-graduation: "\ea56";
+$lindua-certificate: "\ea57";
+$lindua-certificate2: "\ea58";
+$lindua-medal-empty: "\ea59";
+$lindua-medal-first: "\ea5a";
+$lindua-medal-second: "\ea5b";
+$lindua-medal-third: "\ea5c";
+$lindua-podium: "\ea5d";
+$lindua-trophy: "\ea5e";
+$lindua-trophy-first: "\ea5f";
+$lindua-trophy-second: "\ea60";
+$lindua-trophy-third: "\ea61";
+$lindua-music-note: "\ea62";
+$lindua-music-note2: "\ea63";
+$lindua-music-note-plus: "\ea64";
+$lindua-music-note3: "\ea65";
+$lindua-music-note4: "\ea66";
+$lindua-music-note5: "\ea67";
+$lindua-music-note6: "\ea68";
+$lindua-playlist: "\ea69";
+$lindua-list-heart: "\ea6a";
+$lindua-cable: "\ea6b";
+$lindua-turntable: "\ea6c";
+$lindua-piano: "\ea6d";
+$lindua-guitar: "\ea6e";
+$lindua-guitar-electric: "\ea6f";
+$lindua-guitar-pick: "\ea70";
+$lindua-metronome: "\ea71";
+$lindua-tuning-fork: "\ea72";
+$lindua-album: "\ea73";
+$lindua-playlist2: "\ea74";
+$lindua-photo-album: "\ea75";
+$lindua-shuffle: "\ea76";
+$lindua-repeat: "\ea77";
+$lindua-repeat-infinite: "\ea78";
+$lindua-repeat-once: "\ea79";
+$lindua-earphones: "\ea7a";
+$lindua-headphones: "\ea7b";
+$lindua-headset: "\ea7c";
+$lindua-headphones-warning: "\ea7d";
+$lindua-headphones-cross: "\ea7e";
+$lindua-loudspeaker: "\ea7f";
+$lindua-equalizer2: "\ea80";
+$lindua-theater: "\ea81";
+$lindua-3d-glasses: "\ea82";
+$lindua-ticket: "\ea83";
+$lindua-megaphone: "\ea84";
+$lindua-clapboard: "\ea85";
+$lindua-clapboard-play: "\ea86";
+$lindua-reel: "\ea87";
+$lindua-film: "\ea88";
+$lindua-film-play: "\ea89";
+$lindua-film-play2: "\ea8a";
+$lindua-projector-screen-collapsed: "\ea8b";
+$lindua-projector-screen-play: "\ea8c";
+$lindua-projector-screen-chart: "\ea8d";
+$lindua-surveillance: "\ea8e";
+$lindua-surveillance2: "\ea8f";
+$lindua-camera: "\ea90";
+$lindua-camera-cross: "\ea91";
+$lindua-camera-play: "\ea92";
+$lindua-camera-pause: "\ea93";
+$lindua-camera-stop: "\ea94";
+$lindua-camera-record: "\ea95";
+$lindua-camera-time: "\ea96";
+$lindua-camera2: "\ea97";
+$lindua-camera3: "\ea98";
+$lindua-camera-time2: "\ea99";
+$lindua-camera-flip: "\ea9a";
+$lindua-camera-stabilization: "\ea9b";
+$lindua-panorama: "\ea9c";
+$lindua-shutter: "\ea9d";
+$lindua-face-detection: "\ea9e";
+$lindua-convex: "\ea9f";
+$lindua-concave: "\eaa0";
+$lindua-picture: "\eaa1";
+$lindua-picture2: "\eaa2";
+$lindua-book: "\eaa3";
+$lindua-book-audio: "\eaa4";
+$lindua-book2: "\eaa5";
+$lindua-book3: "\eaa6";
+$lindua-book-bookmarked: "\eaa7";
+$lindua-book-bookmarked2: "\eaa8";
+$lindua-bookmark: "\eaa9";
+$lindua-bookmark-move: "\eaaa";
+$lindua-bookmark-plus: "\eaab";
+$lindua-bookmark-minus: "\eaac";
+$lindua-label: "\eaad";
+$lindua-books: "\eaae";
+$lindua-library: "\eaaf";
+$lindua-contacts: "\eab0";
+$lindua-business-card: "\eab1";
+$lindua-portrait: "\eab2";
+$lindua-portrait2: "\eab3";
+$lindua-user: "\eab4";
+$lindua-user-plus: "\eab5";
+$lindua-user-minus: "\eab6";
+$lindua-user-heart: "\eab7";
+$lindua-user-lock: "\eab8";
+$lindua-user-question: "\eab9";
+$lindua-user-bubble: "\eaba";
+$lindua-user-check: "\eabb";
+$lindua-user-cross: "\eabc";
+$lindua-user-edit: "\eabd";
+$lindua-user-gear: "\eabe";
+$lindua-user-info: "\eabf";
+$lindua-user-24: "\eac0";
+$lindua-support: "\eac1";
+$lindua-group: "\eac2";
+$lindua-group-plus: "\eac3";
+$lindua-group-minus: "\eac4";
+$lindua-group-edit: "\eac5";
+$lindua-group-circle: "\eac6";
+$lindua-head: "\eac7";
+$lindua-head-hearing: "\eac8";
+$lindua-head-speech: "\eac9";
+$lindua-head-question: "\eaca";
+$lindua-head-money: "\eacb";
+$lindua-head-processing: "\eacc";
+$lindua-head-bubble: "\eacd";
+$lindua-portrait-male: "\eace";
+$lindua-portrait-female: "\eacf";
+$lindua-baby: "\ead0";
+$lindua-baby-crying: "\ead1";
+$lindua-baby-smile: "\ead2";
+$lindua-baby-tongue: "\ead3";
+$lindua-baby2: "\ead4";
+$lindua-baby-crying2: "\ead5";
+$lindua-baby3: "\ead6";
+$lindua-baby-tongue2: "\ead7";
+$lindua-pacifier: "\ead8";
+$lindua-baby-bottle: "\ead9";
+$lindua-stroller: "\eada";
+$lindua-standing: "\eadb";
+$lindua-walking: "\eadc";
+$lindua-waving: "\eadd";
+$lindua-victory: "\eade";
+$lindua-running: "\eadf";
+$lindua-jumping: "\eae0";
+$lindua-traveling: "\eae1";
+$lindua-stairs: "\eae2";
+$lindua-escalator-up: "\eae3";
+$lindua-escalator-down: "\eae4";
+$lindua-depressed: "\eae5";
+$lindua-male: "\eae6";
+$lindua-female: "\eae7";
+$lindua-gender: "\eae8";
+$lindua-gender2: "\eae9";
+$lindua-bathroom-scale: "\eaea";
+$lindua-height: "\eaeb";
+$lindua-button: "\eaec";
+$lindua-button2: "\eaed";
+$lindua-suit: "\eaee";
+$lindua-bow-tie: "\eaef";
+$lindua-necktie: "\eaf0";
+$lindua-sock: "\eaf1";
+$lindua-sock-dirty: "\eaf2";
+$lindua-shoe: "\eaf3";
+$lindua-high-heels: "\eaf4";
+$lindua-lips: "\eaf5";
+$lindua-lipstick: "\eaf6";
+$lindua-hairdryer: "\eaf7";
+$lindua-hand-soap: "\eaf8";
+$lindua-ring: "\eaf9";
+$lindua-mirror: "\eafa";
+$lindua-bowler-hat: "\eafb";
+$lindua-top-hat: "\eafc";
+$lindua-pants: "\eafd";
+$lindua-shorts: "\eafe";
+$lindua-underwear: "\eaff";
+$lindua-underwear2: "\eb00";
+$lindua-bra: "\eb01";
+$lindua-shirt: "\eb02";
+$lindua-gown: "\eb03";
+$lindua-hoodie: "\eb04";
+$lindua-hanger: "\eb05";
+$lindua-hanger2: "\eb06";
+$lindua-washing-machine: "\eb07";
+$lindua-laundry-time: "\eb08";
+$lindua-machine-wash: "\eb09";
+$lindua-machine-wash-cold: "\eb0a";
+$lindua-machine-wash-warm: "\eb0b";
+$lindua-machine-wash-hot: "\eb0c";
+$lindua-iron: "\eb0d";
+$lindua-iron-low: "\eb0e";
+$lindua-iron-medium: "\eb0f";
+$lindua-iron-high: "\eb10";
+$lindua-iron-no: "\eb11";
+$lindua-iron-steam: "\eb12";
+$lindua-iron-steam-no: "\eb13";
+$lindua-store: "\eb14";
+$lindua-store-24: "\eb15";
+$lindua-barcode: "\eb16";
+$lindua-barcode2: "\eb17";
+$lindua-barcode3: "\eb18";
+$lindua-qrcode: "\eb19";
+$lindua-box2: "\eb1a";
+$lindua-box-check: "\eb1b";
+$lindua-box-cross: "\eb1c";
+$lindua-box3: "\eb1d";
+$lindua-box-check2: "\eb1e";
+$lindua-box-cross2: "\eb1f";
+$lindua-basket: "\eb20";
+$lindua-bag: "\eb21";
+$lindua-bag-full: "\eb22";
+$lindua-bag-plus: "\eb23";
+$lindua-bag-minus: "\eb24";
+$lindua-bag-checkout: "\eb25";
+$lindua-bag-check: "\eb26";
+$lindua-bag-cross: "\eb27";
+$lindua-cart: "\eb28";
+$lindua-cart-full: "\eb29";
+$lindua-cart-plus: "\eb2a";
+$lindua-cart-minus: "\eb2b";
+$lindua-cart-load: "\eb2c";
+$lindua-cart-unload: "\eb2d";
+$lindua-cart-manage: "\eb2e";
+$lindua-cart-checkout: "\eb2f";
+$lindua-cart-check: "\eb30";
+$lindua-cart-cross: "\eb31";
+$lindua-tag: "\eb32";
+$lindua-tag2: "\eb33";
+$lindua-receipt: "\eb34";
+$lindua-wallet: "\eb35";
+$lindua-debit-card: "\eb36";
+$lindua-piggy-bank: "\eb37";
+$lindua-money-pouch: "\eb38";
+$lindua-money-pouch-euro: "\eb39";
+$lindua-money-pouch-pound: "\eb3a";
+$lindua-money-pouch-yen: "\eb3b";
+$lindua-money-pouch-ruble: "\eb3c";
+$lindua-bill: "\eb3d";
+$lindua-bill2: "\eb3e";
+$lindua-bill-dollar: "\eb3f";
+$lindua-bill-euro: "\eb40";
+$lindua-bill-pound: "\eb41";
+$lindua-bill-yen: "\eb42";
+$lindua-bill-ruble: "\eb43";
+$lindua-bill-stack: "\eb44";
+$lindua-bill-stack-dollar: "\eb45";
+$lindua-bill-stack-euro: "\eb46";
+$lindua-bill-stack-pound: "\eb47";
+$lindua-bill-stack-yen: "\eb48";
+$lindua-bill-stack-ruble: "\eb49";
+$lindua-calculator: "\eb4a";
+$lindua-calculator2: "\eb4b";
+$lindua-safe: "\eb4c";
+$lindua-telephone: "\eb4d";
+$lindua-phone-end: "\eb4e";
+$lindua-missed-incoming: "\eb4f";
+$lindua-missed-outgoing: "\eb50";
+$lindua-phone-lock: "\eb51";
+$lindua-phone-loudspeaker: "\eb52";
+$lindua-phone-bubble: "\eb53";
+$lindua-phone-pause: "\eb54";
+$lindua-phone-outgoing: "\eb55";
+$lindua-phone-incoming: "\eb56";
+$lindua-phone-in-out: "\eb57";
+$lindua-phone-cross: "\eb58";
+$lindua-phone-user: "\eb59";
+$lindua-phone-time: "\eb5a";
+$lindua-phone-24: "\eb5b";
+$lindua-phone-sip: "\eb5c";
+$lindua-phone-plus: "\eb5d";
+$lindua-phone-minus: "\eb5e";
+$lindua-voicemail: "\eb5f";
+$lindua-telephone2: "\eb60";
+$lindua-telephone3: "\eb61";
+$lindua-pushpin: "\eb62";
+$lindua-pushpin-cross: "\eb63";
+$lindua-pushpin2: "\eb64";
+$lindua-map-marker: "\eb65";
+$lindua-map-marker-user: "\eb66";
+$lindua-map-marker-down: "\eb67";
+$lindua-map-marker-plus: "\eb68";
+$lindua-map-marker-minus: "\eb69";
+$lindua-map-marker-check: "\eb6a";
+$lindua-map-marker-cross: "\eb6b";
+$lindua-map-marker-edit: "\eb6c";
+$lindua-helm: "\eb6d";
+$lindua-compass2: "\eb6e";
+$lindua-map: "\eb6f";
+$lindua-map2: "\eb70";
+$lindua-compass3: "\eb71";
+$lindua-road-sign: "\eb72";
+$lindua-calendar: "\eb73";
+$lindua-calendar2: "\eb74";
+$lindua-calendar3: "\eb75";
+$lindua-calendar4: "\eb76";
+$lindua-calendar-time: "\eb77";
+$lindua-calendar-check: "\eb78";
+$lindua-calendar-cross: "\eb79";
+$lindua-calendar-plus: "\eb7a";
+$lindua-calendar-minus: "\eb7b";
+$lindua-calendar-user: "\eb7c";
+$lindua-mouse: "\eb7d";
+$lindua-mouse-wireless: "\eb7e";
+$lindua-mouse-click-left: "\eb7f";
+$lindua-mouse-click-right: "\eb80";
+$lindua-mouse-click-both: "\eb81";
+$lindua-mouse-network: "\eb82";
+$lindua-mouse-check: "\eb83";
+$lindua-mouse-cross: "\eb84";
+$lindua-keyboard: "\eb85";
+$lindua-keyboard-wireless: "\eb86";
+$lindua-keyboard-show: "\eb87";
+$lindua-keyboard-hide: "\eb88";
+$lindua-keyboard-key: "\eb89";
+$lindua-keyboard-key2: "\eb8a";
+$lindua-keyboard-key-down: "\eb8b";
+$lindua-keyboard-key-up: "\eb8c";
+$lindua-delete: "\eb8d";
+$lindua-spell-check: "\eb8e";
+$lindua-circle-extract: "\eb8f";
+$lindua-circle-insert: "\eb90";
+$lindua-widescreen: "\eb91";
+$lindua-widescreen-play: "\eb92";
+$lindua-widescreen-user: "\eb93";
+$lindua-signal: "\eb94";
+$lindua-signal-lock: "\eb95";
+$lindua-signal-3of4: "\eb96";
+$lindua-signal-2of4: "\eb97";
+$lindua-signal-1of4: "\eb98";
+$lindua-signal-error: "\eb99";
+$lindua-sim: "\eb9a";
+$lindua-microsd: "\eb9b";
+$lindua-microsd-plus: "\eb9c";
+$lindua-usb-drive: "\eb9d";
+$lindua-usb: "\eb9e";
+$lindua-usb-question: "\eb9f";
+$lindua-usb-warning: "\eba0";
+$lindua-usb-check: "\eba1";
+$lindua-usb-cross: "\eba2";
+$lindua-usb-plus: "\eba3";
+$lindua-usb-minus: "\eba4";
+$lindua-smartphone: "\eba5";
+$lindua-smartphone2: "\eba6";
+$lindua-smartphone-vibration: "\eba7";
+$lindua-smartphone-speakers: "\eba8";
+$lindua-smartphone-pencil: "\eba9";
+$lindua-smartphone-ringtone: "\ebaa";
+$lindua-smartphone-silent: "\ebab";
+$lindua-smartphone-time: "\ebac";
+$lindua-smartphone-sync: "\ebad";
+$lindua-smartphone-code: "\ebae";
+$lindua-smartphone-backup: "\ebaf";
+$lindua-smartphone-info: "\ebb0";
+$lindua-smartphone-lock: "\ebb1";
+$lindua-smartphone-check: "\ebb2";
+$lindua-smartphone-warning: "\ebb3";
+$lindua-smartphone-text: "\ebb4";
+$lindua-smartphone-user: "\ebb5";
+$lindua-smartphone-rotate: "\ebb6";
+$lindua-smartphone-transfer: "\ebb7";
+$lindua-tablet: "\ebb8";
+$lindua-tablet2: "\ebb9";
+$lindua-laptop: "\ebba";
+$lindua-laptop-cross: "\ebbb";
+$lindua-laptop-warning: "\ebbc";
+$lindua-laptop-play: "\ebbd";
+$lindua-laptop-code: "\ebbe";
+$lindua-laptop-education: "\ebbf";
+$lindua-laptop-user: "\ebc0";
+$lindua-laptop-share: "\ebc1";
+$lindua-laptop-phone: "\ebc2";
+$lindua-laptop-phone-sync: "\ebc3";
+$lindua-webcam: "\ebc4";
+$lindua-monitor: "\ebc5";
+$lindua-monitor-play: "\ebc6";
+$lindua-monitor-share: "\ebc7";
+$lindua-thin: "\ebc8";
+$lindua-external: "\ebc9";
+$lindua-external2: "\ebca";
+$lindua-window2: "\ebcb";
+$lindua-window-tab: "\ebcc";
+$lindua-window-tab-plus: "\ebcd";
+$lindua-tv: "\ebce";
+$lindua-radio: "\ebcf";
+$lindua-remote-control: "\ebd0";
+$lindua-remote-control2: "\ebd1";
+$lindua-power-switch: "\ebd2";
+$lindua-power-switch2: "\ebd3";
+$lindua-power2: "\ebd4";
+$lindua-power-auto: "\ebd5";
+$lindua-power-cross: "\ebd6";
+$lindua-power-warning: "\ebd7";
+$lindua-power-dollar: "\ebd8";
+$lindua-lamp: "\ebd9";
+$lindua-lamp-bright: "\ebda";
+$lindua-lamp-check: "\ebdb";
+$lindua-lamp-plus: "\ebdc";
+$lindua-lamp-minus: "\ebdd";
+$lindua-lamp-time: "\ebde";
+$lindua-lamp-gear: "\ebdf";
+$lindua-flashlight: "\ebe0";
+$lindua-flashlight-bright: "\ebe1";
+$lindua-floor-lamp: "\ebe2";
+$lindua-reflection: "\ebe3";
+$lindua-solar-power: "\ebe4";
+$lindua-solar-power2: "\ebe5";
+$lindua-solar-panel: "\ebe6";
+$lindua-plug: "\ebe7";
+$lindua-plug-cross: "\ebe8";
+$lindua-socket: "\ebe9";
+$lindua-battery-bolt: "\ebea";
+$lindua-battery-plug: "\ebeb";
+$lindua-battery-droplet: "\ebec";
+$lindua-battery-plus: "\ebed";
+$lindua-battery-question: "\ebee";
+$lindua-battery-warning: "\ebef";
+$lindua-battery-check: "\ebf0";
+$lindua-battery-cross: "\ebf1";
+$lindua-battery-empty: "\ebf2";
+$lindua-battery-10: "\ebf3";
+$lindua-battery-25: "\ebf4";
+$lindua-battery-40: "\ebf5";
+$lindua-battery-50: "\ebf6";
+$lindua-battery-60: "\ebf7";
+$lindua-battery-75: "\ebf8";
+$lindua-battery-90: "\ebf9";
+$lindua-battery-100: "\ebfa";
+$lindua-battery-plug2: "\ebfb";
+$lindua-battery-plug-10: "\ebfc";
+$lindua-battery-plug-25: "\ebfd";
+$lindua-battery-plug-40: "\ebfe";
+$lindua-battery-plug-50: "\ebff";
+$lindua-battery-plug-60: "\ec00";
+$lindua-battery-plug-75: "\ec01";
+$lindua-battery-plug-90: "\ec02";
+$lindua-battery-plug-100: "\ec03";
+$lindua-led: "\ec04";
+$lindua-led-bright: "\ec05";
+$lindua-resistor: "\ec06";
+$lindua-capacitor: "\ec07";
+$lindua-ic: "\ec08";
+$lindua-cpu: "\ec09";
+$lindua-cpu-x64: "\ec0a";
+$lindua-cpu-x86: "\ec0b";
+$lindua-bubble-text: "\ec0c";
+$lindua-bubble-check: "\ec0d";
+$lindua-bubble-cross: "\ec0e";
+$lindua-bubble-time: "\ec0f";
+$lindua-bubbles: "\ec10";
+$lindua-bubble: "\ec11";
+$lindua-bubble-shiny: "\ec12";
+$lindua-bubbles2: "\ec13";
+$lindua-bubble-dots: "\ec14";
+$lindua-bubble-paperclip: "\ec15";
+$lindua-bubble-exclamation: "\ec16";
+$lindua-bubble-question: "\ec17";
+$lindua-bubble-text2: "\ec18";
+$lindua-bubble-writing: "\ec19";
+$lindua-bubble-picture: "\ec1a";
+$lindua-bubble-music: "\ec1b";
+$lindua-bubble-music2: "\ec1c";
+$lindua-bubble-video: "\ec1d";
+$lindua-bubble-friend: "\ec1e";
+$lindua-bubble-friend-plus: "\ec1f";
+$lindua-bubble-quote: "\ec20";
+$lindua-bubble-heart: "\ec21";
+$lindua-bubble-emoji: "\ec22";
+$lindua-bubble-poker-face: "\ec23";
+$lindua-bubble-sad: "\ec24";
+$lindua-bubble-mad: "\ec25";
+$lindua-bubble-shocked: "\ec26";
+$lindua-quote-left: "\ec27";
+$lindua-quote-right: "\ec28";
+$lindua-dna: "\ec29";
+$lindua-dna-code: "\ec2a";
+$lindua-lungs: "\ec2b";
+$lindua-inhaler: "\ec2c";
+$lindua-heart2: "\ec2d";
+$lindua-heart3: "\ec2e";
+$lindua-heart-plus: "\ec2f";
+$lindua-heart-time: "\ec30";
+$lindua-heart-pulse: "\ec31";
+$lindua-stethoscope: "\ec32";
+$lindua-pulse: "\ec33";
+$lindua-syringe: "\ec34";
+$lindua-bottle2: "\ec35";
+$lindua-pills: "\ec36";
+$lindua-first-aid-kit: "\ec37";
+$lindua-lifebuoy: "\ec38";
+$lindua-bandage: "\ec39";
+$lindua-bandages: "\ec3a";
+$lindua-thermometer: "\ec3b";
+$lindua-thermometer-plus: "\ec3c";
+$lindua-thermometer-minus: "\ec3d";
+$lindua-thermometer-sun: "\ec3e";
+$lindua-thermometer-snow: "\ec3f";
+$lindua-thermometer-gear: "\ec40";
+$lindua-microscope: "\ec41";
+$lindua-atom: "\ec42";
+$lindua-test-tube: "\ec43";
+$lindua-beaker: "\ec44";
+$lindua-rb-flask: "\ec45";
+$lindua-rb-flask-warning: "\ec46";
+$lindua-flask: "\ec47";
+$lindua-flask-warning: "\ec48";
+$lindua-skull: "\ec49";
+$lindua-bone: "\ec4a";
+$lindua-chart-upward: "\ec4b";
+$lindua-chart-downward: "\ec4c";
+$lindua-scatterplot: "\ec4d";
+$lindua-chart: "\ec4e";
+$lindua-pie-chart: "\ec4f";
+$lindua-cake: "\ec50";
+$lindua-gift: "\ec51";
+$lindua-balloon: "\ec52";
+$lindua-flower: "\ec53";
+$lindua-flower2: "\ec54";
+$lindua-flower3: "\ec55";
+$lindua-rank: "\ec56";
+$lindua-rank2: "\ec57";
+$lindua-rank3: "\ec58";
+$lindua-crown: "\ec59";
+$lindua-emerald: "\ec5a";
+$lindua-ruby: "\ec5b";
+$lindua-diamond: "\ec5c";
+$lindua-diamond2: "\ec5d";
+$lindua-tea-bag: "\ec5e";
+$lindua-teacup: "\ec5f";
+$lindua-glass: "\ec60";
+$lindua-glass-broken: "\ec61";
+$lindua-glass-cocktail: "\ec62";
+$lindua-tankard: "\ec63";
+$lindua-glass2: "\ec64";
+$lindua-fork: "\ec65";
+$lindua-knife: "\ec66";
+$lindua-spoon: "\ec67";
+$lindua-fork-knife: "\ec68";
+$lindua-fork-spoon: "\ec69";
+$lindua-fork-knife2: "\ec6a";
+$lindua-fork-spoon2: "\ec6b";
+$lindua-table: "\ec6c";
+$lindua-chef: "\ec6d";
+$lindua-pot: "\ec6e";
+$lindua-pot-time: "\ec6f";
+$lindua-pot-hot: "\ec70";
+$lindua-microwave: "\ec71";
+$lindua-refrigerator: "\ec72";
+$lindua-kitchen-scale: "\ec73";
+$lindua-weight: "\ec74";
+$lindua-weight-1kg: "\ec75";
+$lindua-weight-1lb: "\ec76";
+$lindua-weight-1oz: "\ec77";
+$lindua-mixer: "\ec78";
+$lindua-rolling-pin: "\ec79";
+$lindua-egg: "\ec7a";
+$lindua-egg-broken: "\ec7b";
+$lindua-platter: "\ec7c";
+$lindua-pig: "\ec7d";
+$lindua-steak: "\ec7e";
+$lindua-fries: "\ec7f";
+$lindua-burger: "\ec80";
+$lindua-hot-dog: "\ec81";
+$lindua-pizza: "\ec82";
+$lindua-chicken-leg: "\ec83";
+$lindua-fish: "\ec84";
+$lindua-carrot: "\ec85";
+$lindua-cheese: "\ec86";
+$lindua-fried-egg: "\ec87";
+$lindua-milk-bottle: "\ec88";
+$lindua-pitcher: "\ec89";
+$lindua-toaster: "\ec8a";
+$lindua-toast: "\ec8b";
+$lindua-ice-cream-bar: "\ec8c";
+$lindua-ice-cream: "\ec8d";
+$lindua-candy: "\ec8e";
+$lindua-lollipop: "\ec8f";
+$lindua-donut: "\ec90";
+$lindua-coffee-maker: "\ec91";
+$lindua-coffee-pot: "\ec92";
+$lindua-paper-cup: "\ec93";
+$lindua-mug: "\ec94";
+$lindua-coffee-bean: "\ec95";
+$lindua-cherry: "\ec96";
+$lindua-grape: "\ec97";
+$lindua-citrus: "\ec98";
+$lindua-apple: "\ec99";
+$lindua-apple-check: "\ec9a";
+$lindua-leaf: "\ec9b";
+$lindua-leaf-plus: "\ec9c";
+$lindua-leaf-check: "\ec9d";
+$lindua-leaf-cross: "\ec9e";
+$lindua-cactus: "\ec9f";
+$lindua-diving-mask: "\eca0";
+$lindua-fish-bowl: "\eca1";
+$lindua-hook: "\eca2";
+$lindua-paw: "\eca3";
+$lindua-footprint: "\eca4";
+$lindua-speed-slow: "\eca5";
+$lindua-speed-medium: "\eca6";
+$lindua-speed-fast: "\eca7";
+$lindua-rocket: "\eca8";
+$lindua-flying-saucer: "\eca9";
+$lindua-flying-saucer2: "\ecaa";
+$lindua-hammer2: "\ecab";
+$lindua-balance: "\ecac";
+$lindua-briefcase: "\ecad";
+$lindua-briefcase-money: "\ecae";
+$lindua-briefcase-question: "\ecaf";
+$lindua-luggage-weight: "\ecb0";
+$lindua-hand-truck: "\ecb1";
+$lindua-construction: "\ecb2";
+$lindua-construction-cone: "\ecb3";
+$lindua-traffic-lights: "\ecb4";
+$lindua-siren: "\ecb5";
+$lindua-siren-bright: "\ecb6";
+$lindua-road: "\ecb7";
+$lindua-disc-brake: "\ecb8";
+$lindua-engine: "\ecb9";
+$lindua-oil-pressure: "\ecba";
+$lindua-car-battery: "\ecbb";
+$lindua-charging-station: "\ecbc";
+$lindua-gas-station: "\ecbd";
+$lindua-gallon: "\ecbe";
+$lindua-transmission: "\ecbf";
+$lindua-car: "\ecc0";
+$lindua-car-plug: "\ecc1";
+$lindua-car-check: "\ecc2";
+$lindua-car-cross: "\ecc3";
+$lindua-car-wash: "\ecc4";
+$lindua-car-lock: "\ecc5";
+$lindua-car-parking: "\ecc6";
+$lindua-bus: "\ecc7";
+$lindua-bus2: "\ecc8";
+$lindua-car2: "\ecc9";
+$lindua-car-lock2: "\ecca";
+$lindua-car-parking2: "\eccb";
+$lindua-police: "\eccc";
+$lindua-taxi: "\eccd";
+$lindua-jet-engine: "\ecce";
+$lindua-airplane: "\eccf";
+$lindua-airplane-cross: "\ecd0";
+$lindua-quadcopter: "\ecd1";
+$lindua-helicopter: "\ecd2";
+$lindua-helipad: "\ecd3";
+$lindua-helipad2: "\ecd4";
+$lindua-first-aid: "\ecd5";
+$lindua-ambulance: "\ecd6";
+$lindua-truck: "\ecd7";
+$lindua-truck-arrow: "\ecd8";
+$lindua-truck-time: "\ecd9";
+$lindua-truck-check: "\ecda";
+$lindua-truck-cross: "\ecdb";
+$lindua-truck-scale: "\ecdc";
+$lindua-train: "\ecdd";
+$lindua-yacht: "\ecde";
+$lindua-ship: "\ecdf";
+$lindua-anchor: "\ece0";
+$lindua-lighthouse: "\ece1";
+$lindua-boat: "\ece2";
+$lindua-bicycle: "\ece3";
+$lindua-bicycle-riding: "\ece4";
+$lindua-skating: "\ece5";
+$lindua-hiking: "\ece6";
+$lindua-rowing: "\ece7";
+$lindua-swimming: "\ece8";
+$lindua-swimming-warning: "\ece9";
+$lindua-diving: "\ecea";
+$lindua-diving-warning: "\eceb";
+$lindua-snorkeling: "\ecec";
+$lindua-weight-lifting: "\eced";
+$lindua-dumbbell: "\ecee";
+$lindua-baseball: "\ecef";
+$lindua-baseball-bat: "\ecf0";
+$lindua-football: "\ecf1";
+$lindua-hockey: "\ecf2";
+$lindua-golf: "\ecf3";
+$lindua-bowling-ball: "\ecf4";
+$lindua-tennis: "\ecf5";
+$lindua-tennis-ball: "\ecf6";
+$lindua-pool: "\ecf7";
+$lindua-ping-pong: "\ecf8";
+$lindua-archery: "\ecf9";
+$lindua-target: "\ecfa";
+$lindua-fencing: "\ecfb";
+$lindua-slingshot: "\ecfc";
+$lindua-soccer: "\ecfd";
+$lindua-basketball: "\ecfe";
+$lindua-whistle: "\ecff";
+$lindua-cube: "\ed00";
+$lindua-cube-front: "\ed01";
+$lindua-cube-side: "\ed02";
+$lindua-cube-top: "\ed03";
+$lindua-cube-bottom: "\ed04";
+$lindua-cube-3d: "\ed05";
+$lindua-puzzle: "\ed06";
+$lindua-puzzle-down: "\ed07";
+$lindua-puzzle-check: "\ed08";
+$lindua-puzzle-cross: "\ed09";
+$lindua-sunglasses: "\ed0a";
+$lindua-glasses: "\ed0b";
+$lindua-glasses2: "\ed0c";
+$lindua-accessibility: "\ed0d";
+$lindua-wheelchair: "\ed0e";
+$lindua-fence: "\ed0f";
+$lindua-bricks: "\ed10";
+$lindua-apps: "\ed11";
+$lindua-apps2: "\ed12";
+$lindua-apps3: "\ed13";
+$lindua-apps4: "\ed14";
+$lindua-pointer: "\ed15";
+$lindua-select: "\ed16";
+$lindua-branches2: "\ed17";
+$lindua-earth: "\ed18";
+$lindua-earth-lock: "\ed19";
+$lindua-network: "\ed1a";
+$lindua-planet: "\ed1b";
+$lindua-smiley: "\ed1c";
+$lindua-wink: "\ed1d";
+$lindua-smirk: "\ed1e";
+$lindua-smirk-wink: "\ed1f";
+$lindua-neutral: "\ed20";
+$lindua-happy: "\ed21";
+$lindua-grin: "\ed22";
+$lindua-grin-braces: "\ed23";
+$lindua-grin-happy: "\ed24";
+$lindua-poker-face: "\ed25";
+$lindua-pleased: "\ed26";
+$lindua-sad: "\ed27";
+$lindua-tongue: "\ed28";
+$lindua-tongue-wink: "\ed29";
+$lindua-wondering: "\ed2a";
+$lindua-shocked: "\ed2b";
+$lindua-shocked2: "\ed2c";
+$lindua-dork: "\ed2d";
+$lindua-dead: "\ed2e";
+$lindua-confused: "\ed2f";
+$lindua-baffled: "\ed30";
+$lindua-mad: "\ed31";
+$lindua-angry: "\ed32";
+$lindua-grin-evil: "\ed33";
+$lindua-evil: "\ed34";
+$lindua-ninja: "\ed35";
+$lindua-insomnia: "\ed36";
+$lindua-zipped: "\ed37";
+$lindua-skeptical: "\ed38";
+$lindua-sophisticated: "\ed39";
+$lindua-geek: "\ed3a";
+$lindua-cool: "\ed3b";
+$lindua-dreaming: "\ed3c";
+$lindua-scared: "\ed3d";
+$lindua-robot: "\ed3e";
+$lindua-alien: "\ed3f";
+$lindua-tombstone: "\ed40";
+$lindua-ghost: "\ed41";
+$lindua-ghost-neutral: "\ed42";
+$lindua-ghost-dead: "\ed43";
+$lindua-crystal-ball: "\ed44";
+$lindua-witch-hat: "\ed45";
+$lindua-halloween: "\ed46";
+$lindua-snowman: "\ed47";
+$lindua-christmas-tree: "\ed48";
+$lindua-easter-egg: "\ed49";
+$lindua-mustache: "\ed4a";
+$lindua-mustache-glasses: "\ed4b";
+$lindua-mustache-monocle: "\ed4c";
+$lindua-cigar: "\ed4d";
+$lindua-cigar-warning: "\ed4e";
+$lindua-cigar-no: "\ed4f";
+$lindua-bell: "\ed50";
+$lindua-bell-ringing: "\ed51";
+$lindua-bell2: "\ed52";
+$lindua-bell-plus: "\ed53";
+$lindua-bell-minus: "\ed54";
+$lindua-bell-ringing2: "\ed55";
+$lindua-bell-snooze: "\ed56";
+$lindua-bell-music: "\ed57";
+$lindua-bell-warning: "\ed58";
+$lindua-megaphone2: "\ed59";
+$lindua-volume-100: "\ed5a";
+$lindua-volume-75: "\ed5b";
+$lindua-volume-50: "\ed5c";
+$lindua-volume-25: "\ed5d";
+$lindua-volume-0: "\ed5e";
+$lindua-volume-cross: "\ed5f";
+$lindua-network2: "\ed60";
+$lindua-connection: "\ed61";
+$lindua-connection-warning: "\ed62";
+$lindua-router: "\ed63";
+$lindua-router-warning: "\ed64";
+$lindua-wifi-100: "\ed65";
+$lindua-wifi-lock: "\ed66";
+$lindua-wifi-cross: "\ed67";
+$lindua-wifi-75: "\ed68";
+$lindua-wifi-50: "\ed69";
+$lindua-wifi-25: "\ed6a";
+$lindua-wifi-100-warning: "\ed6b";
+$lindua-wifi-75-warning: "\ed6c";
+$lindua-wifi-50-warning: "\ed6d";
+$lindua-wifi-25-warning: "\ed6e";
+$lindua-stream: "\ed6f";
+$lindua-stream-check: "\ed70";
+$lindua-stream-cross: "\ed71";
+$lindua-stream-warning: "\ed72";
+$lindua-communication: "\ed73";
+$lindua-communication-cross: "\ed74";
+$lindua-hotspot: "\ed75";
+$lindua-hotspot2: "\ed76";
+$lindua-antenna: "\ed77";
+$lindua-satellite: "\ed78";
+$lindua-satellite-dish: "\ed79";
+$lindua-mic: "\ed7a";
+$lindua-mic-cross: "\ed7b";
+$lindua-mic-warning: "\ed7c";
+$lindua-mic-settings: "\ed7d";
+$lindua-mic-two-way: "\ed7e";
+$lindua-mic2: "\ed7f";
+$lindua-mic-cross2: "\ed80";
+$lindua-mic-warning2: "\ed81";
+$lindua-spotlights: "\ed82";
+$lindua-hourglass: "\ed83";
+$lindua-spinner: "\ed84";
+$lindua-spinner2: "\ed85";
+$lindua-spinner3: "\ed86";
+$lindua-spinner4: "\ed87";
+$lindua-undo: "\ed88";
+$lindua-redo: "\ed89";
+$lindua-leap-backward: "\ed8a";
+$lindua-leap-forward: "\ed8b";
+$lindua-cw: "\ed8c";
+$lindua-sync: "\ed8d";
+$lindua-cw-bolt: "\ed8e";
+$lindua-sync-warning: "\ed8f";
+$lindua-sync-gear: "\ed90";
+$lindua-sync-cross: "\ed91";
+$lindua-ccw: "\ed92";
+$lindua-cw2: "\ed93";
+$lindua-ccw2: "\ed94";
+$lindua-refund: "\ed95";
+$lindua-rewind-5s: "\ed96";
+$lindua-rewind-10s: "\ed97";
+$lindua-forward-10s: "\ed98";
+$lindua-forward-5s: "\ed99";
+$lindua-history: "\ed9a";
+$lindua-self-timer: "\ed9b";
+$lindua-self-timer2: "\ed9c";
+$lindua-watch: "\ed9d";
+$lindua-watch-handles: "\ed9e";
+$lindua-watch-health: "\ed9f";
+$lindua-watch-warning: "\eda0";
+$lindua-watch2: "\eda1";
+$lindua-watch-handles2: "\eda2";
+$lindua-clock: "\eda3";
+$lindua-alarm: "\eda4";
+$lindua-alarm2: "\eda5";
+$lindua-alarm-plus: "\eda6";
+$lindua-alarm-minus: "\eda7";
+$lindua-alarm-check: "\eda8";
+$lindua-alarm-cross: "\eda9";
+$lindua-stopwatch: "\edaa";
+$lindua-stopwatch-cross: "\edab";
+$lindua-stopwatch-running: "\edac";
+$lindua-download: "\edad";
+$lindua-upload2: "\edae";
+$lindua-import: "\edaf";
+$lindua-insert-down: "\edb0";
+$lindua-insert-left: "\edb1";
+$lindua-insert-right: "\edb2";
+$lindua-insert-up: "\edb3";
+$lindua-extract-down: "\edb4";
+$lindua-extract-left: "\edb5";
+$lindua-extract-right: "\edb6";
+$lindua-extract-up: "\edb7";
+$lindua-cli: "\edb8";
+$lindua-bug: "\edb9";
+$lindua-bug2: "\edba";
+$lindua-file-code: "\edbb";
+$lindua-file-compressed: "\edbc";
+$lindua-file-music: "\edbd";
+$lindua-file-video: "\edbe";
+$lindua-file-picture: "\edbf";
+$lindua-file-preview: "\edc0";
+$lindua-file-chart: "\edc1";
+$lindua-file-chart-bars: "\edc2";
+$lindua-file-spreadsheet: "\edc3";
+$lindua-file-magnifier: "\edc4";
+$lindua-link: "\edc5";
+$lindua-unlink: "\edc6";
+$lindua-link2: "\edc7";
+$lindua-unlink2: "\edc8";
+$lindua-link-cross: "\edc9";
+$lindua-thumbs-up: "\edca";
+$lindua-thumbs-down: "\edcb";
+$lindua-thumbs-up2: "\edcc";
+$lindua-thumbs-down2: "\edcd";
+$lindua-share: "\edce";
+$lindua-share2: "\edcf";
+$lindua-share3: "\edd0";
+$lindua-loupe: "\edd1";
+$lindua-loup-plus: "\edd2";
+$lindua-loup-minus: "\edd3";
+$lindua-search: "\edd4";
+$lindua-zoom-in: "\edd5";
+$lindua-zoom-out: "\edd6";
+$lindua-magnifier-marquee: "\edd7";
+$lindua-magnifier-move: "\edd8";
+$lindua-find-replace: "\edd9";
+$lindua-magnifier-next: "\edda";
+$lindua-magnifier-prev: "\eddb";
+$lindua-magnifier-check: "\eddc";
+$lindua-magnifier-question: "\eddd";
+$lindua-magnifier-user: "\edde";
+$lindua-magnifier-bug: "\eddf";
+$lindua-magnifier-dollar: "\ede0";
+$lindua-magnifier-euro: "\ede1";
+$lindua-magnifier-pound: "\ede2";
+$lindua-magnifier-yen: "\ede3";
+$lindua-magnifier-ruble: "\ede4";
+$lindua-menu: "\ede5";
+$lindua-ul: "\ede6";
+$lindua-ul2: "\ede7";
+$lindua-ol: "\ede8";
+$lindua-checklist2: "\ede9";
+$lindua-checklist-time: "\edea";
+$lindua-dropdown: "\edeb";
+$lindua-eject: "\edec";
+$lindua-first: "\eded";
+$lindua-backward: "\edee";
+$lindua-previous: "\edef";
+$lindua-previous-frame: "\edf0";
+$lindua-play: "\edf1";
+$lindua-pause: "\edf2";
+$lindua-next-frame: "\edf3";
+$lindua-stop: "\edf4";
+$lindua-record: "\edf5";
+$lindua-forward: "\edf6";
+$lindua-next: "\edf7";
+$lindua-last: "\edf8";
+$lindua-exclamation: "\edf9";
+$lindua-question: "\edfa";
+$lindua-check: "\edfb";
+$lindua-cross: "\edfc";
+$lindua-obelus: "\edfd";
+$lindua-plus: "\edfe";
+$lindua-minus: "\edff";
+$lindua-plus-minus: "\ee00";
+$lindua-percent: "\ee01";
+$lindua-code: "\ee02";
+$lindua-chevron-up: "\ee03";
+$lindua-chevron-down: "\ee04";
+$lindua-chevron-left: "\ee05";
+$lindua-chevron-right: "\ee06";
+$lindua-expand-vertical: "\ee07";
+$lindua-expand-horizontal: "\ee08";
+$lindua-shrink-vertical: "\ee09";
+$lindua-shrink-horizontal: "\ee0a";
+$lindua-arrow-up: "\ee0b";
+$lindua-arrow-down: "\ee0c";
+$lindua-arrow-left: "\ee0d";
+$lindua-arrow-right: "\ee0e";
+$lindua-arrow-ne: "\ee0f";
+$lindua-arrow-nw: "\ee10";
+$lindua-arrow-se: "\ee11";
+$lindua-arrow-sw: "\ee12";
+$lindua-split: "\ee13";
+$lindua-merge: "\ee14";
+$lindua-missed-outgoing2: "\ee15";
+$lindua-missed-incoming2: "\ee16";
+$lindua-enter2: "\ee17";
+$lindua-tab: "\ee18";
+$lindua-expand: "\ee19";
+$lindua-shrink: "\ee1a";
+$lindua-source: "\ee1b";
+$lindua-sink2: "\ee1c";
+$lindua-expand2: "\ee1d";
+$lindua-shrink2: "\ee1e";
+$lindua-move: "\ee1f";
+$lindua-swap-horizontal: "\ee20";
+$lindua-swap-vertical: "\ee21";
+$lindua-swap-calls: "\ee22";
+$lindua-warning: "\ee23";
+$lindua-stop2: "\ee24";
+$lindua-warning-octagon: "\ee25";
+$lindua-warning-circle: "\ee26";
+$lindua-question-circle: "\ee27";
+$lindua-info-circle: "\ee28";
+$lindua-info-octagon: "\ee29";
+$lindua-menu-circle: "\ee2a";
+$lindua-no: "\ee2b";
+$lindua-no-entry: "\ee2c";
+$lindua-tren-circle: "\ee2d";
+$lindua-chart-circle: "\ee2e";
+$lindua-side-up-circle: "\ee2f";
+$lindua-radio-unchecked: "\ee30";
+$lindua-radio-checked: "\ee31";
+$lindua-cross-circle: "\ee32";
+$lindua-check-circle: "\ee33";
+$lindua-download-circle: "\ee34";
+$lindua-upload-circle: "\ee35";
+$lindua-transfer-circle: "\ee36";
+$lindua-code-circle: "\ee37";
+$lindua-arrow-up-circle: "\ee38";
+$lindua-arrow-down-circle: "\ee39";
+$lindua-arrow-left-circle: "\ee3a";
+$lindua-arrow-right-circle: "\ee3b";
+$lindua-chevron-up-circle: "\ee3c";
+$lindua-chevron-down-circle: "\ee3d";
+$lindua-chevron-left-circle: "\ee3e";
+$lindua-chevron-right-circle: "\ee3f";
+$lindua-eject-circle: "\ee40";
+$lindua-first-circle: "\ee41";
+$lindua-backward-circle: "\ee42";
+$lindua-previous-circle: "\ee43";
+$lindua-previous-frame-circle: "\ee44";
+$lindua-play-circle: "\ee45";
+$lindua-pause-circle: "\ee46";
+$lindua-next-frame-circle: "\ee47";
+$lindua-stop-circle: "\ee48";
+$lindua-next-circle: "\ee49";
+$lindua-forward-circle: "\ee4a";
+$lindua-last-circle: "\ee4b";
+$lindua-equals-circle: "\ee4c";
+$lindua-plus-circle: "\ee4d";
+$lindua-minus-circle: "\ee4e";
+$lindua-cross-circle2: "\ee4f";
+$lindua-obelus-circle: "\ee50";
+$lindua-plus-minus-circle: "\ee51";
+$lindua-percent-circle: "\ee52";
+$lindua-infinity-circle: "\ee53";
+$lindua-warning-square: "\ee54";
+$lindua-question-square: "\ee55";
+$lindua-info-square: "\ee56";
+$lindua-menu-square: "\ee57";
+$lindua-exposure: "\ee58";
+$lindua-trend-square: "\ee59";
+$lindua-chart-square: "\ee5a";
+$lindua-side-up-square: "\ee5b";
+$lindua-checkbox-unchecked: "\ee5c";
+$lindua-cross-square: "\ee5d";
+$lindua-check-square: "\ee5e";
+$lindua-download-square: "\ee5f";
+$lindua-upload-square: "\ee60";
+$lindua-transfer-square: "\ee61";
+$lindua-code-square: "\ee62";
+$lindua-arrow-up-square: "\ee63";
+$lindua-arrow-down-square: "\ee64";
+$lindua-arrow-left-square: "\ee65";
+$lindua-arrow-right-square: "\ee66";
+$lindua-chevron-up-square: "\ee67";
+$lindua-chevron-down-square: "\ee68";
+$lindua-chevron-left-square: "\ee69";
+$lindua-chevron-right-square: "\ee6a";
+$lindua-eject-square: "\ee6b";
+$lindua-first-circle2: "\ee6c";
+$lindua-backward-square: "\ee6d";
+$lindua-previous-square: "\ee6e";
+$lindua-previous-frame-square: "\ee6f";
+$lindua-play-square: "\ee70";
+$lindua-pause-square: "\ee71";
+$lindua-next-frame-square: "\ee72";
+$lindua-stop-square: "\ee73";
+$lindua-next-square: "\ee74";
+$lindua-forward-square: "\ee75";
+$lindua-last-square: "\ee76";
+$lindua-equals-square: "\ee77";
+$lindua-plus-square: "\ee78";
+$lindua-minus-square: "\ee79";
+$lindua-cross-square2: "\ee7a";
+$lindua-obelus-square: "\ee7b";
+$lindua-plus-minus-square: "\ee7c";
+$lindua-percent-square: "\ee7d";
+$lindua-infinity-square: "\ee7e";
+$lindua-crop: "\ee7f";
+$lindua-crop2: "\ee80";
+$lindua-crop-rotate: "\ee81";
+$lindua-cutter: "\ee82";
+$lindua-shrink-square: "\ee83";
+$lindua-expand-square: "\ee84";
+$lindua-expand-square2: "\ee85";
+$lindua-full-screen-enter: "\ee86";
+$lindua-full-screen-exit: "\ee87";
+$lindua-full-screen-enter2: "\ee88";
+$lindua-full-screen-exit2: "\ee89";
+$lindua-focal-point: "\ee8a";
+$lindua-free-transform: "\ee8b";
+$lindua-grid: "\ee8c";
+$lindua-grid-cross: "\ee8d";
+$lindua-layers: "\ee8e";
+$lindua-layers-cross: "\ee8f";
+$lindua-fold: "\ee90";
+$lindua-unfold: "\ee91";
+$lindua-rulers: "\ee92";
+$lindua-ruler: "\ee93";
+$lindua-priority-increase: "\ee94";
+$lindua-priority-decrease: "\ee95";
+$lindua-bring-forward: "\ee96";
+$lindua-send-backward: "\ee97";
+$lindua-move-up: "\ee98";
+$lindua-move-down: "\ee99";
+$lindua-group2: "\ee9a";
+$lindua-group3: "\ee9b";
+$lindua-resize: "\ee9c";
+$lindua-scale-down: "\ee9d";
+$lindua-scale-up: "\ee9e";
+$lindua-squash: "\ee9f";
+$lindua-funnel: "\eea0";
+$lindua-flip-vertical: "\eea1";
+$lindua-flip-horizontal: "\eea2";
+$lindua-flip-vertical2: "\eea3";
+$lindua-flip-horizontal2: "\eea4";
+$lindua-round-corner: "\eea5";
+$lindua-angle: "\eea6";
+$lindua-angle2: "\eea7";
+$lindua-combine: "\eea8";
+$lindua-subtract: "\eea9";
+$lindua-intersect: "\eeaa";
+$lindua-exclude: "\eeab";
+$lindua-align-center-vertical: "\eeac";
+$lindua-align-left: "\eead";
+$lindua-align-right: "\eeae";
+$lindua-align-bottom: "\eeaf";
+$lindua-align-center-horizontal: "\eeb0";
+$lindua-align-top: "\eeb1";
+$lindua-canvas: "\eeb2";
+$lindua-canvas-fit: "\eeb3";
+$lindua-canvas-bottom: "\eeb4";
+$lindua-canvas-center: "\eeb5";
+$lindua-canvas-left: "\eeb6";
+$lindua-canvas-right: "\eeb7";
+$lindua-canvas-top: "\eeb8";
+$lindua-move-bottom-up: "\eeb9";
+$lindua-move-top-down: "\eeba";
+$lindua-move-left-right: "\eebb";
+$lindua-move-right-left: "\eebc";
+$lindua-move-bottom-down: "\eebd";
+$lindua-move-top-up: "\eebe";
+$lindua-move-left-left: "\eebf";
+$lindua-move-right-right: "\eec0";
+$lindua-ligature: "\eec1";
+$lindua-format-shapes: "\eec2";
+$lindua-text-color: "\eec3";
+$lindua-format-clear: "\eec4";
+$lindua-text-size: "\eec5";
+$lindua-text-size2: "\eec6";
+$lindua-text-size-increase: "\eec7";
+$lindua-text-size-decrease: "\eec8";
+$lindua-bold: "\eec9";
+$lindua-italic: "\eeca";
+$lindua-underline: "\eecb";
+$lindua-strikethrough: "\eecc";
+$lindua-text-down: "\eecd";
+$lindua-subscript: "\eece";
+$lindua-superscript: "\eecf";
+$lindua-highlight: "\eed0";
+$lindua-text-align-left: "\eed1";
+$lindua-text-align-center: "\eed2";
+$lindua-text-align-right: "\eed3";
+$lindua-text-align-justify: "\eed4";
+$lindua-line-spacing: "\eed5";
+$lindua-indent-decrease: "\eed6";
+$lindua-indent-increase: "\eed7";
+$lindua-text-around: "\eed8";
+$lindua-pilcrow: "\eed9";
+$lindua-direction-ltr: "\eeda";
+$lindua-direction-rtl: "\eedb";
+$lindua-page-break: "\eedc";
+$lindua-sort-alpha-asc: "\eedd";
+$lindua-sort-alpha-desc: "\eede";
+$lindua-sort-numeric-asc: "\eedf";
+$lindua-sort-numeric-desc: "\eee0";
+$lindua-sort-time-asc: "\eee1";
+$lindua-sort-time-desc: "\eee2";
+$lindua-sort-size-asc: "\eee3";
+$lindua-sort-size-desc: "\eee4";
+$lindua-sigma: "\eee5";
+$lindua-omega: "\eee6";
+$lindua-sine: "\eee7";
+$lindua-cosine: "\eee8";
+$lindua-border-color: "\eee9";
+$lindua-handwriting: "\eeea";
+$lindua-fingerprint: "\eeeb";
+$lindua-palm: "\eeec";
+$lindua-hand-grip: "\eeed";
+$lindua-pointer-up: "\eeee";
+$lindua-pointer-down: "\eeef";
+$lindua-pointer-left: "\eef0";
+$lindua-pointer-right: "\eef1";
+$lindua-tap-all: "\eef2";
+$lindua-tap: "\eef3";
+$lindua-tap-two: "\eef4";
+$lindua-gesture-zoom: "\eef5";
+$lindua-gesture-pinch: "\eef6";
+$lindua-swipe-horizontal: "\eef7";
+$lindua-swipe-left: "\eef8";
+$lindua-swipe-right: "\eef9";
+$lindua-swipe-vertical: "\eefa";
+$lindua-swipe-up: "\eefb";
+$lindua-swipe-down: "\eefc";
+$lindua-scroll-horizontal: "\eefd";
+$lindua-scroll-left: "\eefe";
+$lindua-scroll-right: "\eeff";
+$lindua-scroll-vertical: "\ef00";
+$lindua-scroll-up: "\ef01";
+$lindua-scroll-down: "\ef02";
+$lindua-reminder: "\ef03";
+$lindua-horns: "\ef04";
+$lindua-ellipsis: "\ef05";
+$lindua-menu2: "\ef06";
+
+.lindua-home {
+  &:before {
+    content: $lindua-home; 
+  }
+}
+.lindua-home2 {
+  &:before {
+    content: $lindua-home2; 
+  }
+}
+.lindua-home3 {
+  &:before {
+    content: $lindua-home3; 
+  }
+}
+.lindua-home4 {
+  &:before {
+    content: $lindua-home4; 
+  }
+}
+.lindua-home-lock {
+  &:before {
+    content: $lindua-home-lock; 
+  }
+}
+.lindua-home-sleep {
+  &:before {
+    content: $lindua-home-sleep; 
+  }
+}
+.lindua-home-smart {
+  &:before {
+    content: $lindua-home-smart; 
+  }
+}
+.lindua-home-user {
+  &:before {
+    content: $lindua-home-user; 
+  }
+}
+.lindua-faucet {
+  &:before {
+    content: $lindua-faucet; 
+  }
+}
+.lindua-sink {
+  &:before {
+    content: $lindua-sink; 
+  }
+}
+.lindua-plunger {
+  &:before {
+    content: $lindua-plunger; 
+  }
+}
+.lindua-bathtub {
+  &:before {
+    content: $lindua-bathtub; 
+  }
+}
+.lindua-rubber-duck {
+  &:before {
+    content: $lindua-rubber-duck; 
+  }
+}
+.lindua-towel {
+  &:before {
+    content: $lindua-towel; 
+  }
+}
+.lindua-toothbrush {
+  &:before {
+    content: $lindua-toothbrush; 
+  }
+}
+.lindua-razor {
+  &:before {
+    content: $lindua-razor; 
+  }
+}
+.lindua-bed {
+  &:before {
+    content: $lindua-bed; 
+  }
+}
+.lindua-bed-time {
+  &:before {
+    content: $lindua-bed-time; 
+  }
+}
+.lindua-bed-check {
+  &:before {
+    content: $lindua-bed-check; 
+  }
+}
+.lindua-bed-cross {
+  &:before {
+    content: $lindua-bed-cross; 
+  }
+}
+.lindua-couch {
+  &:before {
+    content: $lindua-couch; 
+  }
+}
+.lindua-chair {
+  &:before {
+    content: $lindua-chair; 
+  }
+}
+.lindua-office {
+  &:before {
+    content: $lindua-office; 
+  }
+}
+.lindua-city {
+  &:before {
+    content: $lindua-city; 
+  }
+}
+.lindua-pencil {
+  &:before {
+    content: $lindua-pencil; 
+  }
+}
+.lindua-pencil2 {
+  &:before {
+    content: $lindua-pencil2; 
+  }
+}
+.lindua-pen {
+  &:before {
+    content: $lindua-pen; 
+  }
+}
+.lindua-pencil3 {
+  &:before {
+    content: $lindua-pencil3; 
+  }
+}
+.lindua-eraser {
+  &:before {
+    content: $lindua-eraser; 
+  }
+}
+.lindua-edit {
+  &:before {
+    content: $lindua-edit; 
+  }
+}
+.lindua-edit2 {
+  &:before {
+    content: $lindua-edit2; 
+  }
+}
+.lindua-notebook {
+  &:before {
+    content: $lindua-notebook; 
+  }
+}
+.lindua-quill {
+  &:before {
+    content: $lindua-quill; 
+  }
+}
+.lindua-edit3 {
+  &:before {
+    content: $lindua-edit3; 
+  }
+}
+.lindua-blog {
+  &:before {
+    content: $lindua-blog; 
+  }
+}
+.lindua-pen2 {
+  &:before {
+    content: $lindua-pen2; 
+  }
+}
+.lindua-pen-plus {
+  &:before {
+    content: $lindua-pen-plus; 
+  }
+}
+.lindua-pen-minus {
+  &:before {
+    content: $lindua-pen-minus; 
+  }
+}
+.lindua-pen-drawing {
+  &:before {
+    content: $lindua-pen-drawing; 
+  }
+}
+.lindua-bezier-curve {
+  &:before {
+    content: $lindua-bezier-curve; 
+  }
+}
+.lindua-bezier-curve2 {
+  &:before {
+    content: $lindua-bezier-curve2; 
+  }
+}
+.lindua-brush {
+  &:before {
+    content: $lindua-brush; 
+  }
+}
+.lindua-brush2 {
+  &:before {
+    content: $lindua-brush2; 
+  }
+}
+.lindua-paint-roller {
+  &:before {
+    content: $lindua-paint-roller; 
+  }
+}
+.lindua-spray {
+  &:before {
+    content: $lindua-spray; 
+  }
+}
+.lindua-spray-cross {
+  &:before {
+    content: $lindua-spray-cross; 
+  }
+}
+.lindua-spray-bug {
+  &:before {
+    content: $lindua-spray-bug; 
+  }
+}
+.lindua-spray2 {
+  &:before {
+    content: $lindua-spray2; 
+  }
+}
+.lindua-window {
+  &:before {
+    content: $lindua-window; 
+  }
+}
+.lindua-tape-measure {
+  &:before {
+    content: $lindua-tape-measure; 
+  }
+}
+.lindua-tape {
+  &:before {
+    content: $lindua-tape; 
+  }
+}
+.lindua-tape-dispenser {
+  &:before {
+    content: $lindua-tape-dispenser; 
+  }
+}
+.lindua-stamp {
+  &:before {
+    content: $lindua-stamp; 
+  }
+}
+.lindua-texture {
+  &:before {
+    content: $lindua-texture; 
+  }
+}
+.lindua-tile {
+  &:before {
+    content: $lindua-tile; 
+  }
+}
+.lindua-eyedropper {
+  &:before {
+    content: $lindua-eyedropper; 
+  }
+}
+.lindua-palette {
+  &:before {
+    content: $lindua-palette; 
+  }
+}
+.lindua-color-sampler {
+  &:before {
+    content: $lindua-color-sampler; 
+  }
+}
+.lindua-bucket {
+  &:before {
+    content: $lindua-bucket; 
+  }
+}
+.lindua-sticker {
+  &:before {
+    content: $lindua-sticker; 
+  }
+}
+.lindua-gradient {
+  &:before {
+    content: $lindua-gradient; 
+  }
+}
+.lindua-magic-wand {
+  &:before {
+    content: $lindua-magic-wand; 
+  }
+}
+.lindua-magnet {
+  &:before {
+    content: $lindua-magnet; 
+  }
+}
+.lindua-magnet-cross {
+  &:before {
+    content: $lindua-magnet-cross; 
+  }
+}
+.lindua-magnet-grid {
+  &:before {
+    content: $lindua-magnet-grid; 
+  }
+}
+.lindua-magnet-point {
+  &:before {
+    content: $lindua-magnet-point; 
+  }
+}
+.lindua-magnet-angle {
+  &:before {
+    content: $lindua-magnet-angle; 
+  }
+}
+.lindua-magnet-scale {
+  &:before {
+    content: $lindua-magnet-scale; 
+  }
+}
+.lindua-pencil-ruler {
+  &:before {
+    content: $lindua-pencil-ruler; 
+  }
+}
+.lindua-pencil-ruler2 {
+  &:before {
+    content: $lindua-pencil-ruler2; 
+  }
+}
+.lindua-compass {
+  &:before {
+    content: $lindua-compass; 
+  }
+}
+.lindua-polygon {
+  &:before {
+    content: $lindua-polygon; 
+  }
+}
+.lindua-polygon2 {
+  &:before {
+    content: $lindua-polygon2; 
+  }
+}
+.lindua-polygon3 {
+  &:before {
+    content: $lindua-polygon3; 
+  }
+}
+.lindua-sword {
+  &:before {
+    content: $lindua-sword; 
+  }
+}
+.lindua-gun {
+  &:before {
+    content: $lindua-gun; 
+  }
+}
+.lindua-aim {
+  &:before {
+    content: $lindua-aim; 
+  }
+}
+.lindua-grenade {
+  &:before {
+    content: $lindua-grenade; 
+  }
+}
+.lindua-bomb {
+  &:before {
+    content: $lindua-bomb; 
+  }
+}
+.lindua-explosion {
+  &:before {
+    content: $lindua-explosion; 
+  }
+}
+.lindua-nuclear {
+  &:before {
+    content: $lindua-nuclear; 
+  }
+}
+.lindua-bottle {
+  &:before {
+    content: $lindua-bottle; 
+  }
+}
+.lindua-drop {
+  &:before {
+    content: $lindua-drop; 
+  }
+}
+.lindua-droplet-plus {
+  &:before {
+    content: $lindua-droplet-plus; 
+  }
+}
+.lindua-droplet-minus {
+  &:before {
+    content: $lindua-droplet-minus; 
+  }
+}
+.lindua-droplet-cross {
+  &:before {
+    content: $lindua-droplet-cross; 
+  }
+}
+.lindua-oil-price {
+  &:before {
+    content: $lindua-oil-price; 
+  }
+}
+.lindua-coolant {
+  &:before {
+    content: $lindua-coolant; 
+  }
+}
+.lindua-snowflake {
+  &:before {
+    content: $lindua-snowflake; 
+  }
+}
+.lindua-snowflake2 {
+  &:before {
+    content: $lindua-snowflake2; 
+  }
+}
+.lindua-fire {
+  &:before {
+    content: $lindua-fire; 
+  }
+}
+.lindua-fire-forbidden {
+  &:before {
+    content: $lindua-fire-forbidden; 
+  }
+}
+.lindua-fire-price {
+  &:before {
+    content: $lindua-fire-price; 
+  }
+}
+.lindua-fire-warning {
+  &:before {
+    content: $lindua-fire-warning; 
+  }
+}
+.lindua-fire-hazard {
+  &:before {
+    content: $lindua-fire-hazard; 
+  }
+}
+.lindua-fireworks {
+  &:before {
+    content: $lindua-fireworks; 
+  }
+}
+.lindua-match-fire {
+  &:before {
+    content: $lindua-match-fire; 
+  }
+}
+.lindua-hydrant {
+  &:before {
+    content: $lindua-hydrant; 
+  }
+}
+.lindua-extinguisher {
+  &:before {
+    content: $lindua-extinguisher; 
+  }
+}
+.lindua-lighter {
+  &:before {
+    content: $lindua-lighter; 
+  }
+}
+.lindua-pocket-knife {
+  &:before {
+    content: $lindua-pocket-knife; 
+  }
+}
+.lindua-tissue {
+  &:before {
+    content: $lindua-tissue; 
+  }
+}
+.lindua-toilet-paper {
+  &:before {
+    content: $lindua-toilet-paper; 
+  }
+}
+.lindua-paper-towel {
+  &:before {
+    content: $lindua-paper-towel; 
+  }
+}
+.lindua-poop {
+  &:before {
+    content: $lindua-poop; 
+  }
+}
+.lindua-umbrella {
+  &:before {
+    content: $lindua-umbrella; 
+  }
+}
+.lindua-umbrella-rain {
+  &:before {
+    content: $lindua-umbrella-rain; 
+  }
+}
+.lindua-droplets {
+  &:before {
+    content: $lindua-droplets; 
+  }
+}
+.lindua-power {
+  &:before {
+    content: $lindua-power; 
+  }
+}
+.lindua-volcano {
+  &:before {
+    content: $lindua-volcano; 
+  }
+}
+.lindua-gas-mask {
+  &:before {
+    content: $lindua-gas-mask; 
+  }
+}
+.lindua-tornado {
+  &:before {
+    content: $lindua-tornado; 
+  }
+}
+.lindua-wind {
+  &:before {
+    content: $lindua-wind; 
+  }
+}
+.lindua-fan {
+  &:before {
+    content: $lindua-fan; 
+  }
+}
+.lindua-fan2 {
+  &:before {
+    content: $lindua-fan2; 
+  }
+}
+.lindua-fan3 {
+  &:before {
+    content: $lindua-fan3; 
+  }
+}
+.lindua-contrast {
+  &:before {
+    content: $lindua-contrast; 
+  }
+}
+.lindua-brightness {
+  &:before {
+    content: $lindua-brightness; 
+  }
+}
+.lindua-brightness-auto {
+  &:before {
+    content: $lindua-brightness-auto; 
+  }
+}
+.lindua-brightness-auto2 {
+  &:before {
+    content: $lindua-brightness-auto2; 
+  }
+}
+.lindua-brightness-contrast {
+  &:before {
+    content: $lindua-brightness-contrast; 
+  }
+}
+.lindua-sun {
+  &:before {
+    content: $lindua-sun; 
+  }
+}
+.lindua-moon {
+  &:before {
+    content: $lindua-moon; 
+  }
+}
+.lindua-cloud {
+  &:before {
+    content: $lindua-cloud; 
+  }
+}
+.lindua-cloud-rain {
+  &:before {
+    content: $lindua-cloud-rain; 
+  }
+}
+.lindua-cloud-rain2 {
+  &:before {
+    content: $lindua-cloud-rain2; 
+  }
+}
+.lindua-cloud-rain3 {
+  &:before {
+    content: $lindua-cloud-rain3; 
+  }
+}
+.lindua-cloud-snow {
+  &:before {
+    content: $lindua-cloud-snow; 
+  }
+}
+.lindua-cloud-snow2 {
+  &:before {
+    content: $lindua-cloud-snow2; 
+  }
+}
+.lindua-sun-wind {
+  &:before {
+    content: $lindua-sun-wind; 
+  }
+}
+.lindua-cloud-wind {
+  &:before {
+    content: $lindua-cloud-wind; 
+  }
+}
+.lindua-sun-fog {
+  &:before {
+    content: $lindua-sun-fog; 
+  }
+}
+.lindua-cloud-fog {
+  &:before {
+    content: $lindua-cloud-fog; 
+  }
+}
+.lindua-cloud-sun {
+  &:before {
+    content: $lindua-cloud-sun; 
+  }
+}
+.lindua-cloud-bolt {
+  &:before {
+    content: $lindua-cloud-bolt; 
+  }
+}
+.lindua-cloud-upload {
+  &:before {
+    content: $lindua-cloud-upload; 
+  }
+}
+.lindua-cloud-download {
+  &:before {
+    content: $lindua-cloud-download; 
+  }
+}
+.lindua-cloud-sync {
+  &:before {
+    content: $lindua-cloud-sync; 
+  }
+}
+.lindua-cloud-backup {
+  &:before {
+    content: $lindua-cloud-backup; 
+  }
+}
+.lindua-cloud-lock {
+  &:before {
+    content: $lindua-cloud-lock; 
+  }
+}
+.lindua-cloud-settings {
+  &:before {
+    content: $lindua-cloud-settings; 
+  }
+}
+.lindua-cloud-warning {
+  &:before {
+    content: $lindua-cloud-warning; 
+  }
+}
+.lindua-cloud-time {
+  &:before {
+    content: $lindua-cloud-time; 
+  }
+}
+.lindua-cloud-check {
+  &:before {
+    content: $lindua-cloud-check; 
+  }
+}
+.lindua-cloud-cross {
+  &:before {
+    content: $lindua-cloud-cross; 
+  }
+}
+.lindua-cloud-connected {
+  &:before {
+    content: $lindua-cloud-connected; 
+  }
+}
+.lindua-cloud-database {
+  &:before {
+    content: $lindua-cloud-database; 
+  }
+}
+.lindua-cloud-music {
+  &:before {
+    content: $lindua-cloud-music; 
+  }
+}
+.lindua-cloud-music2 {
+  &:before {
+    content: $lindua-cloud-music2; 
+  }
+}
+.lindua-cloud-message {
+  &:before {
+    content: $lindua-cloud-message; 
+  }
+}
+.lindua-branches {
+  &:before {
+    content: $lindua-branches; 
+  }
+}
+.lindua-database {
+  &:before {
+    content: $lindua-database; 
+  }
+}
+.lindua-database-plus {
+  &:before {
+    content: $lindua-database-plus; 
+  }
+}
+.lindua-database-minus {
+  &:before {
+    content: $lindua-database-minus; 
+  }
+}
+.lindua-database-lock {
+  &:before {
+    content: $lindua-database-lock; 
+  }
+}
+.lindua-database-sync {
+  &:before {
+    content: $lindua-database-sync; 
+  }
+}
+.lindua-database-backup {
+  &:before {
+    content: $lindua-database-backup; 
+  }
+}
+.lindua-database-check {
+  &:before {
+    content: $lindua-database-check; 
+  }
+}
+.lindua-database-time {
+  &:before {
+    content: $lindua-database-time; 
+  }
+}
+.lindua-database-upload {
+  &:before {
+    content: $lindua-database-upload; 
+  }
+}
+.lindua-database-download {
+  &:before {
+    content: $lindua-database-download; 
+  }
+}
+.lindua-shield {
+  &:before {
+    content: $lindua-shield; 
+  }
+}
+.lindua-shield-plus {
+  &:before {
+    content: $lindua-shield-plus; 
+  }
+}
+.lindua-shield-warning {
+  &:before {
+    content: $lindua-shield-warning; 
+  }
+}
+.lindua-shield-check {
+  &:before {
+    content: $lindua-shield-check; 
+  }
+}
+.lindua-shield-cross {
+  &:before {
+    content: $lindua-shield-cross; 
+  }
+}
+.lindua-shield-sync {
+  &:before {
+    content: $lindua-shield-sync; 
+  }
+}
+.lindua-shield-info {
+  &:before {
+    content: $lindua-shield-info; 
+  }
+}
+.lindua-shield-web {
+  &:before {
+    content: $lindua-shield-web; 
+  }
+}
+.lindua-shield-user {
+  &:before {
+    content: $lindua-shield-user; 
+  }
+}
+.lindua-shield-bolt {
+  &:before {
+    content: $lindua-shield-bolt; 
+  }
+}
+.lindua-shield-droplet {
+  &:before {
+    content: $lindua-shield-droplet; 
+  }
+}
+.lindua-shield-star {
+  &:before {
+    content: $lindua-shield-star; 
+  }
+}
+.lindua-refresh-locked {
+  &:before {
+    content: $lindua-refresh-locked; 
+  }
+}
+.lindua-lock {
+  &:before {
+    content: $lindua-lock; 
+  }
+}
+.lindua-unlock {
+  &:before {
+    content: $lindua-unlock; 
+  }
+}
+.lindua-unlock2 {
+  &:before {
+    content: $lindua-unlock2; 
+  }
+}
+.lindua-lock-check {
+  &:before {
+    content: $lindua-lock-check; 
+  }
+}
+.lindua-lock-cross {
+  &:before {
+    content: $lindua-lock-cross; 
+  }
+}
+.lindua-lock-warning {
+  &:before {
+    content: $lindua-lock-warning; 
+  }
+}
+.lindua-lock2 {
+  &:before {
+    content: $lindua-lock2; 
+  }
+}
+.lindua-unlock3 {
+  &:before {
+    content: $lindua-unlock3; 
+  }
+}
+.lindua-unlock4 {
+  &:before {
+    content: $lindua-unlock4; 
+  }
+}
+.lindua-lock-wireless {
+  &:before {
+    content: $lindua-lock-wireless; 
+  }
+}
+.lindua-key {
+  &:before {
+    content: $lindua-key; 
+  }
+}
+.lindua-key2 {
+  &:before {
+    content: $lindua-key2; 
+  }
+}
+.lindua-key-hole {
+  &:before {
+    content: $lindua-key-hole; 
+  }
+}
+.lindua-toggle-off {
+  &:before {
+    content: $lindua-toggle-off; 
+  }
+}
+.lindua-toggle-on {
+  &:before {
+    content: $lindua-toggle-on; 
+  }
+}
+.lindua-toggle-on2 {
+  &:before {
+    content: $lindua-toggle-on2; 
+  }
+}
+.lindua-toggle-off2 {
+  &:before {
+    content: $lindua-toggle-off2; 
+  }
+}
+.lindua-switch-off {
+  &:before {
+    content: $lindua-switch-off; 
+  }
+}
+.lindua-switch-on {
+  &:before {
+    content: $lindua-switch-on; 
+  }
+}
+.lindua-equalizer {
+  &:before {
+    content: $lindua-equalizer; 
+  }
+}
+.lindua-settings-icons {
+  &:before {
+    content: $lindua-settings-icons; 
+  }
+}
+.lindua-gear {
+  &:before {
+    content: $lindua-gear; 
+  }
+}
+.lindua-gear2 {
+  &:before {
+    content: $lindua-gear2; 
+  }
+}
+.lindua-gear3 {
+  &:before {
+    content: $lindua-gear3; 
+  }
+}
+.lindua-wrench {
+  &:before {
+    content: $lindua-wrench; 
+  }
+}
+.lindua-wrench2 {
+  &:before {
+    content: $lindua-wrench2; 
+  }
+}
+.lindua-screwdriver {
+  &:before {
+    content: $lindua-screwdriver; 
+  }
+}
+.lindua-hammer {
+  &:before {
+    content: $lindua-hammer; 
+  }
+}
+.lindua-anvil {
+  &:before {
+    content: $lindua-anvil; 
+  }
+}
+.lindua-hammer-wrench {
+  &:before {
+    content: $lindua-hammer-wrench; 
+  }
+}
+.lindua-wrench-screwdriver {
+  &:before {
+    content: $lindua-wrench-screwdriver; 
+  }
+}
+.lindua-saw {
+  &:before {
+    content: $lindua-saw; 
+  }
+}
+.lindua-axe {
+  &:before {
+    content: $lindua-axe; 
+  }
+}
+.lindua-axe2 {
+  &:before {
+    content: $lindua-axe2; 
+  }
+}
+.lindua-trowel {
+  &:before {
+    content: $lindua-trowel; 
+  }
+}
+.lindua-shovel {
+  &:before {
+    content: $lindua-shovel; 
+  }
+}
+.lindua-pickaxe {
+  &:before {
+    content: $lindua-pickaxe; 
+  }
+}
+.lindua-factory {
+  &:before {
+    content: $lindua-factory; 
+  }
+}
+.lindua-robot-arm {
+  &:before {
+    content: $lindua-robot-arm; 
+  }
+}
+.lindua-conveyor {
+  &:before {
+    content: $lindua-conveyor; 
+  }
+}
+.lindua-recycle {
+  &:before {
+    content: $lindua-recycle; 
+  }
+}
+.lindua-recycle2 {
+  &:before {
+    content: $lindua-recycle2; 
+  }
+}
+.lindua-trash {
+  &:before {
+    content: $lindua-trash; 
+  }
+}
+.lindua-trash-cross {
+  &:before {
+    content: $lindua-trash-cross; 
+  }
+}
+.lindua-trash-full {
+  &:before {
+    content: $lindua-trash-full; 
+  }
+}
+.lindua-trash-warning {
+  &:before {
+    content: $lindua-trash-warning; 
+  }
+}
+.lindua-trash-cross2 {
+  &:before {
+    content: $lindua-trash-cross2; 
+  }
+}
+.lindua-disposal {
+  &:before {
+    content: $lindua-disposal; 
+  }
+}
+.lindua-game {
+  &:before {
+    content: $lindua-game; 
+  }
+}
+.lindua-gamepad {
+  &:before {
+    content: $lindua-gamepad; 
+  }
+}
+.lindua-dice {
+  &:before {
+    content: $lindua-dice; 
+  }
+}
+.lindua-spades {
+  &:before {
+    content: $lindua-spades; 
+  }
+}
+.lindua-spades2 {
+  &:before {
+    content: $lindua-spades2; 
+  }
+}
+.lindua-diamonds {
+  &:before {
+    content: $lindua-diamonds; 
+  }
+}
+.lindua-diamonds2 {
+  &:before {
+    content: $lindua-diamonds2; 
+  }
+}
+.lindua-clubs {
+  &:before {
+    content: $lindua-clubs; 
+  }
+}
+.lindua-clubs2 {
+  &:before {
+    content: $lindua-clubs2; 
+  }
+}
+.lindua-heart {
+  &:before {
+    content: $lindua-heart; 
+  }
+}
+.lindua-heart-shiny {
+  &:before {
+    content: $lindua-heart-shiny; 
+  }
+}
+.lindua-star {
+  &:before {
+    content: $lindua-star; 
+  }
+}
+.lindua-star-half {
+  &:before {
+    content: $lindua-star-half; 
+  }
+}
+.lindua-star-empty {
+  &:before {
+    content: $lindua-star-empty; 
+  }
+}
+.lindua-flag {
+  &:before {
+    content: $lindua-flag; 
+  }
+}
+.lindua-flag2 {
+  &:before {
+    content: $lindua-flag2; 
+  }
+}
+.lindua-flag3 {
+  &:before {
+    content: $lindua-flag3; 
+  }
+}
+.lindua-mailbox-empty {
+  &:before {
+    content: $lindua-mailbox-empty; 
+  }
+}
+.lindua-mailbox-full {
+  &:before {
+    content: $lindua-mailbox-full; 
+  }
+}
+.lindua-at-sign {
+  &:before {
+    content: $lindua-at-sign; 
+  }
+}
+.lindua-envelope {
+  &:before {
+    content: $lindua-envelope; 
+  }
+}
+.lindua-envelope-open {
+  &:before {
+    content: $lindua-envelope-open; 
+  }
+}
+.lindua-envelope-open2 {
+  &:before {
+    content: $lindua-envelope-open2; 
+  }
+}
+.lindua-envelope-plus {
+  &:before {
+    content: $lindua-envelope-plus; 
+  }
+}
+.lindua-envelope-warning {
+  &:before {
+    content: $lindua-envelope-warning; 
+  }
+}
+.lindua-envelope-check {
+  &:before {
+    content: $lindua-envelope-check; 
+  }
+}
+.lindua-envelope-cross {
+  &:before {
+    content: $lindua-envelope-cross; 
+  }
+}
+.lindua-paper-plane {
+  &:before {
+    content: $lindua-paper-plane; 
+  }
+}
+.lindua-paperclip {
+  &:before {
+    content: $lindua-paperclip; 
+  }
+}
+.lindua-reply {
+  &:before {
+    content: $lindua-reply; 
+  }
+}
+.lindua-reply-all {
+  &:before {
+    content: $lindua-reply-all; 
+  }
+}
+.lindua-drawer {
+  &:before {
+    content: $lindua-drawer; 
+  }
+}
+.lindua-drawer-download {
+  &:before {
+    content: $lindua-drawer-download; 
+  }
+}
+.lindua-drawer-upload {
+  &:before {
+    content: $lindua-drawer-upload; 
+  }
+}
+.lindua-drawer-full {
+  &:before {
+    content: $lindua-drawer-full; 
+  }
+}
+.lindua-drawer-paper {
+  &:before {
+    content: $lindua-drawer-paper; 
+  }
+}
+.lindua-drawer-warning {
+  &:before {
+    content: $lindua-drawer-warning; 
+  }
+}
+.lindua-drawer-sync {
+  &:before {
+    content: $lindua-drawer-sync; 
+  }
+}
+.lindua-box {
+  &:before {
+    content: $lindua-box; 
+  }
+}
+.lindua-drawer-full2 {
+  &:before {
+    content: $lindua-drawer-full2; 
+  }
+}
+.lindua-drawer-paper2 {
+  &:before {
+    content: $lindua-drawer-paper2; 
+  }
+}
+.lindua-dresser {
+  &:before {
+    content: $lindua-dresser; 
+  }
+}
+.lindua-dresser2 {
+  &:before {
+    content: $lindua-dresser2; 
+  }
+}
+.lindua-cabinet {
+  &:before {
+    content: $lindua-cabinet; 
+  }
+}
+.lindua-eye {
+  &:before {
+    content: $lindua-eye; 
+  }
+}
+.lindua-eye-cross {
+  &:before {
+    content: $lindua-eye-cross; 
+  }
+}
+.lindua-eye-plus {
+  &:before {
+    content: $lindua-eye-plus; 
+  }
+}
+.lindua-eye-minus {
+  &:before {
+    content: $lindua-eye-minus; 
+  }
+}
+.lindua-eye-droplet {
+  &:before {
+    content: $lindua-eye-droplet; 
+  }
+}
+.lindua-eye2 {
+  &:before {
+    content: $lindua-eye2; 
+  }
+}
+.lindua-binoculars {
+  &:before {
+    content: $lindua-binoculars; 
+  }
+}
+.lindua-binoculars2 {
+  &:before {
+    content: $lindua-binoculars2; 
+  }
+}
+.lindua-telescope {
+  &:before {
+    content: $lindua-telescope; 
+  }
+}
+.lindua-server {
+  &:before {
+    content: $lindua-server; 
+  }
+}
+.lindua-install {
+  &:before {
+    content: $lindua-install; 
+  }
+}
+.lindua-upload {
+  &:before {
+    content: $lindua-upload; 
+  }
+}
+.lindua-hard-disk {
+  &:before {
+    content: $lindua-hard-disk; 
+  }
+}
+.lindua-hard-disk-warning {
+  &:before {
+    content: $lindua-hard-disk-warning; 
+  }
+}
+.lindua-floppy-disk {
+  &:before {
+    content: $lindua-floppy-disk; 
+  }
+}
+.lindua-disc {
+  &:before {
+    content: $lindua-disc; 
+  }
+}
+.lindua-disc-audio {
+  &:before {
+    content: $lindua-disc-audio; 
+  }
+}
+.lindua-disc-play {
+  &:before {
+    content: $lindua-disc-play; 
+  }
+}
+.lindua-cassette {
+  &:before {
+    content: $lindua-cassette; 
+  }
+}
+.lindua-printer {
+  &:before {
+    content: $lindua-printer; 
+  }
+}
+.lindua-plotter {
+  &:before {
+    content: $lindua-plotter; 
+  }
+}
+.lindua-printer-3d {
+  &:before {
+    content: $lindua-printer-3d; 
+  }
+}
+.lindua-shredder {
+  &:before {
+    content: $lindua-shredder; 
+  }
+}
+.lindua-file-empty {
+  &:before {
+    content: $lindua-file-empty; 
+  }
+}
+.lindua-file-text {
+  &:before {
+    content: $lindua-file-text; 
+  }
+}
+.lindua-file-plus {
+  &:before {
+    content: $lindua-file-plus; 
+  }
+}
+.lindua-file-check {
+  &:before {
+    content: $lindua-file-check; 
+  }
+}
+.lindua-file-lock {
+  &:before {
+    content: $lindua-file-lock; 
+  }
+}
+.lindua-file-user {
+  &:before {
+    content: $lindua-file-user; 
+  }
+}
+.lindua-file-pencil {
+  &:before {
+    content: $lindua-file-pencil; 
+  }
+}
+.lindua-files {
+  &:before {
+    content: $lindua-files; 
+  }
+}
+.lindua-files2 {
+  &:before {
+    content: $lindua-files2; 
+  }
+}
+.lindua-files-compare {
+  &:before {
+    content: $lindua-files-compare; 
+  }
+}
+.lindua-folder {
+  &:before {
+    content: $lindua-folder; 
+  }
+}
+.lindua-folder-history {
+  &:before {
+    content: $lindua-folder-history; 
+  }
+}
+.lindua-folder-search {
+  &:before {
+    content: $lindua-folder-search; 
+  }
+}
+.lindua-folder-home {
+  &:before {
+    content: $lindua-folder-home; 
+  }
+}
+.lindua-folder-plus {
+  &:before {
+    content: $lindua-folder-plus; 
+  }
+}
+.lindua-folder-minus {
+  &:before {
+    content: $lindua-folder-minus; 
+  }
+}
+.lindua-folder-zip {
+  &:before {
+    content: $lindua-folder-zip; 
+  }
+}
+.lindua-folder-lock {
+  &:before {
+    content: $lindua-folder-lock; 
+  }
+}
+.lindua-folder-download {
+  &:before {
+    content: $lindua-folder-download; 
+  }
+}
+.lindua-folder-upload {
+  &:before {
+    content: $lindua-folder-upload; 
+  }
+}
+.lindua-folder-star {
+  &:before {
+    content: $lindua-folder-star; 
+  }
+}
+.lindua-folder-heart {
+  &:before {
+    content: $lindua-folder-heart; 
+  }
+}
+.lindua-folder-user {
+  &:before {
+    content: $lindua-folder-user; 
+  }
+}
+.lindua-folder-share {
+  &:before {
+    content: $lindua-folder-share; 
+  }
+}
+.lindua-folder-code {
+  &:before {
+    content: $lindua-folder-code; 
+  }
+}
+.lindua-folder-picture {
+  &:before {
+    content: $lindua-folder-picture; 
+  }
+}
+.lindua-folder-camera {
+  &:before {
+    content: $lindua-folder-camera; 
+  }
+}
+.lindua-folder-music {
+  &:before {
+    content: $lindua-folder-music; 
+  }
+}
+.lindua-folder-music2 {
+  &:before {
+    content: $lindua-folder-music2; 
+  }
+}
+.lindua-folder-film {
+  &:before {
+    content: $lindua-folder-film; 
+  }
+}
+.lindua-folder-video {
+  &:before {
+    content: $lindua-folder-video; 
+  }
+}
+.lindua-scissors {
+  &:before {
+    content: $lindua-scissors; 
+  }
+}
+.lindua-clipboard-empty {
+  &:before {
+    content: $lindua-clipboard-empty; 
+  }
+}
+.lindua-clipboard-text {
+  &:before {
+    content: $lindua-clipboard-text; 
+  }
+}
+.lindua-paste {
+  &:before {
+    content: $lindua-paste; 
+  }
+}
+.lindua-paste2 {
+  &:before {
+    content: $lindua-paste2; 
+  }
+}
+.lindua-clipboard-check {
+  &:before {
+    content: $lindua-clipboard-check; 
+  }
+}
+.lindua-clipboard-down {
+  &:before {
+    content: $lindua-clipboard-down; 
+  }
+}
+.lindua-clipboard-left {
+  &:before {
+    content: $lindua-clipboard-left; 
+  }
+}
+.lindua-clipboard-warning {
+  &:before {
+    content: $lindua-clipboard-warning; 
+  }
+}
+.lindua-clipboard-user {
+  &:before {
+    content: $lindua-clipboard-user; 
+  }
+}
+.lindua-clipboard-pencil {
+  &:before {
+    content: $lindua-clipboard-pencil; 
+  }
+}
+.lindua-checklist {
+  &:before {
+    content: $lindua-checklist; 
+  }
+}
+.lindua-clipboard-list {
+  &:before {
+    content: $lindua-clipboard-list; 
+  }
+}
+.lindua-clipboard-chart {
+  &:before {
+    content: $lindua-clipboard-chart; 
+  }
+}
+.lindua-register {
+  &:before {
+    content: $lindua-register; 
+  }
+}
+.lindua-enter {
+  &:before {
+    content: $lindua-enter; 
+  }
+}
+.lindua-exit {
+  &:before {
+    content: $lindua-exit; 
+  }
+}
+.lindua-news {
+  &:before {
+    content: $lindua-news; 
+  }
+}
+.lindua-read {
+  &:before {
+    content: $lindua-read; 
+  }
+}
+.lindua-newsletter {
+  &:before {
+    content: $lindua-newsletter; 
+  }
+}
+.lindua-newsletters {
+  &:before {
+    content: $lindua-newsletters; 
+  }
+}
+.lindua-paper {
+  &:before {
+    content: $lindua-paper; 
+  }
+}
+.lindua-graduation {
+  &:before {
+    content: $lindua-graduation; 
+  }
+}
+.lindua-certificate {
+  &:before {
+    content: $lindua-certificate; 
+  }
+}
+.lindua-certificate2 {
+  &:before {
+    content: $lindua-certificate2; 
+  }
+}
+.lindua-medal-empty {
+  &:before {
+    content: $lindua-medal-empty; 
+  }
+}
+.lindua-medal-first {
+  &:before {
+    content: $lindua-medal-first; 
+  }
+}
+.lindua-medal-second {
+  &:before {
+    content: $lindua-medal-second; 
+  }
+}
+.lindua-medal-third {
+  &:before {
+    content: $lindua-medal-third; 
+  }
+}
+.lindua-podium {
+  &:before {
+    content: $lindua-podium; 
+  }
+}
+.lindua-trophy {
+  &:before {
+    content: $lindua-trophy; 
+  }
+}
+.lindua-trophy-first {
+  &:before {
+    content: $lindua-trophy-first; 
+  }
+}
+.lindua-trophy-second {
+  &:before {
+    content: $lindua-trophy-second; 
+  }
+}
+.lindua-trophy-third {
+  &:before {
+    content: $lindua-trophy-third; 
+  }
+}
+.lindua-music-note {
+  &:before {
+    content: $lindua-music-note; 
+  }
+}
+.lindua-music-note2 {
+  &:before {
+    content: $lindua-music-note2; 
+  }
+}
+.lindua-music-note-plus {
+  &:before {
+    content: $lindua-music-note-plus; 
+  }
+}
+.lindua-music-note3 {
+  &:before {
+    content: $lindua-music-note3; 
+  }
+}
+.lindua-music-note4 {
+  &:before {
+    content: $lindua-music-note4; 
+  }
+}
+.lindua-music-note5 {
+  &:before {
+    content: $lindua-music-note5; 
+  }
+}
+.lindua-music-note6 {
+  &:before {
+    content: $lindua-music-note6; 
+  }
+}
+.lindua-playlist {
+  &:before {
+    content: $lindua-playlist; 
+  }
+}
+.lindua-list-heart {
+  &:before {
+    content: $lindua-list-heart; 
+  }
+}
+.lindua-cable {
+  &:before {
+    content: $lindua-cable; 
+  }
+}
+.lindua-turntable {
+  &:before {
+    content: $lindua-turntable; 
+  }
+}
+.lindua-piano {
+  &:before {
+    content: $lindua-piano; 
+  }
+}
+.lindua-guitar {
+  &:before {
+    content: $lindua-guitar; 
+  }
+}
+.lindua-guitar-electric {
+  &:before {
+    content: $lindua-guitar-electric; 
+  }
+}
+.lindua-guitar-pick {
+  &:before {
+    content: $lindua-guitar-pick; 
+  }
+}
+.lindua-metronome {
+  &:before {
+    content: $lindua-metronome; 
+  }
+}
+.lindua-tuning-fork {
+  &:before {
+    content: $lindua-tuning-fork; 
+  }
+}
+.lindua-album {
+  &:before {
+    content: $lindua-album; 
+  }
+}
+.lindua-playlist2 {
+  &:before {
+    content: $lindua-playlist2; 
+  }
+}
+.lindua-photo-album {
+  &:before {
+    content: $lindua-photo-album; 
+  }
+}
+.lindua-shuffle {
+  &:before {
+    content: $lindua-shuffle; 
+  }
+}
+.lindua-repeat {
+  &:before {
+    content: $lindua-repeat; 
+  }
+}
+.lindua-repeat-infinite {
+  &:before {
+    content: $lindua-repeat-infinite; 
+  }
+}
+.lindua-repeat-once {
+  &:before {
+    content: $lindua-repeat-once; 
+  }
+}
+.lindua-earphones {
+  &:before {
+    content: $lindua-earphones; 
+  }
+}
+.lindua-headphones {
+  &:before {
+    content: $lindua-headphones; 
+  }
+}
+.lindua-headset {
+  &:before {
+    content: $lindua-headset; 
+  }
+}
+.lindua-headphones-warning {
+  &:before {
+    content: $lindua-headphones-warning; 
+  }
+}
+.lindua-headphones-cross {
+  &:before {
+    content: $lindua-headphones-cross; 
+  }
+}
+.lindua-loudspeaker {
+  &:before {
+    content: $lindua-loudspeaker; 
+  }
+}
+.lindua-equalizer2 {
+  &:before {
+    content: $lindua-equalizer2; 
+  }
+}
+.lindua-theater {
+  &:before {
+    content: $lindua-theater; 
+  }
+}
+.lindua-3d-glasses {
+  &:before {
+    content: $lindua-3d-glasses; 
+  }
+}
+.lindua-ticket {
+  &:before {
+    content: $lindua-ticket; 
+  }
+}
+.lindua-megaphone {
+  &:before {
+    content: $lindua-megaphone; 
+  }
+}
+.lindua-clapboard {
+  &:before {
+    content: $lindua-clapboard; 
+  }
+}
+.lindua-clapboard-play {
+  &:before {
+    content: $lindua-clapboard-play; 
+  }
+}
+.lindua-reel {
+  &:before {
+    content: $lindua-reel; 
+  }
+}
+.lindua-film {
+  &:before {
+    content: $lindua-film; 
+  }
+}
+.lindua-film-play {
+  &:before {
+    content: $lindua-film-play; 
+  }
+}
+.lindua-film-play2 {
+  &:before {
+    content: $lindua-film-play2; 
+  }
+}
+.lindua-projector-screen-collapsed {
+  &:before {
+    content: $lindua-projector-screen-collapsed; 
+  }
+}
+.lindua-projector-screen-play {
+  &:before {
+    content: $lindua-projector-screen-play; 
+  }
+}
+.lindua-projector-screen-chart {
+  &:before {
+    content: $lindua-projector-screen-chart; 
+  }
+}
+.lindua-surveillance {
+  &:before {
+    content: $lindua-surveillance; 
+  }
+}
+.lindua-surveillance2 {
+  &:before {
+    content: $lindua-surveillance2; 
+  }
+}
+.lindua-camera {
+  &:before {
+    content: $lindua-camera; 
+  }
+}
+.lindua-camera-cross {
+  &:before {
+    content: $lindua-camera-cross; 
+  }
+}
+.lindua-camera-play {
+  &:before {
+    content: $lindua-camera-play; 
+  }
+}
+.lindua-camera-pause {
+  &:before {
+    content: $lindua-camera-pause; 
+  }
+}
+.lindua-camera-stop {
+  &:before {
+    content: $lindua-camera-stop; 
+  }
+}
+.lindua-camera-record {
+  &:before {
+    content: $lindua-camera-record; 
+  }
+}
+.lindua-camera-time {
+  &:before {
+    content: $lindua-camera-time; 
+  }
+}
+.lindua-camera2 {
+  &:before {
+    content: $lindua-camera2; 
+  }
+}
+.lindua-camera3 {
+  &:before {
+    content: $lindua-camera3; 
+  }
+}
+.lindua-camera-time2 {
+  &:before {
+    content: $lindua-camera-time2; 
+  }
+}
+.lindua-camera-flip {
+  &:before {
+    content: $lindua-camera-flip; 
+  }
+}
+.lindua-camera-stabilization {
+  &:before {
+    content: $lindua-camera-stabilization; 
+  }
+}
+.lindua-panorama {
+  &:before {
+    content: $lindua-panorama; 
+  }
+}
+.lindua-shutter {
+  &:before {
+    content: $lindua-shutter; 
+  }
+}
+.lindua-face-detection {
+  &:before {
+    content: $lindua-face-detection; 
+  }
+}
+.lindua-convex {
+  &:before {
+    content: $lindua-convex; 
+  }
+}
+.lindua-concave {
+  &:before {
+    content: $lindua-concave; 
+  }
+}
+.lindua-picture {
+  &:before {
+    content: $lindua-picture; 
+  }
+}
+.lindua-picture2 {
+  &:before {
+    content: $lindua-picture2; 
+  }
+}
+.lindua-book {
+  &:before {
+    content: $lindua-book; 
+  }
+}
+.lindua-book-audio {
+  &:before {
+    content: $lindua-book-audio; 
+  }
+}
+.lindua-book2 {
+  &:before {
+    content: $lindua-book2; 
+  }
+}
+.lindua-book3 {
+  &:before {
+    content: $lindua-book3; 
+  }
+}
+.lindua-book-bookmarked {
+  &:before {
+    content: $lindua-book-bookmarked; 
+  }
+}
+.lindua-book-bookmarked2 {
+  &:before {
+    content: $lindua-book-bookmarked2; 
+  }
+}
+.lindua-bookmark {
+  &:before {
+    content: $lindua-bookmark; 
+  }
+}
+.lindua-bookmark-move {
+  &:before {
+    content: $lindua-bookmark-move; 
+  }
+}
+.lindua-bookmark-plus {
+  &:before {
+    content: $lindua-bookmark-plus; 
+  }
+}
+.lindua-bookmark-minus {
+  &:before {
+    content: $lindua-bookmark-minus; 
+  }
+}
+.lindua-label {
+  &:before {
+    content: $lindua-label; 
+  }
+}
+.lindua-books {
+  &:before {
+    content: $lindua-books; 
+  }
+}
+.lindua-library {
+  &:before {
+    content: $lindua-library; 
+  }
+}
+.lindua-contacts {
+  &:before {
+    content: $lindua-contacts; 
+  }
+}
+.lindua-business-card {
+  &:before {
+    content: $lindua-business-card; 
+  }
+}
+.lindua-portrait {
+  &:before {
+    content: $lindua-portrait; 
+  }
+}
+.lindua-portrait2 {
+  &:before {
+    content: $lindua-portrait2; 
+  }
+}
+.lindua-user {
+  &:before {
+    content: $lindua-user; 
+  }
+}
+.lindua-user-plus {
+  &:before {
+    content: $lindua-user-plus; 
+  }
+}
+.lindua-user-minus {
+  &:before {
+    content: $lindua-user-minus; 
+  }
+}
+.lindua-user-heart {
+  &:before {
+    content: $lindua-user-heart; 
+  }
+}
+.lindua-user-lock {
+  &:before {
+    content: $lindua-user-lock; 
+  }
+}
+.lindua-user-question {
+  &:before {
+    content: $lindua-user-question; 
+  }
+}
+.lindua-user-bubble {
+  &:before {
+    content: $lindua-user-bubble; 
+  }
+}
+.lindua-user-check {
+  &:before {
+    content: $lindua-user-check; 
+  }
+}
+.lindua-user-cross {
+  &:before {
+    content: $lindua-user-cross; 
+  }
+}
+.lindua-user-edit {
+  &:before {
+    content: $lindua-user-edit; 
+  }
+}
+.lindua-user-gear {
+  &:before {
+    content: $lindua-user-gear; 
+  }
+}
+.lindua-user-info {
+  &:before {
+    content: $lindua-user-info; 
+  }
+}
+.lindua-user-24 {
+  &:before {
+    content: $lindua-user-24; 
+  }
+}
+.lindua-support {
+  &:before {
+    content: $lindua-support; 
+  }
+}
+.lindua-group {
+  &:before {
+    content: $lindua-group; 
+  }
+}
+.lindua-group-plus {
+  &:before {
+    content: $lindua-group-plus; 
+  }
+}
+.lindua-group-minus {
+  &:before {
+    content: $lindua-group-minus; 
+  }
+}
+.lindua-group-edit {
+  &:before {
+    content: $lindua-group-edit; 
+  }
+}
+.lindua-group-circle {
+  &:before {
+    content: $lindua-group-circle; 
+  }
+}
+.lindua-head {
+  &:before {
+    content: $lindua-head; 
+  }
+}
+.lindua-head-hearing {
+  &:before {
+    content: $lindua-head-hearing; 
+  }
+}
+.lindua-head-speech {
+  &:before {
+    content: $lindua-head-speech; 
+  }
+}
+.lindua-head-question {
+  &:before {
+    content: $lindua-head-question; 
+  }
+}
+.lindua-head-money {
+  &:before {
+    content: $lindua-head-money; 
+  }
+}
+.lindua-head-processing {
+  &:before {
+    content: $lindua-head-processing; 
+  }
+}
+.lindua-head-bubble {
+  &:before {
+    content: $lindua-head-bubble; 
+  }
+}
+.lindua-portrait-male {
+  &:before {
+    content: $lindua-portrait-male; 
+  }
+}
+.lindua-portrait-female {
+  &:before {
+    content: $lindua-portrait-female; 
+  }
+}
+.lindua-baby {
+  &:before {
+    content: $lindua-baby; 
+  }
+}
+.lindua-baby-crying {
+  &:before {
+    content: $lindua-baby-crying; 
+  }
+}
+.lindua-baby-smile {
+  &:before {
+    content: $lindua-baby-smile; 
+  }
+}
+.lindua-baby-tongue {
+  &:before {
+    content: $lindua-baby-tongue; 
+  }
+}
+.lindua-baby2 {
+  &:before {
+    content: $lindua-baby2; 
+  }
+}
+.lindua-baby-crying2 {
+  &:before {
+    content: $lindua-baby-crying2; 
+  }
+}
+.lindua-baby3 {
+  &:before {
+    content: $lindua-baby3; 
+  }
+}
+.lindua-baby-tongue2 {
+  &:before {
+    content: $lindua-baby-tongue2; 
+  }
+}
+.lindua-pacifier {
+  &:before {
+    content: $lindua-pacifier; 
+  }
+}
+.lindua-baby-bottle {
+  &:before {
+    content: $lindua-baby-bottle; 
+  }
+}
+.lindua-stroller {
+  &:before {
+    content: $lindua-stroller; 
+  }
+}
+.lindua-standing {
+  &:before {
+    content: $lindua-standing; 
+  }
+}
+.lindua-walking {
+  &:before {
+    content: $lindua-walking; 
+  }
+}
+.lindua-waving {
+  &:before {
+    content: $lindua-waving; 
+  }
+}
+.lindua-victory {
+  &:before {
+    content: $lindua-victory; 
+  }
+}
+.lindua-running {
+  &:before {
+    content: $lindua-running; 
+  }
+}
+.lindua-jumping {
+  &:before {
+    content: $lindua-jumping; 
+  }
+}
+.lindua-traveling {
+  &:before {
+    content: $lindua-traveling; 
+  }
+}
+.lindua-stairs {
+  &:before {
+    content: $lindua-stairs; 
+  }
+}
+.lindua-escalator-up {
+  &:before {
+    content: $lindua-escalator-up; 
+  }
+}
+.lindua-escalator-down {
+  &:before {
+    content: $lindua-escalator-down; 
+  }
+}
+.lindua-depressed {
+  &:before {
+    content: $lindua-depressed; 
+  }
+}
+.lindua-male {
+  &:before {
+    content: $lindua-male; 
+  }
+}
+.lindua-female {
+  &:before {
+    content: $lindua-female; 
+  }
+}
+.lindua-gender {
+  &:before {
+    content: $lindua-gender; 
+  }
+}
+.lindua-gender2 {
+  &:before {
+    content: $lindua-gender2; 
+  }
+}
+.lindua-bathroom-scale {
+  &:before {
+    content: $lindua-bathroom-scale; 
+  }
+}
+.lindua-height {
+  &:before {
+    content: $lindua-height; 
+  }
+}
+.lindua-button {
+  &:before {
+    content: $lindua-button; 
+  }
+}
+.lindua-button2 {
+  &:before {
+    content: $lindua-button2; 
+  }
+}
+.lindua-suit {
+  &:before {
+    content: $lindua-suit; 
+  }
+}
+.lindua-bow-tie {
+  &:before {
+    content: $lindua-bow-tie; 
+  }
+}
+.lindua-necktie {
+  &:before {
+    content: $lindua-necktie; 
+  }
+}
+.lindua-sock {
+  &:before {
+    content: $lindua-sock; 
+  }
+}
+.lindua-sock-dirty {
+  &:before {
+    content: $lindua-sock-dirty; 
+  }
+}
+.lindua-shoe {
+  &:before {
+    content: $lindua-shoe; 
+  }
+}
+.lindua-high-heels {
+  &:before {
+    content: $lindua-high-heels; 
+  }
+}
+.lindua-lips {
+  &:before {
+    content: $lindua-lips; 
+  }
+}
+.lindua-lipstick {
+  &:before {
+    content: $lindua-lipstick; 
+  }
+}
+.lindua-hairdryer {
+  &:before {
+    content: $lindua-hairdryer; 
+  }
+}
+.lindua-hand-soap {
+  &:before {
+    content: $lindua-hand-soap; 
+  }
+}
+.lindua-ring {
+  &:before {
+    content: $lindua-ring; 
+  }
+}
+.lindua-mirror {
+  &:before {
+    content: $lindua-mirror; 
+  }
+}
+.lindua-bowler-hat {
+  &:before {
+    content: $lindua-bowler-hat; 
+  }
+}
+.lindua-top-hat {
+  &:before {
+    content: $lindua-top-hat; 
+  }
+}
+.lindua-pants {
+  &:before {
+    content: $lindua-pants; 
+  }
+}
+.lindua-shorts {
+  &:before {
+    content: $lindua-shorts; 
+  }
+}
+.lindua-underwear {
+  &:before {
+    content: $lindua-underwear; 
+  }
+}
+.lindua-underwear2 {
+  &:before {
+    content: $lindua-underwear2; 
+  }
+}
+.lindua-bra {
+  &:before {
+    content: $lindua-bra; 
+  }
+}
+.lindua-shirt {
+  &:before {
+    content: $lindua-shirt; 
+  }
+}
+.lindua-gown {
+  &:before {
+    content: $lindua-gown; 
+  }
+}
+.lindua-hoodie {
+  &:before {
+    content: $lindua-hoodie; 
+  }
+}
+.lindua-hanger {
+  &:before {
+    content: $lindua-hanger; 
+  }
+}
+.lindua-hanger2 {
+  &:before {
+    content: $lindua-hanger2; 
+  }
+}
+.lindua-washing-machine {
+  &:before {
+    content: $lindua-washing-machine; 
+  }
+}
+.lindua-laundry-time {
+  &:before {
+    content: $lindua-laundry-time; 
+  }
+}
+.lindua-machine-wash {
+  &:before {
+    content: $lindua-machine-wash; 
+  }
+}
+.lindua-machine-wash-cold {
+  &:before {
+    content: $lindua-machine-wash-cold; 
+  }
+}
+.lindua-machine-wash-warm {
+  &:before {
+    content: $lindua-machine-wash-warm; 
+  }
+}
+.lindua-machine-wash-hot {
+  &:before {
+    content: $lindua-machine-wash-hot; 
+  }
+}
+.lindua-iron {
+  &:before {
+    content: $lindua-iron; 
+  }
+}
+.lindua-iron-low {
+  &:before {
+    content: $lindua-iron-low; 
+  }
+}
+.lindua-iron-medium {
+  &:before {
+    content: $lindua-iron-medium; 
+  }
+}
+.lindua-iron-high {
+  &:before {
+    content: $lindua-iron-high; 
+  }
+}
+.lindua-iron-no {
+  &:before {
+    content: $lindua-iron-no; 
+  }
+}
+.lindua-iron-steam {
+  &:before {
+    content: $lindua-iron-steam; 
+  }
+}
+.lindua-iron-steam-no {
+  &:before {
+    content: $lindua-iron-steam-no; 
+  }
+}
+.lindua-store {
+  &:before {
+    content: $lindua-store; 
+  }
+}
+.lindua-store-24 {
+  &:before {
+    content: $lindua-store-24; 
+  }
+}
+.lindua-barcode {
+  &:before {
+    content: $lindua-barcode; 
+  }
+}
+.lindua-barcode2 {
+  &:before {
+    content: $lindua-barcode2; 
+  }
+}
+.lindua-barcode3 {
+  &:before {
+    content: $lindua-barcode3; 
+  }
+}
+.lindua-qrcode {
+  &:before {
+    content: $lindua-qrcode; 
+  }
+}
+.lindua-box2 {
+  &:before {
+    content: $lindua-box2; 
+  }
+}
+.lindua-box-check {
+  &:before {
+    content: $lindua-box-check; 
+  }
+}
+.lindua-box-cross {
+  &:before {
+    content: $lindua-box-cross; 
+  }
+}
+.lindua-box3 {
+  &:before {
+    content: $lindua-box3; 
+  }
+}
+.lindua-box-check2 {
+  &:before {
+    content: $lindua-box-check2; 
+  }
+}
+.lindua-box-cross2 {
+  &:before {
+    content: $lindua-box-cross2; 
+  }
+}
+.lindua-basket {
+  &:before {
+    content: $lindua-basket; 
+  }
+}
+.lindua-bag {
+  &:before {
+    content: $lindua-bag; 
+  }
+}
+.lindua-bag-full {
+  &:before {
+    content: $lindua-bag-full; 
+  }
+}
+.lindua-bag-plus {
+  &:before {
+    content: $lindua-bag-plus; 
+  }
+}
+.lindua-bag-minus {
+  &:before {
+    content: $lindua-bag-minus; 
+  }
+}
+.lindua-bag-checkout {
+  &:before {
+    content: $lindua-bag-checkout; 
+  }
+}
+.lindua-bag-check {
+  &:before {
+    content: $lindua-bag-check; 
+  }
+}
+.lindua-bag-cross {
+  &:before {
+    content: $lindua-bag-cross; 
+  }
+}
+.lindua-cart {
+  &:before {
+    content: $lindua-cart; 
+  }
+}
+.lindua-cart-full {
+  &:before {
+    content: $lindua-cart-full; 
+  }
+}
+.lindua-cart-plus {
+  &:before {
+    content: $lindua-cart-plus; 
+  }
+}
+.lindua-cart-minus {
+  &:before {
+    content: $lindua-cart-minus; 
+  }
+}
+.lindua-cart-load {
+  &:before {
+    content: $lindua-cart-load; 
+  }
+}
+.lindua-cart-unload {
+  &:before {
+    content: $lindua-cart-unload; 
+  }
+}
+.lindua-cart-manage {
+  &:before {
+    content: $lindua-cart-manage; 
+  }
+}
+.lindua-cart-checkout {
+  &:before {
+    content: $lindua-cart-checkout; 
+  }
+}
+.lindua-cart-check {
+  &:before {
+    content: $lindua-cart-check; 
+  }
+}
+.lindua-cart-cross {
+  &:before {
+    content: $lindua-cart-cross; 
+  }
+}
+.lindua-tag {
+  &:before {
+    content: $lindua-tag; 
+  }
+}
+.lindua-tag2 {
+  &:before {
+    content: $lindua-tag2; 
+  }
+}
+.lindua-receipt {
+  &:before {
+    content: $lindua-receipt; 
+  }
+}
+.lindua-wallet {
+  &:before {
+    content: $lindua-wallet; 
+  }
+}
+.lindua-debit-card {
+  &:before {
+    content: $lindua-debit-card; 
+  }
+}
+.lindua-piggy-bank {
+  &:before {
+    content: $lindua-piggy-bank; 
+  }
+}
+.lindua-money-pouch {
+  &:before {
+    content: $lindua-money-pouch; 
+  }
+}
+.lindua-money-pouch-euro {
+  &:before {
+    content: $lindua-money-pouch-euro; 
+  }
+}
+.lindua-money-pouch-pound {
+  &:before {
+    content: $lindua-money-pouch-pound; 
+  }
+}
+.lindua-money-pouch-yen {
+  &:before {
+    content: $lindua-money-pouch-yen; 
+  }
+}
+.lindua-money-pouch-ruble {
+  &:before {
+    content: $lindua-money-pouch-ruble; 
+  }
+}
+.lindua-bill {
+  &:before {
+    content: $lindua-bill; 
+  }
+}
+.lindua-bill2 {
+  &:before {
+    content: $lindua-bill2; 
+  }
+}
+.lindua-bill-dollar {
+  &:before {
+    content: $lindua-bill-dollar; 
+  }
+}
+.lindua-bill-euro {
+  &:before {
+    content: $lindua-bill-euro; 
+  }
+}
+.lindua-bill-pound {
+  &:before {
+    content: $lindua-bill-pound; 
+  }
+}
+.lindua-bill-yen {
+  &:before {
+    content: $lindua-bill-yen; 
+  }
+}
+.lindua-bill-ruble {
+  &:before {
+    content: $lindua-bill-ruble; 
+  }
+}
+.lindua-bill-stack {
+  &:before {
+    content: $lindua-bill-stack; 
+  }
+}
+.lindua-bill-stack-dollar {
+  &:before {
+    content: $lindua-bill-stack-dollar; 
+  }
+}
+.lindua-bill-stack-euro {
+  &:before {
+    content: $lindua-bill-stack-euro; 
+  }
+}
+.lindua-bill-stack-pound {
+  &:before {
+    content: $lindua-bill-stack-pound; 
+  }
+}
+.lindua-bill-stack-yen {
+  &:before {
+    content: $lindua-bill-stack-yen; 
+  }
+}
+.lindua-bill-stack-ruble {
+  &:before {
+    content: $lindua-bill-stack-ruble; 
+  }
+}
+.lindua-calculator {
+  &:before {
+    content: $lindua-calculator; 
+  }
+}
+.lindua-calculator2 {
+  &:before {
+    content: $lindua-calculator2; 
+  }
+}
+.lindua-safe {
+  &:before {
+    content: $lindua-safe; 
+  }
+}
+.lindua-telephone {
+  &:before {
+    content: $lindua-telephone; 
+  }
+}
+.lindua-phone-end {
+  &:before {
+    content: $lindua-phone-end; 
+  }
+}
+.lindua-missed-incoming {
+  &:before {
+    content: $lindua-missed-incoming; 
+  }
+}
+.lindua-missed-outgoing {
+  &:before {
+    content: $lindua-missed-outgoing; 
+  }
+}
+.lindua-phone-lock {
+  &:before {
+    content: $lindua-phone-lock; 
+  }
+}
+.lindua-phone-loudspeaker {
+  &:before {
+    content: $lindua-phone-loudspeaker; 
+  }
+}
+.lindua-phone-bubble {
+  &:before {
+    content: $lindua-phone-bubble; 
+  }
+}
+.lindua-phone-pause {
+  &:before {
+    content: $lindua-phone-pause; 
+  }
+}
+.lindua-phone-outgoing {
+  &:before {
+    content: $lindua-phone-outgoing; 
+  }
+}
+.lindua-phone-incoming {
+  &:before {
+    content: $lindua-phone-incoming; 
+  }
+}
+.lindua-phone-in-out {
+  &:before {
+    content: $lindua-phone-in-out; 
+  }
+}
+.lindua-phone-cross {
+  &:before {
+    content: $lindua-phone-cross; 
+  }
+}
+.lindua-phone-user {
+  &:before {
+    content: $lindua-phone-user; 
+  }
+}
+.lindua-phone-time {
+  &:before {
+    content: $lindua-phone-time; 
+  }
+}
+.lindua-phone-24 {
+  &:before {
+    content: $lindua-phone-24; 
+  }
+}
+.lindua-phone-sip {
+  &:before {
+    content: $lindua-phone-sip; 
+  }
+}
+.lindua-phone-plus {
+  &:before {
+    content: $lindua-phone-plus; 
+  }
+}
+.lindua-phone-minus {
+  &:before {
+    content: $lindua-phone-minus; 
+  }
+}
+.lindua-voicemail {
+  &:before {
+    content: $lindua-voicemail; 
+  }
+}
+.lindua-telephone2 {
+  &:before {
+    content: $lindua-telephone2; 
+  }
+}
+.lindua-telephone3 {
+  &:before {
+    content: $lindua-telephone3; 
+  }
+}
+.lindua-pushpin {
+  &:before {
+    content: $lindua-pushpin; 
+  }
+}
+.lindua-pushpin-cross {
+  &:before {
+    content: $lindua-pushpin-cross; 
+  }
+}
+.lindua-pushpin2 {
+  &:before {
+    content: $lindua-pushpin2; 
+  }
+}
+.lindua-map-marker {
+  &:before {
+    content: $lindua-map-marker; 
+  }
+}
+.lindua-map-marker-user {
+  &:before {
+    content: $lindua-map-marker-user; 
+  }
+}
+.lindua-map-marker-down {
+  &:before {
+    content: $lindua-map-marker-down; 
+  }
+}
+.lindua-map-marker-plus {
+  &:before {
+    content: $lindua-map-marker-plus; 
+  }
+}
+.lindua-map-marker-minus {
+  &:before {
+    content: $lindua-map-marker-minus; 
+  }
+}
+.lindua-map-marker-check {
+  &:before {
+    content: $lindua-map-marker-check; 
+  }
+}
+.lindua-map-marker-cross {
+  &:before {
+    content: $lindua-map-marker-cross; 
+  }
+}
+.lindua-map-marker-edit {
+  &:before {
+    content: $lindua-map-marker-edit; 
+  }
+}
+.lindua-helm {
+  &:before {
+    content: $lindua-helm; 
+  }
+}
+.lindua-compass2 {
+  &:before {
+    content: $lindua-compass2; 
+  }
+}
+.lindua-map {
+  &:before {
+    content: $lindua-map; 
+  }
+}
+.lindua-map2 {
+  &:before {
+    content: $lindua-map2; 
+  }
+}
+.lindua-compass3 {
+  &:before {
+    content: $lindua-compass3; 
+  }
+}
+.lindua-road-sign {
+  &:before {
+    content: $lindua-road-sign; 
+  }
+}
+.lindua-calendar {
+  &:before {
+    content: $lindua-calendar; 
+  }
+}
+.lindua-calendar2 {
+  &:before {
+    content: $lindua-calendar2; 
+  }
+}
+.lindua-calendar3 {
+  &:before {
+    content: $lindua-calendar3; 
+  }
+}
+.lindua-calendar4 {
+  &:before {
+    content: $lindua-calendar4; 
+  }
+}
+.lindua-calendar-time {
+  &:before {
+    content: $lindua-calendar-time; 
+  }
+}
+.lindua-calendar-check {
+  &:before {
+    content: $lindua-calendar-check; 
+  }
+}
+.lindua-calendar-cross {
+  &:before {
+    content: $lindua-calendar-cross; 
+  }
+}
+.lindua-calendar-plus {
+  &:before {
+    content: $lindua-calendar-plus; 
+  }
+}
+.lindua-calendar-minus {
+  &:before {
+    content: $lindua-calendar-minus; 
+  }
+}
+.lindua-calendar-user {
+  &:before {
+    content: $lindua-calendar-user; 
+  }
+}
+.lindua-mouse {
+  &:before {
+    content: $lindua-mouse; 
+  }
+}
+.lindua-mouse-wireless {
+  &:before {
+    content: $lindua-mouse-wireless; 
+  }
+}
+.lindua-mouse-click-left {
+  &:before {
+    content: $lindua-mouse-click-left; 
+  }
+}
+.lindua-mouse-click-right {
+  &:before {
+    content: $lindua-mouse-click-right; 
+  }
+}
+.lindua-mouse-click-both {
+  &:before {
+    content: $lindua-mouse-click-both; 
+  }
+}
+.lindua-mouse-network {
+  &:before {
+    content: $lindua-mouse-network; 
+  }
+}
+.lindua-mouse-check {
+  &:before {
+    content: $lindua-mouse-check; 
+  }
+}
+.lindua-mouse-cross {
+  &:before {
+    content: $lindua-mouse-cross; 
+  }
+}
+.lindua-keyboard {
+  &:before {
+    content: $lindua-keyboard; 
+  }
+}
+.lindua-keyboard-wireless {
+  &:before {
+    content: $lindua-keyboard-wireless; 
+  }
+}
+.lindua-keyboard-show {
+  &:before {
+    content: $lindua-keyboard-show; 
+  }
+}
+.lindua-keyboard-hide {
+  &:before {
+    content: $lindua-keyboard-hide; 
+  }
+}
+.lindua-keyboard-key {
+  &:before {
+    content: $lindua-keyboard-key; 
+  }
+}
+.lindua-keyboard-key2 {
+  &:before {
+    content: $lindua-keyboard-key2; 
+  }
+}
+.lindua-keyboard-key-down {
+  &:before {
+    content: $lindua-keyboard-key-down; 
+  }
+}
+.lindua-keyboard-key-up {
+  &:before {
+    content: $lindua-keyboard-key-up; 
+  }
+}
+.lindua-delete {
+  &:before {
+    content: $lindua-delete; 
+  }
+}
+.lindua-spell-check {
+  &:before {
+    content: $lindua-spell-check; 
+  }
+}
+.lindua-circle-extract {
+  &:before {
+    content: $lindua-circle-extract; 
+  }
+}
+.lindua-circle-insert {
+  &:before {
+    content: $lindua-circle-insert; 
+  }
+}
+.lindua-widescreen {
+  &:before {
+    content: $lindua-widescreen; 
+  }
+}
+.lindua-widescreen-play {
+  &:before {
+    content: $lindua-widescreen-play; 
+  }
+}
+.lindua-widescreen-user {
+  &:before {
+    content: $lindua-widescreen-user; 
+  }
+}
+.lindua-signal {
+  &:before {
+    content: $lindua-signal; 
+  }
+}
+.lindua-signal-lock {
+  &:before {
+    content: $lindua-signal-lock; 
+  }
+}
+.lindua-signal-3of4 {
+  &:before {
+    content: $lindua-signal-3of4; 
+  }
+}
+.lindua-signal-2of4 {
+  &:before {
+    content: $lindua-signal-2of4; 
+  }
+}
+.lindua-signal-1of4 {
+  &:before {
+    content: $lindua-signal-1of4; 
+  }
+}
+.lindua-signal-error {
+  &:before {
+    content: $lindua-signal-error; 
+  }
+}
+.lindua-sim {
+  &:before {
+    content: $lindua-sim; 
+  }
+}
+.lindua-microsd {
+  &:before {
+    content: $lindua-microsd; 
+  }
+}
+.lindua-microsd-plus {
+  &:before {
+    content: $lindua-microsd-plus; 
+  }
+}
+.lindua-usb-drive {
+  &:before {
+    content: $lindua-usb-drive; 
+  }
+}
+.lindua-usb {
+  &:before {
+    content: $lindua-usb; 
+  }
+}
+.lindua-usb-question {
+  &:before {
+    content: $lindua-usb-question; 
+  }
+}
+.lindua-usb-warning {
+  &:before {
+    content: $lindua-usb-warning; 
+  }
+}
+.lindua-usb-check {
+  &:before {
+    content: $lindua-usb-check; 
+  }
+}
+.lindua-usb-cross {
+  &:before {
+    content: $lindua-usb-cross; 
+  }
+}
+.lindua-usb-plus {
+  &:before {
+    content: $lindua-usb-plus; 
+  }
+}
+.lindua-usb-minus {
+  &:before {
+    content: $lindua-usb-minus; 
+  }
+}
+.lindua-smartphone {
+  &:before {
+    content: $lindua-smartphone; 
+  }
+}
+.lindua-smartphone2 {
+  &:before {
+    content: $lindua-smartphone2; 
+  }
+}
+.lindua-smartphone-vibration {
+  &:before {
+    content: $lindua-smartphone-vibration; 
+  }
+}
+.lindua-smartphone-speakers {
+  &:before {
+    content: $lindua-smartphone-speakers; 
+  }
+}
+.lindua-smartphone-pencil {
+  &:before {
+    content: $lindua-smartphone-pencil; 
+  }
+}
+.lindua-smartphone-ringtone {
+  &:before {
+    content: $lindua-smartphone-ringtone; 
+  }
+}
+.lindua-smartphone-silent {
+  &:before {
+    content: $lindua-smartphone-silent; 
+  }
+}
+.lindua-smartphone-time {
+  &:before {
+    content: $lindua-smartphone-time; 
+  }
+}
+.lindua-smartphone-sync {
+  &:before {
+    content: $lindua-smartphone-sync; 
+  }
+}
+.lindua-smartphone-code {
+  &:before {
+    content: $lindua-smartphone-code; 
+  }
+}
+.lindua-smartphone-backup {
+  &:before {
+    content: $lindua-smartphone-backup; 
+  }
+}
+.lindua-smartphone-info {
+  &:before {
+    content: $lindua-smartphone-info; 
+  }
+}
+.lindua-smartphone-lock {
+  &:before {
+    content: $lindua-smartphone-lock; 
+  }
+}
+.lindua-smartphone-check {
+  &:before {
+    content: $lindua-smartphone-check; 
+  }
+}
+.lindua-smartphone-warning {
+  &:before {
+    content: $lindua-smartphone-warning; 
+  }
+}
+.lindua-smartphone-text {
+  &:before {
+    content: $lindua-smartphone-text; 
+  }
+}
+.lindua-smartphone-user {
+  &:before {
+    content: $lindua-smartphone-user; 
+  }
+}
+.lindua-smartphone-rotate {
+  &:before {
+    content: $lindua-smartphone-rotate; 
+  }
+}
+.lindua-smartphone-transfer {
+  &:before {
+    content: $lindua-smartphone-transfer; 
+  }
+}
+.lindua-tablet {
+  &:before {
+    content: $lindua-tablet; 
+  }
+}
+.lindua-tablet2 {
+  &:before {
+    content: $lindua-tablet2; 
+  }
+}
+.lindua-laptop {
+  &:before {
+    content: $lindua-laptop; 
+  }
+}
+.lindua-laptop-cross {
+  &:before {
+    content: $lindua-laptop-cross; 
+  }
+}
+.lindua-laptop-warning {
+  &:before {
+    content: $lindua-laptop-warning; 
+  }
+}
+.lindua-laptop-play {
+  &:before {
+    content: $lindua-laptop-play; 
+  }
+}
+.lindua-laptop-code {
+  &:before {
+    content: $lindua-laptop-code; 
+  }
+}
+.lindua-laptop-education {
+  &:before {
+    content: $lindua-laptop-education; 
+  }
+}
+.lindua-laptop-user {
+  &:before {
+    content: $lindua-laptop-user; 
+  }
+}
+.lindua-laptop-share {
+  &:before {
+    content: $lindua-laptop-share; 
+  }
+}
+.lindua-laptop-phone {
+  &:before {
+    content: $lindua-laptop-phone; 
+  }
+}
+.lindua-laptop-phone-sync {
+  &:before {
+    content: $lindua-laptop-phone-sync; 
+  }
+}
+.lindua-webcam {
+  &:before {
+    content: $lindua-webcam; 
+  }
+}
+.lindua-monitor {
+  &:before {
+    content: $lindua-monitor; 
+  }
+}
+.lindua-monitor-play {
+  &:before {
+    content: $lindua-monitor-play; 
+  }
+}
+.lindua-monitor-share {
+  &:before {
+    content: $lindua-monitor-share; 
+  }
+}
+.lindua-thin {
+  &:before {
+    content: $lindua-thin; 
+  }
+}
+.lindua-external {
+  &:before {
+    content: $lindua-external; 
+  }
+}
+.lindua-external2 {
+  &:before {
+    content: $lindua-external2; 
+  }
+}
+.lindua-window2 {
+  &:before {
+    content: $lindua-window2; 
+  }
+}
+.lindua-window-tab {
+  &:before {
+    content: $lindua-window-tab; 
+  }
+}
+.lindua-window-tab-plus {
+  &:before {
+    content: $lindua-window-tab-plus; 
+  }
+}
+.lindua-tv {
+  &:before {
+    content: $lindua-tv; 
+  }
+}
+.lindua-radio {
+  &:before {
+    content: $lindua-radio; 
+  }
+}
+.lindua-remote-control {
+  &:before {
+    content: $lindua-remote-control; 
+  }
+}
+.lindua-remote-control2 {
+  &:before {
+    content: $lindua-remote-control2; 
+  }
+}
+.lindua-power-switch {
+  &:before {
+    content: $lindua-power-switch; 
+  }
+}
+.lindua-power-switch2 {
+  &:before {
+    content: $lindua-power-switch2; 
+  }
+}
+.lindua-power2 {
+  &:before {
+    content: $lindua-power2; 
+  }
+}
+.lindua-power-auto {
+  &:before {
+    content: $lindua-power-auto; 
+  }
+}
+.lindua-power-cross {
+  &:before {
+    content: $lindua-power-cross; 
+  }
+}
+.lindua-power-warning {
+  &:before {
+    content: $lindua-power-warning; 
+  }
+}
+.lindua-power-dollar {
+  &:before {
+    content: $lindua-power-dollar; 
+  }
+}
+.lindua-lamp {
+  &:before {
+    content: $lindua-lamp; 
+  }
+}
+.lindua-lamp-bright {
+  &:before {
+    content: $lindua-lamp-bright; 
+  }
+}
+.lindua-lamp-check {
+  &:before {
+    content: $lindua-lamp-check; 
+  }
+}
+.lindua-lamp-plus {
+  &:before {
+    content: $lindua-lamp-plus; 
+  }
+}
+.lindua-lamp-minus {
+  &:before {
+    content: $lindua-lamp-minus; 
+  }
+}
+.lindua-lamp-time {
+  &:before {
+    content: $lindua-lamp-time; 
+  }
+}
+.lindua-lamp-gear {
+  &:before {
+    content: $lindua-lamp-gear; 
+  }
+}
+.lindua-flashlight {
+  &:before {
+    content: $lindua-flashlight; 
+  }
+}
+.lindua-flashlight-bright {
+  &:before {
+    content: $lindua-flashlight-bright; 
+  }
+}
+.lindua-floor-lamp {
+  &:before {
+    content: $lindua-floor-lamp; 
+  }
+}
+.lindua-reflection {
+  &:before {
+    content: $lindua-reflection; 
+  }
+}
+.lindua-solar-power {
+  &:before {
+    content: $lindua-solar-power; 
+  }
+}
+.lindua-solar-power2 {
+  &:before {
+    content: $lindua-solar-power2; 
+  }
+}
+.lindua-solar-panel {
+  &:before {
+    content: $lindua-solar-panel; 
+  }
+}
+.lindua-plug {
+  &:before {
+    content: $lindua-plug; 
+  }
+}
+.lindua-plug-cross {
+  &:before {
+    content: $lindua-plug-cross; 
+  }
+}
+.lindua-socket {
+  &:before {
+    content: $lindua-socket; 
+  }
+}
+.lindua-battery-bolt {
+  &:before {
+    content: $lindua-battery-bolt; 
+  }
+}
+.lindua-battery-plug {
+  &:before {
+    content: $lindua-battery-plug; 
+  }
+}
+.lindua-battery-droplet {
+  &:before {
+    content: $lindua-battery-droplet; 
+  }
+}
+.lindua-battery-plus {
+  &:before {
+    content: $lindua-battery-plus; 
+  }
+}
+.lindua-battery-question {
+  &:before {
+    content: $lindua-battery-question; 
+  }
+}
+.lindua-battery-warning {
+  &:before {
+    content: $lindua-battery-warning; 
+  }
+}
+.lindua-battery-check {
+  &:before {
+    content: $lindua-battery-check; 
+  }
+}
+.lindua-battery-cross {
+  &:before {
+    content: $lindua-battery-cross; 
+  }
+}
+.lindua-battery-empty {
+  &:before {
+    content: $lindua-battery-empty; 
+  }
+}
+.lindua-battery-10 {
+  &:before {
+    content: $lindua-battery-10; 
+  }
+}
+.lindua-battery-25 {
+  &:before {
+    content: $lindua-battery-25; 
+  }
+}
+.lindua-battery-40 {
+  &:before {
+    content: $lindua-battery-40; 
+  }
+}
+.lindua-battery-50 {
+  &:before {
+    content: $lindua-battery-50; 
+  }
+}
+.lindua-battery-60 {
+  &:before {
+    content: $lindua-battery-60; 
+  }
+}
+.lindua-battery-75 {
+  &:before {
+    content: $lindua-battery-75; 
+  }
+}
+.lindua-battery-90 {
+  &:before {
+    content: $lindua-battery-90; 
+  }
+}
+.lindua-battery-100 {
+  &:before {
+    content: $lindua-battery-100; 
+  }
+}
+.lindua-battery-plug2 {
+  &:before {
+    content: $lindua-battery-plug2; 
+  }
+}
+.lindua-battery-plug-10 {
+  &:before {
+    content: $lindua-battery-plug-10; 
+  }
+}
+.lindua-battery-plug-25 {
+  &:before {
+    content: $lindua-battery-plug-25; 
+  }
+}
+.lindua-battery-plug-40 {
+  &:before {
+    content: $lindua-battery-plug-40; 
+  }
+}
+.lindua-battery-plug-50 {
+  &:before {
+    content: $lindua-battery-plug-50; 
+  }
+}
+.lindua-battery-plug-60 {
+  &:before {
+    content: $lindua-battery-plug-60; 
+  }
+}
+.lindua-battery-plug-75 {
+  &:before {
+    content: $lindua-battery-plug-75; 
+  }
+}
+.lindua-battery-plug-90 {
+  &:before {
+    content: $lindua-battery-plug-90; 
+  }
+}
+.lindua-battery-plug-100 {
+  &:before {
+    content: $lindua-battery-plug-100; 
+  }
+}
+.lindua-led {
+  &:before {
+    content: $lindua-led; 
+  }
+}
+.lindua-led-bright {
+  &:before {
+    content: $lindua-led-bright; 
+  }
+}
+.lindua-resistor {
+  &:before {
+    content: $lindua-resistor; 
+  }
+}
+.lindua-capacitor {
+  &:before {
+    content: $lindua-capacitor; 
+  }
+}
+.lindua-ic {
+  &:before {
+    content: $lindua-ic; 
+  }
+}
+.lindua-cpu {
+  &:before {
+    content: $lindua-cpu; 
+  }
+}
+.lindua-cpu-x64 {
+  &:before {
+    content: $lindua-cpu-x64; 
+  }
+}
+.lindua-cpu-x86 {
+  &:before {
+    content: $lindua-cpu-x86; 
+  }
+}
+.lindua-bubble-text {
+  &:before {
+    content: $lindua-bubble-text; 
+  }
+}
+.lindua-bubble-check {
+  &:before {
+    content: $lindua-bubble-check; 
+  }
+}
+.lindua-bubble-cross {
+  &:before {
+    content: $lindua-bubble-cross; 
+  }
+}
+.lindua-bubble-time {
+  &:before {
+    content: $lindua-bubble-time; 
+  }
+}
+.lindua-bubbles {
+  &:before {
+    content: $lindua-bubbles; 
+  }
+}
+.lindua-bubble {
+  &:before {
+    content: $lindua-bubble; 
+  }
+}
+.lindua-bubble-shiny {
+  &:before {
+    content: $lindua-bubble-shiny; 
+  }
+}
+.lindua-bubbles2 {
+  &:before {
+    content: $lindua-bubbles2; 
+  }
+}
+.lindua-bubble-dots {
+  &:before {
+    content: $lindua-bubble-dots; 
+  }
+}
+.lindua-bubble-paperclip {
+  &:before {
+    content: $lindua-bubble-paperclip; 
+  }
+}
+.lindua-bubble-exclamation {
+  &:before {
+    content: $lindua-bubble-exclamation; 
+  }
+}
+.lindua-bubble-question {
+  &:before {
+    content: $lindua-bubble-question; 
+  }
+}
+.lindua-bubble-text2 {
+  &:before {
+    content: $lindua-bubble-text2; 
+  }
+}
+.lindua-bubble-writing {
+  &:before {
+    content: $lindua-bubble-writing; 
+  }
+}
+.lindua-bubble-picture {
+  &:before {
+    content: $lindua-bubble-picture; 
+  }
+}
+.lindua-bubble-music {
+  &:before {
+    content: $lindua-bubble-music; 
+  }
+}
+.lindua-bubble-music2 {
+  &:before {
+    content: $lindua-bubble-music2; 
+  }
+}
+.lindua-bubble-video {
+  &:before {
+    content: $lindua-bubble-video; 
+  }
+}
+.lindua-bubble-friend {
+  &:before {
+    content: $lindua-bubble-friend; 
+  }
+}
+.lindua-bubble-friend-plus {
+  &:before {
+    content: $lindua-bubble-friend-plus; 
+  }
+}
+.lindua-bubble-quote {
+  &:before {
+    content: $lindua-bubble-quote; 
+  }
+}
+.lindua-bubble-heart {
+  &:before {
+    content: $lindua-bubble-heart; 
+  }
+}
+.lindua-bubble-emoji {
+  &:before {
+    content: $lindua-bubble-emoji; 
+  }
+}
+.lindua-bubble-poker-face {
+  &:before {
+    content: $lindua-bubble-poker-face; 
+  }
+}
+.lindua-bubble-sad {
+  &:before {
+    content: $lindua-bubble-sad; 
+  }
+}
+.lindua-bubble-mad {
+  &:before {
+    content: $lindua-bubble-mad; 
+  }
+}
+.lindua-bubble-shocked {
+  &:before {
+    content: $lindua-bubble-shocked; 
+  }
+}
+.lindua-quote-left {
+  &:before {
+    content: $lindua-quote-left; 
+  }
+}
+.lindua-quote-right {
+  &:before {
+    content: $lindua-quote-right; 
+  }
+}
+.lindua-dna {
+  &:before {
+    content: $lindua-dna; 
+  }
+}
+.lindua-dna-code {
+  &:before {
+    content: $lindua-dna-code; 
+  }
+}
+.lindua-lungs {
+  &:before {
+    content: $lindua-lungs; 
+  }
+}
+.lindua-inhaler {
+  &:before {
+    content: $lindua-inhaler; 
+  }
+}
+.lindua-heart2 {
+  &:before {
+    content: $lindua-heart2; 
+  }
+}
+.lindua-heart3 {
+  &:before {
+    content: $lindua-heart3; 
+  }
+}
+.lindua-heart-plus {
+  &:before {
+    content: $lindua-heart-plus; 
+  }
+}
+.lindua-heart-time {
+  &:before {
+    content: $lindua-heart-time; 
+  }
+}
+.lindua-heart-pulse {
+  &:before {
+    content: $lindua-heart-pulse; 
+  }
+}
+.lindua-stethoscope {
+  &:before {
+    content: $lindua-stethoscope; 
+  }
+}
+.lindua-pulse {
+  &:before {
+    content: $lindua-pulse; 
+  }
+}
+.lindua-syringe {
+  &:before {
+    content: $lindua-syringe; 
+  }
+}
+.lindua-bottle2 {
+  &:before {
+    content: $lindua-bottle2; 
+  }
+}
+.lindua-pills {
+  &:before {
+    content: $lindua-pills; 
+  }
+}
+.lindua-first-aid-kit {
+  &:before {
+    content: $lindua-first-aid-kit; 
+  }
+}
+.lindua-lifebuoy {
+  &:before {
+    content: $lindua-lifebuoy; 
+  }
+}
+.lindua-bandage {
+  &:before {
+    content: $lindua-bandage; 
+  }
+}
+.lindua-bandages {
+  &:before {
+    content: $lindua-bandages; 
+  }
+}
+.lindua-thermometer {
+  &:before {
+    content: $lindua-thermometer; 
+  }
+}
+.lindua-thermometer-plus {
+  &:before {
+    content: $lindua-thermometer-plus; 
+  }
+}
+.lindua-thermometer-minus {
+  &:before {
+    content: $lindua-thermometer-minus; 
+  }
+}
+.lindua-thermometer-sun {
+  &:before {
+    content: $lindua-thermometer-sun; 
+  }
+}
+.lindua-thermometer-snow {
+  &:before {
+    content: $lindua-thermometer-snow; 
+  }
+}
+.lindua-thermometer-gear {
+  &:before {
+    content: $lindua-thermometer-gear; 
+  }
+}
+.lindua-microscope {
+  &:before {
+    content: $lindua-microscope; 
+  }
+}
+.lindua-atom {
+  &:before {
+    content: $lindua-atom; 
+  }
+}
+.lindua-test-tube {
+  &:before {
+    content: $lindua-test-tube; 
+  }
+}
+.lindua-beaker {
+  &:before {
+    content: $lindua-beaker; 
+  }
+}
+.lindua-rb-flask {
+  &:before {
+    content: $lindua-rb-flask; 
+  }
+}
+.lindua-rb-flask-warning {
+  &:before {
+    content: $lindua-rb-flask-warning; 
+  }
+}
+.lindua-flask {
+  &:before {
+    content: $lindua-flask; 
+  }
+}
+.lindua-flask-warning {
+  &:before {
+    content: $lindua-flask-warning; 
+  }
+}
+.lindua-skull {
+  &:before {
+    content: $lindua-skull; 
+  }
+}
+.lindua-bone {
+  &:before {
+    content: $lindua-bone; 
+  }
+}
+.lindua-chart-upward {
+  &:before {
+    content: $lindua-chart-upward; 
+  }
+}
+.lindua-chart-downward {
+  &:before {
+    content: $lindua-chart-downward; 
+  }
+}
+.lindua-scatterplot {
+  &:before {
+    content: $lindua-scatterplot; 
+  }
+}
+.lindua-chart {
+  &:before {
+    content: $lindua-chart; 
+  }
+}
+.lindua-pie-chart {
+  &:before {
+    content: $lindua-pie-chart; 
+  }
+}
+.lindua-cake {
+  &:before {
+    content: $lindua-cake; 
+  }
+}
+.lindua-gift {
+  &:before {
+    content: $lindua-gift; 
+  }
+}
+.lindua-balloon {
+  &:before {
+    content: $lindua-balloon; 
+  }
+}
+.lindua-flower {
+  &:before {
+    content: $lindua-flower; 
+  }
+}
+.lindua-flower2 {
+  &:before {
+    content: $lindua-flower2; 
+  }
+}
+.lindua-flower3 {
+  &:before {
+    content: $lindua-flower3; 
+  }
+}
+.lindua-rank {
+  &:before {
+    content: $lindua-rank; 
+  }
+}
+.lindua-rank2 {
+  &:before {
+    content: $lindua-rank2; 
+  }
+}
+.lindua-rank3 {
+  &:before {
+    content: $lindua-rank3; 
+  }
+}
+.lindua-crown {
+  &:before {
+    content: $lindua-crown; 
+  }
+}
+.lindua-emerald {
+  &:before {
+    content: $lindua-emerald; 
+  }
+}
+.lindua-ruby {
+  &:before {
+    content: $lindua-ruby; 
+  }
+}
+.lindua-diamond {
+  &:before {
+    content: $lindua-diamond; 
+  }
+}
+.lindua-diamond2 {
+  &:before {
+    content: $lindua-diamond2; 
+  }
+}
+.lindua-tea-bag {
+  &:before {
+    content: $lindua-tea-bag; 
+  }
+}
+.lindua-teacup {
+  &:before {
+    content: $lindua-teacup; 
+  }
+}
+.lindua-glass {
+  &:before {
+    content: $lindua-glass; 
+  }
+}
+.lindua-glass-broken {
+  &:before {
+    content: $lindua-glass-broken; 
+  }
+}
+.lindua-glass-cocktail {
+  &:before {
+    content: $lindua-glass-cocktail; 
+  }
+}
+.lindua-tankard {
+  &:before {
+    content: $lindua-tankard; 
+  }
+}
+.lindua-glass2 {
+  &:before {
+    content: $lindua-glass2; 
+  }
+}
+.lindua-fork {
+  &:before {
+    content: $lindua-fork; 
+  }
+}
+.lindua-knife {
+  &:before {
+    content: $lindua-knife; 
+  }
+}
+.lindua-spoon {
+  &:before {
+    content: $lindua-spoon; 
+  }
+}
+.lindua-fork-knife {
+  &:before {
+    content: $lindua-fork-knife; 
+  }
+}
+.lindua-fork-spoon {
+  &:before {
+    content: $lindua-fork-spoon; 
+  }
+}
+.lindua-fork-knife2 {
+  &:before {
+    content: $lindua-fork-knife2; 
+  }
+}
+.lindua-fork-spoon2 {
+  &:before {
+    content: $lindua-fork-spoon2; 
+  }
+}
+.lindua-table {
+  &:before {
+    content: $lindua-table; 
+  }
+}
+.lindua-chef {
+  &:before {
+    content: $lindua-chef; 
+  }
+}
+.lindua-pot {
+  &:before {
+    content: $lindua-pot; 
+  }
+}
+.lindua-pot-time {
+  &:before {
+    content: $lindua-pot-time; 
+  }
+}
+.lindua-pot-hot {
+  &:before {
+    content: $lindua-pot-hot; 
+  }
+}
+.lindua-microwave {
+  &:before {
+    content: $lindua-microwave; 
+  }
+}
+.lindua-refrigerator {
+  &:before {
+    content: $lindua-refrigerator; 
+  }
+}
+.lindua-kitchen-scale {
+  &:before {
+    content: $lindua-kitchen-scale; 
+  }
+}
+.lindua-weight {
+  &:before {
+    content: $lindua-weight; 
+  }
+}
+.lindua-weight-1kg {
+  &:before {
+    content: $lindua-weight-1kg; 
+  }
+}
+.lindua-weight-1lb {
+  &:before {
+    content: $lindua-weight-1lb; 
+  }
+}
+.lindua-weight-1oz {
+  &:before {
+    content: $lindua-weight-1oz; 
+  }
+}
+.lindua-mixer {
+  &:before {
+    content: $lindua-mixer; 
+  }
+}
+.lindua-rolling-pin {
+  &:before {
+    content: $lindua-rolling-pin; 
+  }
+}
+.lindua-egg {
+  &:before {
+    content: $lindua-egg; 
+  }
+}
+.lindua-egg-broken {
+  &:before {
+    content: $lindua-egg-broken; 
+  }
+}
+.lindua-platter {
+  &:before {
+    content: $lindua-platter; 
+  }
+}
+.lindua-pig {
+  &:before {
+    content: $lindua-pig; 
+  }
+}
+.lindua-steak {
+  &:before {
+    content: $lindua-steak; 
+  }
+}
+.lindua-fries {
+  &:before {
+    content: $lindua-fries; 
+  }
+}
+.lindua-burger {
+  &:before {
+    content: $lindua-burger; 
+  }
+}
+.lindua-hot-dog {
+  &:before {
+    content: $lindua-hot-dog; 
+  }
+}
+.lindua-pizza {
+  &:before {
+    content: $lindua-pizza; 
+  }
+}
+.lindua-chicken-leg {
+  &:before {
+    content: $lindua-chicken-leg; 
+  }
+}
+.lindua-fish {
+  &:before {
+    content: $lindua-fish; 
+  }
+}
+.lindua-carrot {
+  &:before {
+    content: $lindua-carrot; 
+  }
+}
+.lindua-cheese {
+  &:before {
+    content: $lindua-cheese; 
+  }
+}
+.lindua-fried-egg {
+  &:before {
+    content: $lindua-fried-egg; 
+  }
+}
+.lindua-milk-bottle {
+  &:before {
+    content: $lindua-milk-bottle; 
+  }
+}
+.lindua-pitcher {
+  &:before {
+    content: $lindua-pitcher; 
+  }
+}
+.lindua-toaster {
+  &:before {
+    content: $lindua-toaster; 
+  }
+}
+.lindua-toast {
+  &:before {
+    content: $lindua-toast; 
+  }
+}
+.lindua-ice-cream-bar {
+  &:before {
+    content: $lindua-ice-cream-bar; 
+  }
+}
+.lindua-ice-cream {
+  &:before {
+    content: $lindua-ice-cream; 
+  }
+}
+.lindua-candy {
+  &:before {
+    content: $lindua-candy; 
+  }
+}
+.lindua-lollipop {
+  &:before {
+    content: $lindua-lollipop; 
+  }
+}
+.lindua-donut {
+  &:before {
+    content: $lindua-donut; 
+  }
+}
+.lindua-coffee-maker {
+  &:before {
+    content: $lindua-coffee-maker; 
+  }
+}
+.lindua-coffee-pot {
+  &:before {
+    content: $lindua-coffee-pot; 
+  }
+}
+.lindua-paper-cup {
+  &:before {
+    content: $lindua-paper-cup; 
+  }
+}
+.lindua-mug {
+  &:before {
+    content: $lindua-mug; 
+  }
+}
+.lindua-coffee-bean {
+  &:before {
+    content: $lindua-coffee-bean; 
+  }
+}
+.lindua-cherry {
+  &:before {
+    content: $lindua-cherry; 
+  }
+}
+.lindua-grape {
+  &:before {
+    content: $lindua-grape; 
+  }
+}
+.lindua-citrus {
+  &:before {
+    content: $lindua-citrus; 
+  }
+}
+.lindua-apple {
+  &:before {
+    content: $lindua-apple; 
+  }
+}
+.lindua-apple-check {
+  &:before {
+    content: $lindua-apple-check; 
+  }
+}
+.lindua-leaf {
+  &:before {
+    content: $lindua-leaf; 
+  }
+}
+.lindua-leaf-plus {
+  &:before {
+    content: $lindua-leaf-plus; 
+  }
+}
+.lindua-leaf-check {
+  &:before {
+    content: $lindua-leaf-check; 
+  }
+}
+.lindua-leaf-cross {
+  &:before {
+    content: $lindua-leaf-cross; 
+  }
+}
+.lindua-cactus {
+  &:before {
+    content: $lindua-cactus; 
+  }
+}
+.lindua-diving-mask {
+  &:before {
+    content: $lindua-diving-mask; 
+  }
+}
+.lindua-fish-bowl {
+  &:before {
+    content: $lindua-fish-bowl; 
+  }
+}
+.lindua-hook {
+  &:before {
+    content: $lindua-hook; 
+  }
+}
+.lindua-paw {
+  &:before {
+    content: $lindua-paw; 
+  }
+}
+.lindua-footprint {
+  &:before {
+    content: $lindua-footprint; 
+  }
+}
+.lindua-speed-slow {
+  &:before {
+    content: $lindua-speed-slow; 
+  }
+}
+.lindua-speed-medium {
+  &:before {
+    content: $lindua-speed-medium; 
+  }
+}
+.lindua-speed-fast {
+  &:before {
+    content: $lindua-speed-fast; 
+  }
+}
+.lindua-rocket {
+  &:before {
+    content: $lindua-rocket; 
+  }
+}
+.lindua-flying-saucer {
+  &:before {
+    content: $lindua-flying-saucer; 
+  }
+}
+.lindua-flying-saucer2 {
+  &:before {
+    content: $lindua-flying-saucer2; 
+  }
+}
+.lindua-hammer2 {
+  &:before {
+    content: $lindua-hammer2; 
+  }
+}
+.lindua-balance {
+  &:before {
+    content: $lindua-balance; 
+  }
+}
+.lindua-briefcase {
+  &:before {
+    content: $lindua-briefcase; 
+  }
+}
+.lindua-briefcase-money {
+  &:before {
+    content: $lindua-briefcase-money; 
+  }
+}
+.lindua-briefcase-question {
+  &:before {
+    content: $lindua-briefcase-question; 
+  }
+}
+.lindua-luggage-weight {
+  &:before {
+    content: $lindua-luggage-weight; 
+  }
+}
+.lindua-hand-truck {
+  &:before {
+    content: $lindua-hand-truck; 
+  }
+}
+.lindua-construction {
+  &:before {
+    content: $lindua-construction; 
+  }
+}
+.lindua-construction-cone {
+  &:before {
+    content: $lindua-construction-cone; 
+  }
+}
+.lindua-traffic-lights {
+  &:before {
+    content: $lindua-traffic-lights; 
+  }
+}
+.lindua-siren {
+  &:before {
+    content: $lindua-siren; 
+  }
+}
+.lindua-siren-bright {
+  &:before {
+    content: $lindua-siren-bright; 
+  }
+}
+.lindua-road {
+  &:before {
+    content: $lindua-road; 
+  }
+}
+.lindua-disc-brake {
+  &:before {
+    content: $lindua-disc-brake; 
+  }
+}
+.lindua-engine {
+  &:before {
+    content: $lindua-engine; 
+  }
+}
+.lindua-oil-pressure {
+  &:before {
+    content: $lindua-oil-pressure; 
+  }
+}
+.lindua-car-battery {
+  &:before {
+    content: $lindua-car-battery; 
+  }
+}
+.lindua-charging-station {
+  &:before {
+    content: $lindua-charging-station; 
+  }
+}
+.lindua-gas-station {
+  &:before {
+    content: $lindua-gas-station; 
+  }
+}
+.lindua-gallon {
+  &:before {
+    content: $lindua-gallon; 
+  }
+}
+.lindua-transmission {
+  &:before {
+    content: $lindua-transmission; 
+  }
+}
+.lindua-car {
+  &:before {
+    content: $lindua-car; 
+  }
+}
+.lindua-car-plug {
+  &:before {
+    content: $lindua-car-plug; 
+  }
+}
+.lindua-car-check {
+  &:before {
+    content: $lindua-car-check; 
+  }
+}
+.lindua-car-cross {
+  &:before {
+    content: $lindua-car-cross; 
+  }
+}
+.lindua-car-wash {
+  &:before {
+    content: $lindua-car-wash; 
+  }
+}
+.lindua-car-lock {
+  &:before {
+    content: $lindua-car-lock; 
+  }
+}
+.lindua-car-parking {
+  &:before {
+    content: $lindua-car-parking; 
+  }
+}
+.lindua-bus {
+  &:before {
+    content: $lindua-bus; 
+  }
+}
+.lindua-bus2 {
+  &:before {
+    content: $lindua-bus2; 
+  }
+}
+.lindua-car2 {
+  &:before {
+    content: $lindua-car2; 
+  }
+}
+.lindua-car-lock2 {
+  &:before {
+    content: $lindua-car-lock2; 
+  }
+}
+.lindua-car-parking2 {
+  &:before {
+    content: $lindua-car-parking2; 
+  }
+}
+.lindua-police {
+  &:before {
+    content: $lindua-police; 
+  }
+}
+.lindua-taxi {
+  &:before {
+    content: $lindua-taxi; 
+  }
+}
+.lindua-jet-engine {
+  &:before {
+    content: $lindua-jet-engine; 
+  }
+}
+.lindua-airplane {
+  &:before {
+    content: $lindua-airplane; 
+  }
+}
+.lindua-airplane-cross {
+  &:before {
+    content: $lindua-airplane-cross; 
+  }
+}
+.lindua-quadcopter {
+  &:before {
+    content: $lindua-quadcopter; 
+  }
+}
+.lindua-helicopter {
+  &:before {
+    content: $lindua-helicopter; 
+  }
+}
+.lindua-helipad {
+  &:before {
+    content: $lindua-helipad; 
+  }
+}
+.lindua-helipad2 {
+  &:before {
+    content: $lindua-helipad2; 
+  }
+}
+.lindua-first-aid {
+  &:before {
+    content: $lindua-first-aid; 
+  }
+}
+.lindua-ambulance {
+  &:before {
+    content: $lindua-ambulance; 
+  }
+}
+.lindua-truck {
+  &:before {
+    content: $lindua-truck; 
+  }
+}
+.lindua-truck-arrow {
+  &:before {
+    content: $lindua-truck-arrow; 
+  }
+}
+.lindua-truck-time {
+  &:before {
+    content: $lindua-truck-time; 
+  }
+}
+.lindua-truck-check {
+  &:before {
+    content: $lindua-truck-check; 
+  }
+}
+.lindua-truck-cross {
+  &:before {
+    content: $lindua-truck-cross; 
+  }
+}
+.lindua-truck-scale {
+  &:before {
+    content: $lindua-truck-scale; 
+  }
+}
+.lindua-train {
+  &:before {
+    content: $lindua-train; 
+  }
+}
+.lindua-yacht {
+  &:before {
+    content: $lindua-yacht; 
+  }
+}
+.lindua-ship {
+  &:before {
+    content: $lindua-ship; 
+  }
+}
+.lindua-anchor {
+  &:before {
+    content: $lindua-anchor; 
+  }
+}
+.lindua-lighthouse {
+  &:before {
+    content: $lindua-lighthouse; 
+  }
+}
+.lindua-boat {
+  &:before {
+    content: $lindua-boat; 
+  }
+}
+.lindua-bicycle {
+  &:before {
+    content: $lindua-bicycle; 
+  }
+}
+.lindua-bicycle-riding {
+  &:before {
+    content: $lindua-bicycle-riding; 
+  }
+}
+.lindua-skating {
+  &:before {
+    content: $lindua-skating; 
+  }
+}
+.lindua-hiking {
+  &:before {
+    content: $lindua-hiking; 
+  }
+}
+.lindua-rowing {
+  &:before {
+    content: $lindua-rowing; 
+  }
+}
+.lindua-swimming {
+  &:before {
+    content: $lindua-swimming; 
+  }
+}
+.lindua-swimming-warning {
+  &:before {
+    content: $lindua-swimming-warning; 
+  }
+}
+.lindua-diving {
+  &:before {
+    content: $lindua-diving; 
+  }
+}
+.lindua-diving-warning {
+  &:before {
+    content: $lindua-diving-warning; 
+  }
+}
+.lindua-snorkeling {
+  &:before {
+    content: $lindua-snorkeling; 
+  }
+}
+.lindua-weight-lifting {
+  &:before {
+    content: $lindua-weight-lifting; 
+  }
+}
+.lindua-dumbbell {
+  &:before {
+    content: $lindua-dumbbell; 
+  }
+}
+.lindua-baseball {
+  &:before {
+    content: $lindua-baseball; 
+  }
+}
+.lindua-baseball-bat {
+  &:before {
+    content: $lindua-baseball-bat; 
+  }
+}
+.lindua-football {
+  &:before {
+    content: $lindua-football; 
+  }
+}
+.lindua-hockey {
+  &:before {
+    content: $lindua-hockey; 
+  }
+}
+.lindua-golf {
+  &:before {
+    content: $lindua-golf; 
+  }
+}
+.lindua-bowling-ball {
+  &:before {
+    content: $lindua-bowling-ball; 
+  }
+}
+.lindua-tennis {
+  &:before {
+    content: $lindua-tennis; 
+  }
+}
+.lindua-tennis-ball {
+  &:before {
+    content: $lindua-tennis-ball; 
+  }
+}
+.lindua-pool {
+  &:before {
+    content: $lindua-pool; 
+  }
+}
+.lindua-ping-pong {
+  &:before {
+    content: $lindua-ping-pong; 
+  }
+}
+.lindua-archery {
+  &:before {
+    content: $lindua-archery; 
+  }
+}
+.lindua-target {
+  &:before {
+    content: $lindua-target; 
+  }
+}
+.lindua-fencing {
+  &:before {
+    content: $lindua-fencing; 
+  }
+}
+.lindua-slingshot {
+  &:before {
+    content: $lindua-slingshot; 
+  }
+}
+.lindua-soccer {
+  &:before {
+    content: $lindua-soccer; 
+  }
+}
+.lindua-basketball {
+  &:before {
+    content: $lindua-basketball; 
+  }
+}
+.lindua-whistle {
+  &:before {
+    content: $lindua-whistle; 
+  }
+}
+.lindua-cube {
+  &:before {
+    content: $lindua-cube; 
+  }
+}
+.lindua-cube-front {
+  &:before {
+    content: $lindua-cube-front; 
+  }
+}
+.lindua-cube-side {
+  &:before {
+    content: $lindua-cube-side; 
+  }
+}
+.lindua-cube-top {
+  &:before {
+    content: $lindua-cube-top; 
+  }
+}
+.lindua-cube-bottom {
+  &:before {
+    content: $lindua-cube-bottom; 
+  }
+}
+.lindua-cube-3d {
+  &:before {
+    content: $lindua-cube-3d; 
+  }
+}
+.lindua-puzzle {
+  &:before {
+    content: $lindua-puzzle; 
+  }
+}
+.lindua-puzzle-down {
+  &:before {
+    content: $lindua-puzzle-down; 
+  }
+}
+.lindua-puzzle-check {
+  &:before {
+    content: $lindua-puzzle-check; 
+  }
+}
+.lindua-puzzle-cross {
+  &:before {
+    content: $lindua-puzzle-cross; 
+  }
+}
+.lindua-sunglasses {
+  &:before {
+    content: $lindua-sunglasses; 
+  }
+}
+.lindua-glasses {
+  &:before {
+    content: $lindua-glasses; 
+  }
+}
+.lindua-glasses2 {
+  &:before {
+    content: $lindua-glasses2; 
+  }
+}
+.lindua-accessibility {
+  &:before {
+    content: $lindua-accessibility; 
+  }
+}
+.lindua-wheelchair {
+  &:before {
+    content: $lindua-wheelchair; 
+  }
+}
+.lindua-fence {
+  &:before {
+    content: $lindua-fence; 
+  }
+}
+.lindua-bricks {
+  &:before {
+    content: $lindua-bricks; 
+  }
+}
+.lindua-apps {
+  &:before {
+    content: $lindua-apps; 
+  }
+}
+.lindua-apps2 {
+  &:before {
+    content: $lindua-apps2; 
+  }
+}
+.lindua-apps3 {
+  &:before {
+    content: $lindua-apps3; 
+  }
+}
+.lindua-apps4 {
+  &:before {
+    content: $lindua-apps4; 
+  }
+}
+.lindua-pointer {
+  &:before {
+    content: $lindua-pointer; 
+  }
+}
+.lindua-select {
+  &:before {
+    content: $lindua-select; 
+  }
+}
+.lindua-branches2 {
+  &:before {
+    content: $lindua-branches2; 
+  }
+}
+.lindua-earth {
+  &:before {
+    content: $lindua-earth; 
+  }
+}
+.lindua-earth-lock {
+  &:before {
+    content: $lindua-earth-lock; 
+  }
+}
+.lindua-network {
+  &:before {
+    content: $lindua-network; 
+  }
+}
+.lindua-planet {
+  &:before {
+    content: $lindua-planet; 
+  }
+}
+.lindua-smiley {
+  &:before {
+    content: $lindua-smiley; 
+  }
+}
+.lindua-wink {
+  &:before {
+    content: $lindua-wink; 
+  }
+}
+.lindua-smirk {
+  &:before {
+    content: $lindua-smirk; 
+  }
+}
+.lindua-smirk-wink {
+  &:before {
+    content: $lindua-smirk-wink; 
+  }
+}
+.lindua-neutral {
+  &:before {
+    content: $lindua-neutral; 
+  }
+}
+.lindua-happy {
+  &:before {
+    content: $lindua-happy; 
+  }
+}
+.lindua-grin {
+  &:before {
+    content: $lindua-grin; 
+  }
+}
+.lindua-grin-braces {
+  &:before {
+    content: $lindua-grin-braces; 
+  }
+}
+.lindua-grin-happy {
+  &:before {
+    content: $lindua-grin-happy; 
+  }
+}
+.lindua-poker-face {
+  &:before {
+    content: $lindua-poker-face; 
+  }
+}
+.lindua-pleased {
+  &:before {
+    content: $lindua-pleased; 
+  }
+}
+.lindua-sad {
+  &:before {
+    content: $lindua-sad; 
+  }
+}
+.lindua-tongue {
+  &:before {
+    content: $lindua-tongue; 
+  }
+}
+.lindua-tongue-wink {
+  &:before {
+    content: $lindua-tongue-wink; 
+  }
+}
+.lindua-wondering {
+  &:before {
+    content: $lindua-wondering; 
+  }
+}
+.lindua-shocked {
+  &:before {
+    content: $lindua-shocked; 
+  }
+}
+.lindua-shocked2 {
+  &:before {
+    content: $lindua-shocked2; 
+  }
+}
+.lindua-dork {
+  &:before {
+    content: $lindua-dork; 
+  }
+}
+.lindua-dead {
+  &:before {
+    content: $lindua-dead; 
+  }
+}
+.lindua-confused {
+  &:before {
+    content: $lindua-confused; 
+  }
+}
+.lindua-baffled {
+  &:before {
+    content: $lindua-baffled; 
+  }
+}
+.lindua-mad {
+  &:before {
+    content: $lindua-mad; 
+  }
+}
+.lindua-angry {
+  &:before {
+    content: $lindua-angry; 
+  }
+}
+.lindua-grin-evil {
+  &:before {
+    content: $lindua-grin-evil; 
+  }
+}
+.lindua-evil {
+  &:before {
+    content: $lindua-evil; 
+  }
+}
+.lindua-ninja {
+  &:before {
+    content: $lindua-ninja; 
+  }
+}
+.lindua-insomnia {
+  &:before {
+    content: $lindua-insomnia; 
+  }
+}
+.lindua-zipped {
+  &:before {
+    content: $lindua-zipped; 
+  }
+}
+.lindua-skeptical {
+  &:before {
+    content: $lindua-skeptical; 
+  }
+}
+.lindua-sophisticated {
+  &:before {
+    content: $lindua-sophisticated; 
+  }
+}
+.lindua-geek {
+  &:before {
+    content: $lindua-geek; 
+  }
+}
+.lindua-cool {
+  &:before {
+    content: $lindua-cool; 
+  }
+}
+.lindua-dreaming {
+  &:before {
+    content: $lindua-dreaming; 
+  }
+}
+.lindua-scared {
+  &:before {
+    content: $lindua-scared; 
+  }
+}
+.lindua-robot {
+  &:before {
+    content: $lindua-robot; 
+  }
+}
+.lindua-alien {
+  &:before {
+    content: $lindua-alien; 
+  }
+}
+.lindua-tombstone {
+  &:before {
+    content: $lindua-tombstone; 
+  }
+}
+.lindua-ghost {
+  &:before {
+    content: $lindua-ghost; 
+  }
+}
+.lindua-ghost-neutral {
+  &:before {
+    content: $lindua-ghost-neutral; 
+  }
+}
+.lindua-ghost-dead {
+  &:before {
+    content: $lindua-ghost-dead; 
+  }
+}
+.lindua-crystal-ball {
+  &:before {
+    content: $lindua-crystal-ball; 
+  }
+}
+.lindua-witch-hat {
+  &:before {
+    content: $lindua-witch-hat; 
+  }
+}
+.lindua-halloween {
+  &:before {
+    content: $lindua-halloween; 
+  }
+}
+.lindua-snowman {
+  &:before {
+    content: $lindua-snowman; 
+  }
+}
+.lindua-christmas-tree {
+  &:before {
+    content: $lindua-christmas-tree; 
+  }
+}
+.lindua-easter-egg {
+  &:before {
+    content: $lindua-easter-egg; 
+  }
+}
+.lindua-mustache {
+  &:before {
+    content: $lindua-mustache; 
+  }
+}
+.lindua-mustache-glasses {
+  &:before {
+    content: $lindua-mustache-glasses; 
+  }
+}
+.lindua-mustache-monocle {
+  &:before {
+    content: $lindua-mustache-monocle; 
+  }
+}
+.lindua-cigar {
+  &:before {
+    content: $lindua-cigar; 
+  }
+}
+.lindua-cigar-warning {
+  &:before {
+    content: $lindua-cigar-warning; 
+  }
+}
+.lindua-cigar-no {
+  &:before {
+    content: $lindua-cigar-no; 
+  }
+}
+.lindua-bell {
+  &:before {
+    content: $lindua-bell; 
+  }
+}
+.lindua-bell-ringing {
+  &:before {
+    content: $lindua-bell-ringing; 
+  }
+}
+.lindua-bell2 {
+  &:before {
+    content: $lindua-bell2; 
+  }
+}
+.lindua-bell-plus {
+  &:before {
+    content: $lindua-bell-plus; 
+  }
+}
+.lindua-bell-minus {
+  &:before {
+    content: $lindua-bell-minus; 
+  }
+}
+.lindua-bell-ringing2 {
+  &:before {
+    content: $lindua-bell-ringing2; 
+  }
+}
+.lindua-bell-snooze {
+  &:before {
+    content: $lindua-bell-snooze; 
+  }
+}
+.lindua-bell-music {
+  &:before {
+    content: $lindua-bell-music; 
+  }
+}
+.lindua-bell-warning {
+  &:before {
+    content: $lindua-bell-warning; 
+  }
+}
+.lindua-megaphone2 {
+  &:before {
+    content: $lindua-megaphone2; 
+  }
+}
+.lindua-volume-100 {
+  &:before {
+    content: $lindua-volume-100; 
+  }
+}
+.lindua-volume-75 {
+  &:before {
+    content: $lindua-volume-75; 
+  }
+}
+.lindua-volume-50 {
+  &:before {
+    content: $lindua-volume-50; 
+  }
+}
+.lindua-volume-25 {
+  &:before {
+    content: $lindua-volume-25; 
+  }
+}
+.lindua-volume-0 {
+  &:before {
+    content: $lindua-volume-0; 
+  }
+}
+.lindua-volume-cross {
+  &:before {
+    content: $lindua-volume-cross; 
+  }
+}
+.lindua-network2 {
+  &:before {
+    content: $lindua-network2; 
+  }
+}
+.lindua-connection {
+  &:before {
+    content: $lindua-connection; 
+  }
+}
+.lindua-connection-warning {
+  &:before {
+    content: $lindua-connection-warning; 
+  }
+}
+.lindua-router {
+  &:before {
+    content: $lindua-router; 
+  }
+}
+.lindua-router-warning {
+  &:before {
+    content: $lindua-router-warning; 
+  }
+}
+.lindua-wifi-100 {
+  &:before {
+    content: $lindua-wifi-100; 
+  }
+}
+.lindua-wifi-lock {
+  &:before {
+    content: $lindua-wifi-lock; 
+  }
+}
+.lindua-wifi-cross {
+  &:before {
+    content: $lindua-wifi-cross; 
+  }
+}
+.lindua-wifi-75 {
+  &:before {
+    content: $lindua-wifi-75; 
+  }
+}
+.lindua-wifi-50 {
+  &:before {
+    content: $lindua-wifi-50; 
+  }
+}
+.lindua-wifi-25 {
+  &:before {
+    content: $lindua-wifi-25; 
+  }
+}
+.lindua-wifi-100-warning {
+  &:before {
+    content: $lindua-wifi-100-warning; 
+  }
+}
+.lindua-wifi-75-warning {
+  &:before {
+    content: $lindua-wifi-75-warning; 
+  }
+}
+.lindua-wifi-50-warning {
+  &:before {
+    content: $lindua-wifi-50-warning; 
+  }
+}
+.lindua-wifi-25-warning {
+  &:before {
+    content: $lindua-wifi-25-warning; 
+  }
+}
+.lindua-stream {
+  &:before {
+    content: $lindua-stream; 
+  }
+}
+.lindua-stream-check {
+  &:before {
+    content: $lindua-stream-check; 
+  }
+}
+.lindua-stream-cross {
+  &:before {
+    content: $lindua-stream-cross; 
+  }
+}
+.lindua-stream-warning {
+  &:before {
+    content: $lindua-stream-warning; 
+  }
+}
+.lindua-communication {
+  &:before {
+    content: $lindua-communication; 
+  }
+}
+.lindua-communication-cross {
+  &:before {
+    content: $lindua-communication-cross; 
+  }
+}
+.lindua-hotspot {
+  &:before {
+    content: $lindua-hotspot; 
+  }
+}
+.lindua-hotspot2 {
+  &:before {
+    content: $lindua-hotspot2; 
+  }
+}
+.lindua-antenna {
+  &:before {
+    content: $lindua-antenna; 
+  }
+}
+.lindua-satellite {
+  &:before {
+    content: $lindua-satellite; 
+  }
+}
+.lindua-satellite-dish {
+  &:before {
+    content: $lindua-satellite-dish; 
+  }
+}
+.lindua-mic {
+  &:before {
+    content: $lindua-mic; 
+  }
+}
+.lindua-mic-cross {
+  &:before {
+    content: $lindua-mic-cross; 
+  }
+}
+.lindua-mic-warning {
+  &:before {
+    content: $lindua-mic-warning; 
+  }
+}
+.lindua-mic-settings {
+  &:before {
+    content: $lindua-mic-settings; 
+  }
+}
+.lindua-mic-two-way {
+  &:before {
+    content: $lindua-mic-two-way; 
+  }
+}
+.lindua-mic2 {
+  &:before {
+    content: $lindua-mic2; 
+  }
+}
+.lindua-mic-cross2 {
+  &:before {
+    content: $lindua-mic-cross2; 
+  }
+}
+.lindua-mic-warning2 {
+  &:before {
+    content: $lindua-mic-warning2; 
+  }
+}
+.lindua-spotlights {
+  &:before {
+    content: $lindua-spotlights; 
+  }
+}
+.lindua-hourglass {
+  &:before {
+    content: $lindua-hourglass; 
+  }
+}
+.lindua-spinner {
+  &:before {
+    content: $lindua-spinner; 
+  }
+}
+.lindua-spinner2 {
+  &:before {
+    content: $lindua-spinner2; 
+  }
+}
+.lindua-spinner3 {
+  &:before {
+    content: $lindua-spinner3; 
+  }
+}
+.lindua-spinner4 {
+  &:before {
+    content: $lindua-spinner4; 
+  }
+}
+.lindua-undo {
+  &:before {
+    content: $lindua-undo; 
+  }
+}
+.lindua-redo {
+  &:before {
+    content: $lindua-redo; 
+  }
+}
+.lindua-leap-backward {
+  &:before {
+    content: $lindua-leap-backward; 
+  }
+}
+.lindua-leap-forward {
+  &:before {
+    content: $lindua-leap-forward; 
+  }
+}
+.lindua-cw {
+  &:before {
+    content: $lindua-cw; 
+  }
+}
+.lindua-sync {
+  &:before {
+    content: $lindua-sync; 
+  }
+}
+.lindua-cw-bolt {
+  &:before {
+    content: $lindua-cw-bolt; 
+  }
+}
+.lindua-sync-warning {
+  &:before {
+    content: $lindua-sync-warning; 
+  }
+}
+.lindua-sync-gear {
+  &:before {
+    content: $lindua-sync-gear; 
+  }
+}
+.lindua-sync-cross {
+  &:before {
+    content: $lindua-sync-cross; 
+  }
+}
+.lindua-ccw {
+  &:before {
+    content: $lindua-ccw; 
+  }
+}
+.lindua-cw2 {
+  &:before {
+    content: $lindua-cw2; 
+  }
+}
+.lindua-ccw2 {
+  &:before {
+    content: $lindua-ccw2; 
+  }
+}
+.lindua-refund {
+  &:before {
+    content: $lindua-refund; 
+  }
+}
+.lindua-rewind-5s {
+  &:before {
+    content: $lindua-rewind-5s; 
+  }
+}
+.lindua-rewind-10s {
+  &:before {
+    content: $lindua-rewind-10s; 
+  }
+}
+.lindua-forward-10s {
+  &:before {
+    content: $lindua-forward-10s; 
+  }
+}
+.lindua-forward-5s {
+  &:before {
+    content: $lindua-forward-5s; 
+  }
+}
+.lindua-history {
+  &:before {
+    content: $lindua-history; 
+  }
+}
+.lindua-self-timer {
+  &:before {
+    content: $lindua-self-timer; 
+  }
+}
+.lindua-self-timer2 {
+  &:before {
+    content: $lindua-self-timer2; 
+  }
+}
+.lindua-watch {
+  &:before {
+    content: $lindua-watch; 
+  }
+}
+.lindua-watch-handles {
+  &:before {
+    content: $lindua-watch-handles; 
+  }
+}
+.lindua-watch-health {
+  &:before {
+    content: $lindua-watch-health; 
+  }
+}
+.lindua-watch-warning {
+  &:before {
+    content: $lindua-watch-warning; 
+  }
+}
+.lindua-watch2 {
+  &:before {
+    content: $lindua-watch2; 
+  }
+}
+.lindua-watch-handles2 {
+  &:before {
+    content: $lindua-watch-handles2; 
+  }
+}
+.lindua-clock {
+  &:before {
+    content: $lindua-clock; 
+  }
+}
+.lindua-alarm {
+  &:before {
+    content: $lindua-alarm; 
+  }
+}
+.lindua-alarm2 {
+  &:before {
+    content: $lindua-alarm2; 
+  }
+}
+.lindua-alarm-plus {
+  &:before {
+    content: $lindua-alarm-plus; 
+  }
+}
+.lindua-alarm-minus {
+  &:before {
+    content: $lindua-alarm-minus; 
+  }
+}
+.lindua-alarm-check {
+  &:before {
+    content: $lindua-alarm-check; 
+  }
+}
+.lindua-alarm-cross {
+  &:before {
+    content: $lindua-alarm-cross; 
+  }
+}
+.lindua-stopwatch {
+  &:before {
+    content: $lindua-stopwatch; 
+  }
+}
+.lindua-stopwatch-cross {
+  &:before {
+    content: $lindua-stopwatch-cross; 
+  }
+}
+.lindua-stopwatch-running {
+  &:before {
+    content: $lindua-stopwatch-running; 
+  }
+}
+.lindua-download {
+  &:before {
+    content: $lindua-download; 
+  }
+}
+.lindua-upload2 {
+  &:before {
+    content: $lindua-upload2; 
+  }
+}
+.lindua-import {
+  &:before {
+    content: $lindua-import; 
+  }
+}
+.lindua-insert-down {
+  &:before {
+    content: $lindua-insert-down; 
+  }
+}
+.lindua-insert-left {
+  &:before {
+    content: $lindua-insert-left; 
+  }
+}
+.lindua-insert-right {
+  &:before {
+    content: $lindua-insert-right; 
+  }
+}
+.lindua-insert-up {
+  &:before {
+    content: $lindua-insert-up; 
+  }
+}
+.lindua-extract-down {
+  &:before {
+    content: $lindua-extract-down; 
+  }
+}
+.lindua-extract-left {
+  &:before {
+    content: $lindua-extract-left; 
+  }
+}
+.lindua-extract-right {
+  &:before {
+    content: $lindua-extract-right; 
+  }
+}
+.lindua-extract-up {
+  &:before {
+    content: $lindua-extract-up; 
+  }
+}
+.lindua-cli {
+  &:before {
+    content: $lindua-cli; 
+  }
+}
+.lindua-bug {
+  &:before {
+    content: $lindua-bug; 
+  }
+}
+.lindua-bug2 {
+  &:before {
+    content: $lindua-bug2; 
+  }
+}
+.lindua-file-code {
+  &:before {
+    content: $lindua-file-code; 
+  }
+}
+.lindua-file-compressed {
+  &:before {
+    content: $lindua-file-compressed; 
+  }
+}
+.lindua-file-music {
+  &:before {
+    content: $lindua-file-music; 
+  }
+}
+.lindua-file-video {
+  &:before {
+    content: $lindua-file-video; 
+  }
+}
+.lindua-file-picture {
+  &:before {
+    content: $lindua-file-picture; 
+  }
+}
+.lindua-file-preview {
+  &:before {
+    content: $lindua-file-preview; 
+  }
+}
+.lindua-file-chart {
+  &:before {
+    content: $lindua-file-chart; 
+  }
+}
+.lindua-file-chart-bars {
+  &:before {
+    content: $lindua-file-chart-bars; 
+  }
+}
+.lindua-file-spreadsheet {
+  &:before {
+    content: $lindua-file-spreadsheet; 
+  }
+}
+.lindua-file-magnifier {
+  &:before {
+    content: $lindua-file-magnifier; 
+  }
+}
+.lindua-link {
+  &:before {
+    content: $lindua-link; 
+  }
+}
+.lindua-unlink {
+  &:before {
+    content: $lindua-unlink; 
+  }
+}
+.lindua-link2 {
+  &:before {
+    content: $lindua-link2; 
+  }
+}
+.lindua-unlink2 {
+  &:before {
+    content: $lindua-unlink2; 
+  }
+}
+.lindua-link-cross {
+  &:before {
+    content: $lindua-link-cross; 
+  }
+}
+.lindua-thumbs-up {
+  &:before {
+    content: $lindua-thumbs-up; 
+  }
+}
+.lindua-thumbs-down {
+  &:before {
+    content: $lindua-thumbs-down; 
+  }
+}
+.lindua-thumbs-up2 {
+  &:before {
+    content: $lindua-thumbs-up2; 
+  }
+}
+.lindua-thumbs-down2 {
+  &:before {
+    content: $lindua-thumbs-down2; 
+  }
+}
+.lindua-share {
+  &:before {
+    content: $lindua-share; 
+  }
+}
+.lindua-share2 {
+  &:before {
+    content: $lindua-share2; 
+  }
+}
+.lindua-share3 {
+  &:before {
+    content: $lindua-share3; 
+  }
+}
+.lindua-loupe {
+  &:before {
+    content: $lindua-loupe; 
+  }
+}
+.lindua-loup-plus {
+  &:before {
+    content: $lindua-loup-plus; 
+  }
+}
+.lindua-loup-minus {
+  &:before {
+    content: $lindua-loup-minus; 
+  }
+}
+.lindua-search {
+  &:before {
+    content: $lindua-search; 
+  }
+}
+.lindua-zoom-in {
+  &:before {
+    content: $lindua-zoom-in; 
+  }
+}
+.lindua-zoom-out {
+  &:before {
+    content: $lindua-zoom-out; 
+  }
+}
+.lindua-magnifier-marquee {
+  &:before {
+    content: $lindua-magnifier-marquee; 
+  }
+}
+.lindua-magnifier-move {
+  &:before {
+    content: $lindua-magnifier-move; 
+  }
+}
+.lindua-find-replace {
+  &:before {
+    content: $lindua-find-replace; 
+  }
+}
+.lindua-magnifier-next {
+  &:before {
+    content: $lindua-magnifier-next; 
+  }
+}
+.lindua-magnifier-prev {
+  &:before {
+    content: $lindua-magnifier-prev; 
+  }
+}
+.lindua-magnifier-check {
+  &:before {
+    content: $lindua-magnifier-check; 
+  }
+}
+.lindua-magnifier-question {
+  &:before {
+    content: $lindua-magnifier-question; 
+  }
+}
+.lindua-magnifier-user {
+  &:before {
+    content: $lindua-magnifier-user; 
+  }
+}
+.lindua-magnifier-bug {
+  &:before {
+    content: $lindua-magnifier-bug; 
+  }
+}
+.lindua-magnifier-dollar {
+  &:before {
+    content: $lindua-magnifier-dollar; 
+  }
+}
+.lindua-magnifier-euro {
+  &:before {
+    content: $lindua-magnifier-euro; 
+  }
+}
+.lindua-magnifier-pound {
+  &:before {
+    content: $lindua-magnifier-pound; 
+  }
+}
+.lindua-magnifier-yen {
+  &:before {
+    content: $lindua-magnifier-yen; 
+  }
+}
+.lindua-magnifier-ruble {
+  &:before {
+    content: $lindua-magnifier-ruble; 
+  }
+}
+.lindua-menu {
+  &:before {
+    content: $lindua-menu; 
+  }
+}
+.lindua-ul {
+  &:before {
+    content: $lindua-ul; 
+  }
+}
+.lindua-ul2 {
+  &:before {
+    content: $lindua-ul2; 
+  }
+}
+.lindua-ol {
+  &:before {
+    content: $lindua-ol; 
+  }
+}
+.lindua-checklist2 {
+  &:before {
+    content: $lindua-checklist2; 
+  }
+}
+.lindua-checklist-time {
+  &:before {
+    content: $lindua-checklist-time; 
+  }
+}
+.lindua-dropdown {
+  &:before {
+    content: $lindua-dropdown; 
+  }
+}
+.lindua-eject {
+  &:before {
+    content: $lindua-eject; 
+  }
+}
+.lindua-first {
+  &:before {
+    content: $lindua-first; 
+  }
+}
+.lindua-backward {
+  &:before {
+    content: $lindua-backward; 
+  }
+}
+.lindua-previous {
+  &:before {
+    content: $lindua-previous; 
+  }
+}
+.lindua-previous-frame {
+  &:before {
+    content: $lindua-previous-frame; 
+  }
+}
+.lindua-play {
+  &:before {
+    content: $lindua-play; 
+  }
+}
+.lindua-pause {
+  &:before {
+    content: $lindua-pause; 
+  }
+}
+.lindua-next-frame {
+  &:before {
+    content: $lindua-next-frame; 
+  }
+}
+.lindua-stop {
+  &:before {
+    content: $lindua-stop; 
+  }
+}
+.lindua-record {
+  &:before {
+    content: $lindua-record; 
+  }
+}
+.lindua-forward {
+  &:before {
+    content: $lindua-forward; 
+  }
+}
+.lindua-next {
+  &:before {
+    content: $lindua-next; 
+  }
+}
+.lindua-last {
+  &:before {
+    content: $lindua-last; 
+  }
+}
+.lindua-exclamation {
+  &:before {
+    content: $lindua-exclamation; 
+  }
+}
+.lindua-question {
+  &:before {
+    content: $lindua-question; 
+  }
+}
+.lindua-check {
+  &:before {
+    content: $lindua-check; 
+  }
+}
+.lindua-cross {
+  &:before {
+    content: $lindua-cross; 
+  }
+}
+.lindua-obelus {
+  &:before {
+    content: $lindua-obelus; 
+  }
+}
+.lindua-plus {
+  &:before {
+    content: $lindua-plus; 
+  }
+}
+.lindua-minus {
+  &:before {
+    content: $lindua-minus; 
+  }
+}
+.lindua-plus-minus {
+  &:before {
+    content: $lindua-plus-minus; 
+  }
+}
+.lindua-percent {
+  &:before {
+    content: $lindua-percent; 
+  }
+}
+.lindua-code {
+  &:before {
+    content: $lindua-code; 
+  }
+}
+.lindua-chevron-up {
+  &:before {
+    content: $lindua-chevron-up; 
+  }
+}
+.lindua-chevron-down {
+  &:before {
+    content: $lindua-chevron-down; 
+  }
+}
+.lindua-chevron-left {
+  &:before {
+    content: $lindua-chevron-left; 
+  }
+}
+.lindua-chevron-right {
+  &:before {
+    content: $lindua-chevron-right; 
+  }
+}
+.lindua-expand-vertical {
+  &:before {
+    content: $lindua-expand-vertical; 
+  }
+}
+.lindua-expand-horizontal {
+  &:before {
+    content: $lindua-expand-horizontal; 
+  }
+}
+.lindua-shrink-vertical {
+  &:before {
+    content: $lindua-shrink-vertical; 
+  }
+}
+.lindua-shrink-horizontal {
+  &:before {
+    content: $lindua-shrink-horizontal; 
+  }
+}
+.lindua-arrow-up {
+  &:before {
+    content: $lindua-arrow-up; 
+  }
+}
+.lindua-arrow-down {
+  &:before {
+    content: $lindua-arrow-down; 
+  }
+}
+.lindua-arrow-left {
+  &:before {
+    content: $lindua-arrow-left; 
+  }
+}
+.lindua-arrow-right {
+  &:before {
+    content: $lindua-arrow-right; 
+  }
+}
+.lindua-arrow-ne {
+  &:before {
+    content: $lindua-arrow-ne; 
+  }
+}
+.lindua-arrow-nw {
+  &:before {
+    content: $lindua-arrow-nw; 
+  }
+}
+.lindua-arrow-se {
+  &:before {
+    content: $lindua-arrow-se; 
+  }
+}
+.lindua-arrow-sw {
+  &:before {
+    content: $lindua-arrow-sw; 
+  }
+}
+.lindua-split {
+  &:before {
+    content: $lindua-split; 
+  }
+}
+.lindua-merge {
+  &:before {
+    content: $lindua-merge; 
+  }
+}
+.lindua-missed-outgoing2 {
+  &:before {
+    content: $lindua-missed-outgoing2; 
+  }
+}
+.lindua-missed-incoming2 {
+  &:before {
+    content: $lindua-missed-incoming2; 
+  }
+}
+.lindua-enter2 {
+  &:before {
+    content: $lindua-enter2; 
+  }
+}
+.lindua-tab {
+  &:before {
+    content: $lindua-tab; 
+  }
+}
+.lindua-expand {
+  &:before {
+    content: $lindua-expand; 
+  }
+}
+.lindua-shrink {
+  &:before {
+    content: $lindua-shrink; 
+  }
+}
+.lindua-source {
+  &:before {
+    content: $lindua-source; 
+  }
+}
+.lindua-sink2 {
+  &:before {
+    content: $lindua-sink2; 
+  }
+}
+.lindua-expand2 {
+  &:before {
+    content: $lindua-expand2; 
+  }
+}
+.lindua-shrink2 {
+  &:before {
+    content: $lindua-shrink2; 
+  }
+}
+.lindua-move {
+  &:before {
+    content: $lindua-move; 
+  }
+}
+.lindua-swap-horizontal {
+  &:before {
+    content: $lindua-swap-horizontal; 
+  }
+}
+.lindua-swap-vertical {
+  &:before {
+    content: $lindua-swap-vertical; 
+  }
+}
+.lindua-swap-calls {
+  &:before {
+    content: $lindua-swap-calls; 
+  }
+}
+.lindua-warning {
+  &:before {
+    content: $lindua-warning; 
+  }
+}
+.lindua-stop2 {
+  &:before {
+    content: $lindua-stop2; 
+  }
+}
+.lindua-warning-octagon {
+  &:before {
+    content: $lindua-warning-octagon; 
+  }
+}
+.lindua-warning-circle {
+  &:before {
+    content: $lindua-warning-circle; 
+  }
+}
+.lindua-question-circle {
+  &:before {
+    content: $lindua-question-circle; 
+  }
+}
+.lindua-info-circle {
+  &:before {
+    content: $lindua-info-circle; 
+  }
+}
+.lindua-info-octagon {
+  &:before {
+    content: $lindua-info-octagon; 
+  }
+}
+.lindua-menu-circle {
+  &:before {
+    content: $lindua-menu-circle; 
+  }
+}
+.lindua-no {
+  &:before {
+    content: $lindua-no; 
+  }
+}
+.lindua-no-entry {
+  &:before {
+    content: $lindua-no-entry; 
+  }
+}
+.lindua-tren-circle {
+  &:before {
+    content: $lindua-tren-circle; 
+  }
+}
+.lindua-chart-circle {
+  &:before {
+    content: $lindua-chart-circle; 
+  }
+}
+.lindua-side-up-circle {
+  &:before {
+    content: $lindua-side-up-circle; 
+  }
+}
+.lindua-radio-unchecked {
+  &:before {
+    content: $lindua-radio-unchecked; 
+  }
+}
+.lindua-radio-checked {
+  &:before {
+    content: $lindua-radio-checked; 
+  }
+}
+.lindua-cross-circle {
+  &:before {
+    content: $lindua-cross-circle; 
+  }
+}
+.lindua-check-circle {
+  &:before {
+    content: $lindua-check-circle; 
+  }
+}
+.lindua-download-circle {
+  &:before {
+    content: $lindua-download-circle; 
+  }
+}
+.lindua-upload-circle {
+  &:before {
+    content: $lindua-upload-circle; 
+  }
+}
+.lindua-transfer-circle {
+  &:before {
+    content: $lindua-transfer-circle; 
+  }
+}
+.lindua-code-circle {
+  &:before {
+    content: $lindua-code-circle; 
+  }
+}
+.lindua-arrow-up-circle {
+  &:before {
+    content: $lindua-arrow-up-circle; 
+  }
+}
+.lindua-arrow-down-circle {
+  &:before {
+    content: $lindua-arrow-down-circle; 
+  }
+}
+.lindua-arrow-left-circle {
+  &:before {
+    content: $lindua-arrow-left-circle; 
+  }
+}
+.lindua-arrow-right-circle {
+  &:before {
+    content: $lindua-arrow-right-circle; 
+  }
+}
+.lindua-chevron-up-circle {
+  &:before {
+    content: $lindua-chevron-up-circle; 
+  }
+}
+.lindua-chevron-down-circle {
+  &:before {
+    content: $lindua-chevron-down-circle; 
+  }
+}
+.lindua-chevron-left-circle {
+  &:before {
+    content: $lindua-chevron-left-circle; 
+  }
+}
+.lindua-chevron-right-circle {
+  &:before {
+    content: $lindua-chevron-right-circle; 
+  }
+}
+.lindua-eject-circle {
+  &:before {
+    content: $lindua-eject-circle; 
+  }
+}
+.lindua-first-circle {
+  &:before {
+    content: $lindua-first-circle; 
+  }
+}
+.lindua-backward-circle {
+  &:before {
+    content: $lindua-backward-circle; 
+  }
+}
+.lindua-previous-circle {
+  &:before {
+    content: $lindua-previous-circle; 
+  }
+}
+.lindua-previous-frame-circle {
+  &:before {
+    content: $lindua-previous-frame-circle; 
+  }
+}
+.lindua-play-circle {
+  &:before {
+    content: $lindua-play-circle; 
+  }
+}
+.lindua-pause-circle {
+  &:before {
+    content: $lindua-pause-circle; 
+  }
+}
+.lindua-next-frame-circle {
+  &:before {
+    content: $lindua-next-frame-circle; 
+  }
+}
+.lindua-stop-circle {
+  &:before {
+    content: $lindua-stop-circle; 
+  }
+}
+.lindua-next-circle {
+  &:before {
+    content: $lindua-next-circle; 
+  }
+}
+.lindua-forward-circle {
+  &:before {
+    content: $lindua-forward-circle; 
+  }
+}
+.lindua-last-circle {
+  &:before {
+    content: $lindua-last-circle; 
+  }
+}
+.lindua-equals-circle {
+  &:before {
+    content: $lindua-equals-circle; 
+  }
+}
+.lindua-plus-circle {
+  &:before {
+    content: $lindua-plus-circle; 
+  }
+}
+.lindua-minus-circle {
+  &:before {
+    content: $lindua-minus-circle; 
+  }
+}
+.lindua-cross-circle2 {
+  &:before {
+    content: $lindua-cross-circle2; 
+  }
+}
+.lindua-obelus-circle {
+  &:before {
+    content: $lindua-obelus-circle; 
+  }
+}
+.lindua-plus-minus-circle {
+  &:before {
+    content: $lindua-plus-minus-circle; 
+  }
+}
+.lindua-percent-circle {
+  &:before {
+    content: $lindua-percent-circle; 
+  }
+}
+.lindua-infinity-circle {
+  &:before {
+    content: $lindua-infinity-circle; 
+  }
+}
+.lindua-warning-square {
+  &:before {
+    content: $lindua-warning-square; 
+  }
+}
+.lindua-question-square {
+  &:before {
+    content: $lindua-question-square; 
+  }
+}
+.lindua-info-square {
+  &:before {
+    content: $lindua-info-square; 
+  }
+}
+.lindua-menu-square {
+  &:before {
+    content: $lindua-menu-square; 
+  }
+}
+.lindua-exposure {
+  &:before {
+    content: $lindua-exposure; 
+  }
+}
+.lindua-trend-square {
+  &:before {
+    content: $lindua-trend-square; 
+  }
+}
+.lindua-chart-square {
+  &:before {
+    content: $lindua-chart-square; 
+  }
+}
+.lindua-side-up-square {
+  &:before {
+    content: $lindua-side-up-square; 
+  }
+}
+.lindua-checkbox-unchecked {
+  &:before {
+    content: $lindua-checkbox-unchecked; 
+  }
+}
+.lindua-cross-square {
+  &:before {
+    content: $lindua-cross-square; 
+  }
+}
+.lindua-check-square {
+  &:before {
+    content: $lindua-check-square; 
+  }
+}
+.lindua-download-square {
+  &:before {
+    content: $lindua-download-square; 
+  }
+}
+.lindua-upload-square {
+  &:before {
+    content: $lindua-upload-square; 
+  }
+}
+.lindua-transfer-square {
+  &:before {
+    content: $lindua-transfer-square; 
+  }
+}
+.lindua-code-square {
+  &:before {
+    content: $lindua-code-square; 
+  }
+}
+.lindua-arrow-up-square {
+  &:before {
+    content: $lindua-arrow-up-square; 
+  }
+}
+.lindua-arrow-down-square {
+  &:before {
+    content: $lindua-arrow-down-square; 
+  }
+}
+.lindua-arrow-left-square {
+  &:before {
+    content: $lindua-arrow-left-square; 
+  }
+}
+.lindua-arrow-right-square {
+  &:before {
+    content: $lindua-arrow-right-square; 
+  }
+}
+.lindua-chevron-up-square {
+  &:before {
+    content: $lindua-chevron-up-square; 
+  }
+}
+.lindua-chevron-down-square {
+  &:before {
+    content: $lindua-chevron-down-square; 
+  }
+}
+.lindua-chevron-left-square {
+  &:before {
+    content: $lindua-chevron-left-square; 
+  }
+}
+.lindua-chevron-right-square {
+  &:before {
+    content: $lindua-chevron-right-square; 
+  }
+}
+.lindua-eject-square {
+  &:before {
+    content: $lindua-eject-square; 
+  }
+}
+.lindua-first-circle2 {
+  &:before {
+    content: $lindua-first-circle2; 
+  }
+}
+.lindua-backward-square {
+  &:before {
+    content: $lindua-backward-square; 
+  }
+}
+.lindua-previous-square {
+  &:before {
+    content: $lindua-previous-square; 
+  }
+}
+.lindua-previous-frame-square {
+  &:before {
+    content: $lindua-previous-frame-square; 
+  }
+}
+.lindua-play-square {
+  &:before {
+    content: $lindua-play-square; 
+  }
+}
+.lindua-pause-square {
+  &:before {
+    content: $lindua-pause-square; 
+  }
+}
+.lindua-next-frame-square {
+  &:before {
+    content: $lindua-next-frame-square; 
+  }
+}
+.lindua-stop-square {
+  &:before {
+    content: $lindua-stop-square; 
+  }
+}
+.lindua-next-square {
+  &:before {
+    content: $lindua-next-square; 
+  }
+}
+.lindua-forward-square {
+  &:before {
+    content: $lindua-forward-square; 
+  }
+}
+.lindua-last-square {
+  &:before {
+    content: $lindua-last-square; 
+  }
+}
+.lindua-equals-square {
+  &:before {
+    content: $lindua-equals-square; 
+  }
+}
+.lindua-plus-square {
+  &:before {
+    content: $lindua-plus-square; 
+  }
+}
+.lindua-minus-square {
+  &:before {
+    content: $lindua-minus-square; 
+  }
+}
+.lindua-cross-square2 {
+  &:before {
+    content: $lindua-cross-square2; 
+  }
+}
+.lindua-obelus-square {
+  &:before {
+    content: $lindua-obelus-square; 
+  }
+}
+.lindua-plus-minus-square {
+  &:before {
+    content: $lindua-plus-minus-square; 
+  }
+}
+.lindua-percent-square {
+  &:before {
+    content: $lindua-percent-square; 
+  }
+}
+.lindua-infinity-square {
+  &:before {
+    content: $lindua-infinity-square; 
+  }
+}
+.lindua-crop {
+  &:before {
+    content: $lindua-crop; 
+  }
+}
+.lindua-crop2 {
+  &:before {
+    content: $lindua-crop2; 
+  }
+}
+.lindua-crop-rotate {
+  &:before {
+    content: $lindua-crop-rotate; 
+  }
+}
+.lindua-cutter {
+  &:before {
+    content: $lindua-cutter; 
+  }
+}
+.lindua-shrink-square {
+  &:before {
+    content: $lindua-shrink-square; 
+  }
+}
+.lindua-expand-square {
+  &:before {
+    content: $lindua-expand-square; 
+  }
+}
+.lindua-expand-square2 {
+  &:before {
+    content: $lindua-expand-square2; 
+  }
+}
+.lindua-full-screen-enter {
+  &:before {
+    content: $lindua-full-screen-enter; 
+  }
+}
+.lindua-full-screen-exit {
+  &:before {
+    content: $lindua-full-screen-exit; 
+  }
+}
+.lindua-full-screen-enter2 {
+  &:before {
+    content: $lindua-full-screen-enter2; 
+  }
+}
+.lindua-full-screen-exit2 {
+  &:before {
+    content: $lindua-full-screen-exit2; 
+  }
+}
+.lindua-focal-point {
+  &:before {
+    content: $lindua-focal-point; 
+  }
+}
+.lindua-free-transform {
+  &:before {
+    content: $lindua-free-transform; 
+  }
+}
+.lindua-grid {
+  &:before {
+    content: $lindua-grid; 
+  }
+}
+.lindua-grid-cross {
+  &:before {
+    content: $lindua-grid-cross; 
+  }
+}
+.lindua-layers {
+  &:before {
+    content: $lindua-layers; 
+  }
+}
+.lindua-layers-cross {
+  &:before {
+    content: $lindua-layers-cross; 
+  }
+}
+.lindua-fold {
+  &:before {
+    content: $lindua-fold; 
+  }
+}
+.lindua-unfold {
+  &:before {
+    content: $lindua-unfold; 
+  }
+}
+.lindua-rulers {
+  &:before {
+    content: $lindua-rulers; 
+  }
+}
+.lindua-ruler {
+  &:before {
+    content: $lindua-ruler; 
+  }
+}
+.lindua-priority-increase {
+  &:before {
+    content: $lindua-priority-increase; 
+  }
+}
+.lindua-priority-decrease {
+  &:before {
+    content: $lindua-priority-decrease; 
+  }
+}
+.lindua-bring-forward {
+  &:before {
+    content: $lindua-bring-forward; 
+  }
+}
+.lindua-send-backward {
+  &:before {
+    content: $lindua-send-backward; 
+  }
+}
+.lindua-move-up {
+  &:before {
+    content: $lindua-move-up; 
+  }
+}
+.lindua-move-down {
+  &:before {
+    content: $lindua-move-down; 
+  }
+}
+.lindua-group2 {
+  &:before {
+    content: $lindua-group2; 
+  }
+}
+.lindua-group3 {
+  &:before {
+    content: $lindua-group3; 
+  }
+}
+.lindua-resize {
+  &:before {
+    content: $lindua-resize; 
+  }
+}
+.lindua-scale-down {
+  &:before {
+    content: $lindua-scale-down; 
+  }
+}
+.lindua-scale-up {
+  &:before {
+    content: $lindua-scale-up; 
+  }
+}
+.lindua-squash {
+  &:before {
+    content: $lindua-squash; 
+  }
+}
+.lindua-funnel {
+  &:before {
+    content: $lindua-funnel; 
+  }
+}
+.lindua-flip-vertical {
+  &:before {
+    content: $lindua-flip-vertical; 
+  }
+}
+.lindua-flip-horizontal {
+  &:before {
+    content: $lindua-flip-horizontal; 
+  }
+}
+.lindua-flip-vertical2 {
+  &:before {
+    content: $lindua-flip-vertical2; 
+  }
+}
+.lindua-flip-horizontal2 {
+  &:before {
+    content: $lindua-flip-horizontal2; 
+  }
+}
+.lindua-round-corner {
+  &:before {
+    content: $lindua-round-corner; 
+  }
+}
+.lindua-angle {
+  &:before {
+    content: $lindua-angle; 
+  }
+}
+.lindua-angle2 {
+  &:before {
+    content: $lindua-angle2; 
+  }
+}
+.lindua-combine {
+  &:before {
+    content: $lindua-combine; 
+  }
+}
+.lindua-subtract {
+  &:before {
+    content: $lindua-subtract; 
+  }
+}
+.lindua-intersect {
+  &:before {
+    content: $lindua-intersect; 
+  }
+}
+.lindua-exclude {
+  &:before {
+    content: $lindua-exclude; 
+  }
+}
+.lindua-align-center-vertical {
+  &:before {
+    content: $lindua-align-center-vertical; 
+  }
+}
+.lindua-align-left {
+  &:before {
+    content: $lindua-align-left; 
+  }
+}
+.lindua-align-right {
+  &:before {
+    content: $lindua-align-right; 
+  }
+}
+.lindua-align-bottom {
+  &:before {
+    content: $lindua-align-bottom; 
+  }
+}
+.lindua-align-center-horizontal {
+  &:before {
+    content: $lindua-align-center-horizontal; 
+  }
+}
+.lindua-align-top {
+  &:before {
+    content: $lindua-align-top; 
+  }
+}
+.lindua-canvas {
+  &:before {
+    content: $lindua-canvas; 
+  }
+}
+.lindua-canvas-fit {
+  &:before {
+    content: $lindua-canvas-fit; 
+  }
+}
+.lindua-canvas-bottom {
+  &:before {
+    content: $lindua-canvas-bottom; 
+  }
+}
+.lindua-canvas-center {
+  &:before {
+    content: $lindua-canvas-center; 
+  }
+}
+.lindua-canvas-left {
+  &:before {
+    content: $lindua-canvas-left; 
+  }
+}
+.lindua-canvas-right {
+  &:before {
+    content: $lindua-canvas-right; 
+  }
+}
+.lindua-canvas-top {
+  &:before {
+    content: $lindua-canvas-top; 
+  }
+}
+.lindua-move-bottom-up {
+  &:before {
+    content: $lindua-move-bottom-up; 
+  }
+}
+.lindua-move-top-down {
+  &:before {
+    content: $lindua-move-top-down; 
+  }
+}
+.lindua-move-left-right {
+  &:before {
+    content: $lindua-move-left-right; 
+  }
+}
+.lindua-move-right-left {
+  &:before {
+    content: $lindua-move-right-left; 
+  }
+}
+.lindua-move-bottom-down {
+  &:before {
+    content: $lindua-move-bottom-down; 
+  }
+}
+.lindua-move-top-up {
+  &:before {
+    content: $lindua-move-top-up; 
+  }
+}
+.lindua-move-left-left {
+  &:before {
+    content: $lindua-move-left-left; 
+  }
+}
+.lindua-move-right-right {
+  &:before {
+    content: $lindua-move-right-right; 
+  }
+}
+.lindua-ligature {
+  &:before {
+    content: $lindua-ligature; 
+  }
+}
+.lindua-format-shapes {
+  &:before {
+    content: $lindua-format-shapes; 
+  }
+}
+.lindua-text-color {
+  &:before {
+    content: $lindua-text-color; 
+  }
+}
+.lindua-format-clear {
+  &:before {
+    content: $lindua-format-clear; 
+  }
+}
+.lindua-text-size {
+  &:before {
+    content: $lindua-text-size; 
+  }
+}
+.lindua-text-size2 {
+  &:before {
+    content: $lindua-text-size2; 
+  }
+}
+.lindua-text-size-increase {
+  &:before {
+    content: $lindua-text-size-increase; 
+  }
+}
+.lindua-text-size-decrease {
+  &:before {
+    content: $lindua-text-size-decrease; 
+  }
+}
+.lindua-bold {
+  &:before {
+    content: $lindua-bold; 
+  }
+}
+.lindua-italic {
+  &:before {
+    content: $lindua-italic; 
+  }
+}
+.lindua-underline {
+  &:before {
+    content: $lindua-underline; 
+  }
+}
+.lindua-strikethrough {
+  &:before {
+    content: $lindua-strikethrough; 
+  }
+}
+.lindua-text-down {
+  &:before {
+    content: $lindua-text-down; 
+  }
+}
+.lindua-subscript {
+  &:before {
+    content: $lindua-subscript; 
+  }
+}
+.lindua-superscript {
+  &:before {
+    content: $lindua-superscript; 
+  }
+}
+.lindua-highlight {
+  &:before {
+    content: $lindua-highlight; 
+  }
+}
+.lindua-text-align-left {
+  &:before {
+    content: $lindua-text-align-left; 
+  }
+}
+.lindua-text-align-center {
+  &:before {
+    content: $lindua-text-align-center; 
+  }
+}
+.lindua-text-align-right {
+  &:before {
+    content: $lindua-text-align-right; 
+  }
+}
+.lindua-text-align-justify {
+  &:before {
+    content: $lindua-text-align-justify; 
+  }
+}
+.lindua-line-spacing {
+  &:before {
+    content: $lindua-line-spacing; 
+  }
+}
+.lindua-indent-decrease {
+  &:before {
+    content: $lindua-indent-decrease; 
+  }
+}
+.lindua-indent-increase {
+  &:before {
+    content: $lindua-indent-increase; 
+  }
+}
+.lindua-text-around {
+  &:before {
+    content: $lindua-text-around; 
+  }
+}
+.lindua-pilcrow {
+  &:before {
+    content: $lindua-pilcrow; 
+  }
+}
+.lindua-direction-ltr {
+  &:before {
+    content: $lindua-direction-ltr; 
+  }
+}
+.lindua-direction-rtl {
+  &:before {
+    content: $lindua-direction-rtl; 
+  }
+}
+.lindua-page-break {
+  &:before {
+    content: $lindua-page-break; 
+  }
+}
+.lindua-sort-alpha-asc {
+  &:before {
+    content: $lindua-sort-alpha-asc; 
+  }
+}
+.lindua-sort-alpha-desc {
+  &:before {
+    content: $lindua-sort-alpha-desc; 
+  }
+}
+.lindua-sort-numeric-asc {
+  &:before {
+    content: $lindua-sort-numeric-asc; 
+  }
+}
+.lindua-sort-numeric-desc {
+  &:before {
+    content: $lindua-sort-numeric-desc; 
+  }
+}
+.lindua-sort-time-asc {
+  &:before {
+    content: $lindua-sort-time-asc; 
+  }
+}
+.lindua-sort-time-desc {
+  &:before {
+    content: $lindua-sort-time-desc; 
+  }
+}
+.lindua-sort-size-asc {
+  &:before {
+    content: $lindua-sort-size-asc; 
+  }
+}
+.lindua-sort-size-desc {
+  &:before {
+    content: $lindua-sort-size-desc; 
+  }
+}
+.lindua-sigma {
+  &:before {
+    content: $lindua-sigma; 
+  }
+}
+.lindua-omega {
+  &:before {
+    content: $lindua-omega; 
+  }
+}
+.lindua-sine {
+  &:before {
+    content: $lindua-sine; 
+  }
+}
+.lindua-cosine {
+  &:before {
+    content: $lindua-cosine; 
+  }
+}
+.lindua-border-color {
+  &:before {
+    content: $lindua-border-color; 
+  }
+}
+.lindua-handwriting {
+  &:before {
+    content: $lindua-handwriting; 
+  }
+}
+.lindua-fingerprint {
+  &:before {
+    content: $lindua-fingerprint; 
+  }
+}
+.lindua-palm {
+  &:before {
+    content: $lindua-palm; 
+  }
+}
+.lindua-hand-grip {
+  &:before {
+    content: $lindua-hand-grip; 
+  }
+}
+.lindua-pointer-up {
+  &:before {
+    content: $lindua-pointer-up; 
+  }
+}
+.lindua-pointer-down {
+  &:before {
+    content: $lindua-pointer-down; 
+  }
+}
+.lindua-pointer-left {
+  &:before {
+    content: $lindua-pointer-left; 
+  }
+}
+.lindua-pointer-right {
+  &:before {
+    content: $lindua-pointer-right; 
+  }
+}
+.lindua-tap-all {
+  &:before {
+    content: $lindua-tap-all; 
+  }
+}
+.lindua-tap {
+  &:before {
+    content: $lindua-tap; 
+  }
+}
+.lindua-tap-two {
+  &:before {
+    content: $lindua-tap-two; 
+  }
+}
+.lindua-gesture-zoom {
+  &:before {
+    content: $lindua-gesture-zoom; 
+  }
+}
+.lindua-gesture-pinch {
+  &:before {
+    content: $lindua-gesture-pinch; 
+  }
+}
+.lindua-swipe-horizontal {
+  &:before {
+    content: $lindua-swipe-horizontal; 
+  }
+}
+.lindua-swipe-left {
+  &:before {
+    content: $lindua-swipe-left; 
+  }
+}
+.lindua-swipe-right {
+  &:before {
+    content: $lindua-swipe-right; 
+  }
+}
+.lindua-swipe-vertical {
+  &:before {
+    content: $lindua-swipe-vertical; 
+  }
+}
+.lindua-swipe-up {
+  &:before {
+    content: $lindua-swipe-up; 
+  }
+}
+.lindua-swipe-down {
+  &:before {
+    content: $lindua-swipe-down; 
+  }
+}
+.lindua-scroll-horizontal {
+  &:before {
+    content: $lindua-scroll-horizontal; 
+  }
+}
+.lindua-scroll-left {
+  &:before {
+    content: $lindua-scroll-left; 
+  }
+}
+.lindua-scroll-right {
+  &:before {
+    content: $lindua-scroll-right; 
+  }
+}
+.lindua-scroll-vertical {
+  &:before {
+    content: $lindua-scroll-vertical; 
+  }
+}
+.lindua-scroll-up {
+  &:before {
+    content: $lindua-scroll-up; 
+  }
+}
+.lindua-scroll-down {
+  &:before {
+    content: $lindua-scroll-down; 
+  }
+}
+.lindua-reminder {
+  &:before {
+    content: $lindua-reminder; 
+  }
+}
+.lindua-horns {
+  &:before {
+    content: $lindua-horns; 
+  }
+}
+.lindua-ellipsis {
+  &:before {
+    content: $lindua-ellipsis; 
+  }
+}
+.lindua-menu2 {
+  &:before {
+    content: $lindua-menu2; 
+  }
+}
+

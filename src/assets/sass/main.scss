@@ -1,0 +1,55 @@
+.body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.wizard--tooltip-icon {
+    color: #ababab !important;
+}
+.wizard--form-label {
+    font-size: 20px !important;
+}
+
+.collapse-item {
+    border-bottom: 1px solid #e3e3e3 !important;
+}
+
+.card-header {
+    &:after {
+        height: 0px !important;
+    }
+}
+
+.data-list {
+    z-index: 1;
+    position: absolute;
+    font-size: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    border: 1px #ccc solid;
+    li {
+        display: block;
+        padding: 5px 15px;
+    }
+    li:hover {
+        background-color: #ccc;
+    }
+}
+
+.el-table__header {
+    > thead > tr > th {
+        font-size: 12px !important;
+    }
+}
+
+.el-table__body {
+    > tbody > tr > td {
+        font-size: 12px !important;
+    }
+}
+
+.modal {
+    overflow-y: auto !important;
+}

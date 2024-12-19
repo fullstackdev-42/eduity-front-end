@@ -1,0 +1,1009 @@
+{
+    "id": "uuid",
+    "type": "Job",
+    "name": "Chief Executives",
+    "attributes": [
+        {
+            "id": "uuid",
+            "originatorType": "Onet",
+            "originatorId": "11-1011.00",
+            "name": "name",
+            "content": "Chief Executives"
+        },
+        {
+            "id": "uuid",
+            "originatorType": "Onet",
+            "originatorId": "11-1011.00",
+            "name": "description",
+            "content": "Determine and formulate policies and provide overall direction of companies or private and public sector organizations within guidelines set up by a board of directors or similar governing body. Plan, direct, or coordinate operational activities at the highest level of management with the help of subordinate executives and staff managers."
+        }
+    ],
+    "subElements": [
+        {
+            "id": "uuid",
+            "type": "Skills",
+            "name": "Skills",
+            "description": "Skills desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "2.B.5.d",
+                    "name": "Management of Personnel Resources",
+                    "description": "Selecting and managing the best workers for a job.",
+                    "content": {
+                        "dataValue": "4.25",
+                        "importance": "81"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "2.B.4.h",
+                    "name": "Systems Evaluation",
+                    "description": "Measuring how well a system is working and how to improve it.",
+                    "content": {
+                        "dataValue": "4.12",
+                        "importance": "78"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "2.A.2.b",
+                    "name": "Active Learning",
+                    "description": "Figuring out how to use new ideas or things.",
+                    "content": {
+                        "dataValue": "4",
+                        "importance": "75"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "Abilities",
+            "name": "Abilities",
+            "description": "Abilities desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.A.4.b.5",
+                    "name": "Speech Clarity",
+                    "description": "Speaking clearly.",
+                    "content": {
+                        "dataValue": "4.12",
+                        "importance": "78"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.A.2.b.3",
+                    "name": "Response Orientation",
+                    "description": "Quickly deciding if you should move your hand, foot, or other body part.",
+                    "content": {
+                        "dataValue": "1",
+                        "importance": "0"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.A.2.b.2",
+                    "name": "Multilimb Coordination",
+                    "description": "Using your arms and/or legs together while sitting, standing, or lying down.",
+                    "content": {
+                        "dataValue": "1.75",
+                        "importance": "19"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "Interests",
+            "name": "InterestDataList",
+            "description": "InterestDataList desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-careeronestop",
+                    "originatorId": "1.B.1.g",
+                    "name": "Enterprising",
+                    "description": "Occupations with Enterprising interests frequently involve starting up and carrying out projects. Many involve leading people and making many decisions. Sometimes they require risk taking and often deal with business.",
+                    "content": {
+                        "dataValue": "5",
+                        "importance": null
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-careeronestop",
+                    "originatorId": "1.B.1.h",
+                    "name": "Conventional",
+                    "description": "Occupations related to Conventional interests frequently involve following set procedures and routines. They include working with data and details more than with ideas. Usually there is a clear line of authority to follow.",
+                    "content": {
+                        "dataValue": "6",
+                        "importance": null
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "knowledge",
+            "name": "KnowledgeDataList",
+            "description": "KnowledgeDataList desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-careeronestop",
+                    "originatorId": "2.C.9.a",
+                    "name": "Telecommunications",
+                    "description": "Knowledge of transmission, broadcasting, switching, control, and operation of telecommunications systems.",
+                    "content": {
+                        "dataValue": "1.76",
+                        "importance": "19"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-careeronestop",
+                    "originatorId": "2.C.8.b",
+                    "name": "Law and Government",
+                    "description": "Knowledge of laws, legal codes, court procedures, precedents, government regulations, executive orders, agency rules, and the democratic political process.",
+                    "content": {
+                        "dataValue": "3.92",
+                        "importance": "72"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-careeronestop",
+                    "originatorId": "2.C.1.a",
+                    "name": "Administration and Management",
+                    "description": "Knowledge of business and management principles involved in strategic planning, resource allocation, human resources modeling, leadership technique, production methods, and coordination of people and resources.",
+                    "content": {
+                        "dataValue": "4.75",
+                        "importance": "94"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-careeronestop",
+                    "originatorId": "2.C.1.e",
+                    "name": "Customer and Personal Service",
+                    "description": "Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment, meeting quality standards for services, and evaluation of customer satisfaction.",
+                    "content": {
+                        "dataValue": "4.09",
+                        "importance": "77"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-careeronestop",
+                    "originatorId": "2.C.2.a",
+                    "name": "Production and Processing",
+                    "description": "Knowledge of raw materials, production processes, quality control, costs, and other techniques for maximizing the effective manufacture and distribution of goods.",
+                    "content": {
+                        "dataValue": "2.63",
+                        "importance": "41"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "onet",
+            "name": "Styles",
+            "description": "Styles desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.C.2.b",
+                    "name": "Leadership",
+                    "description": "Job requires a willingness to lead, take charge, and offer opinions and direction.",
+                    "content": {
+                        "scale": "Importance",
+                        "dataValue": "99",
+                        "importance": true
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.C.5.c",
+                    "name": "Integrity",
+                    "description": "Job requires being honest and ethical.",
+                    "content": {
+                        "scale": "Importance",
+                        "dataValue": "95",
+                        "importance": true
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.C.1.c",
+                    "name": "Initiative",
+                    "description": "Job requires a willingness to take on responsibilities and challenges.",
+                    "content": {
+                        "scale": "Importance",
+                        "dataValue": "95",
+                        "importance": true
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.C.4.b",
+                    "name": "Stress Tolerance",
+                    "description": "Job requires accepting criticism and dealing calmly and effectively with high stress situations.",
+                    "content": {
+                        "scale": "Importance",
+                        "dataValue": "94",
+                        "importance": true
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.C.5.a",
+                    "name": "Dependability",
+                    "description": "Job requires being reliable, responsible, and dependable, and fulfilling obligations.",
+                    "content": {
+                        "scale": "Importance",
+                        "dataValue": "91",
+                        "importance": true
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.C.1.a",
+                    "name": "Achievement/Effort",
+                    "description": "Job requires establishing and maintaining personally challenging achievement goals and exerting effort toward mastering tasks.",
+                    "content": {
+                        "scale": "Importance",
+                        "dataValue": "89",
+                        "importance": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "Tasks",
+            "name": "Tasks",
+            "description": " desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "careeronestop",
+                    "originatorId": "8846",
+                    "name": "",
+                    "description": "Administer programs for selection of sites, construction of buildings, or provision of equipment or supplies.",
+                    "content": {
+                        "dataValue": "3.62",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "careeronestop",
+                    "originatorId": "8828",
+                    "name": "",
+                    "description": "Direct or coordinate activities of businesses or departments concerned with production, pricing, sales, or distribution of products.",
+                    "content": {
+                        "dataValue": "4.25",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "careeronestop",
+                    "originatorId": "8850",
+                    "name": "",
+                    "description": "Organize or approve promotional campaigns.",
+                    "content": {
+                        "dataValue": "3.11",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "careeronestop",
+                    "originatorId": "8831",
+                    "name": "",
+                    "description": "Appoint department heads or managers and assign or delegate responsibilities to them.",
+                    "content": {
+                        "dataValue": "4.48",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "careeronestop",
+                    "originatorId": "8825",
+                    "name": "",
+                    "description": "Analyze operations to evaluate performance of a company or its staff in meeting objectives or to determine areas of potential cost reduction, program improvement, or policy change.",
+                    "content": {
+                        "dataValue": "4.4",
+                        "importance": ""
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "education",
+            "name": "certifications",
+            "description": " desc",
+            "attributes": []
+        },
+        {
+            "id": "uuid",
+            "type": "education",
+            "name": "education",
+            "description": " desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 1",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 2",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 3",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 4",
+                    "content": {
+                        "dataValue": "6.05",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 5",
+                    "content": {
+                        "dataValue": "4.23",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 6",
+                    "content": {
+                        "dataValue": "21.61",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 7",
+                    "content": {
+                        "dataValue": "13.66",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 8",
+                    "content": {
+                        "dataValue": "25.83",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 9",
+                    "content": {
+                        "dataValue": "19.23",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 10",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 11",
+                    "content": {
+                        "dataValue": "9.39",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "2.D.1",
+                    "name": "Required Level Of Education",
+                    "description": "Category 12",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "education",
+            "name": "Related Work Experience",
+            "description": "Related Work Experience desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 1",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 2",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 3",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 4",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 5",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 6",
+                    "content": {
+                        "dataValue": "5.55",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 7",
+                    "content": {
+                        "dataValue": "12.75",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 8",
+                    "content": {
+                        "dataValue": "9.17",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 9",
+                    "content": {
+                        "dataValue": "28.17",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 10",
+                    "content": {
+                        "dataValue": "12.63",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.1",
+                    "name": "Related Work Experience",
+                    "description": "Category 11",
+                    "content": {
+                        "dataValue": "31.74",
+                        "importance": ""
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "education",
+            "name": "On-Site Or In-Plant Training",
+            "description": " desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.2",
+                    "name": "On-Site Or In-Plant Training",
+                    "description": "Category 1",
+                    "content": {
+                        "dataValue": "26.49",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.2",
+                    "name": "On-Site Or In-Plant Training",
+                    "description": "Category 2",
+                    "content": {
+                        "dataValue": "3.24",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.2",
+                    "name": "On-Site Or In-Plant Training",
+                    "description": "Category 3",
+                    "content": {
+                        "dataValue": "13.64",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.2",
+                    "name": "On-Site Or In-Plant Training",
+                    "description": "Category 4",
+                    "content": {
+                        "dataValue": "0.43",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.2",
+                    "name": "On-Site Or In-Plant Training",
+                    "description": "Category 5",
+                    "content": {
+                        "dataValue": "5.55",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.2",
+                    "name": "On-Site Or In-Plant Training",
+                    "description": "Category 6",
+                    "content": {
+                        "dataValue": "19.36",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.2",
+                    "name": "On-Site Or In-Plant Training",
+                    "description": "Category 7",
+                    "content": {
+                        "dataValue": "7.83",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.2",
+                    "name": "On-Site Or In-Plant Training",
+                    "description": "Category 8",
+                    "content": {
+                        "dataValue": "13.86",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.2",
+                    "name": "On-Site Or In-Plant Training",
+                    "description": "Category 9",
+                    "content": {
+                        "dataValue": "9.61",
+                        "importance": ""
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "education",
+            "name": "On-The-Job Training",
+            "description": " desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.3",
+                    "name": "On-The-Job Training",
+                    "description": "Category 1",
+                    "content": {
+                        "dataValue": "36.53",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.3",
+                    "name": "On-The-Job Training",
+                    "description": "Category 2",
+                    "content": {
+                        "dataValue": "9.55",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.3",
+                    "name": "On-The-Job Training",
+                    "description": "Category 3",
+                    "content": {
+                        "dataValue": "12.5",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.3",
+                    "name": "On-The-Job Training",
+                    "description": "Category 4",
+                    "content": {
+                        "dataValue": "2.89",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.3",
+                    "name": "On-The-Job Training",
+                    "description": "Category 5",
+                    "content": {
+                        "dataValue": "14.38",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.3",
+                    "name": "On-The-Job Training",
+                    "description": "Category 6",
+                    "content": {
+                        "dataValue": "12.08",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.3",
+                    "name": "On-The-Job Training",
+                    "description": "Category 7",
+                    "content": {
+                        "dataValue": "7.83",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.3",
+                    "name": "On-The-Job Training",
+                    "description": "Category 8",
+                    "content": {
+                        "dataValue": "4.23",
+                        "importance": ""
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet-excel",
+                    "originatorId": "3.A.3",
+                    "name": "On-The-Job Training",
+                    "description": "Category 9",
+                    "content": {
+                        "dataValue": "0",
+                        "importance": ""
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "activities",
+            "name": "Work Activities",
+            "description": "Work Activities desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "4.A.2.b.1",
+                    "name": "Making Decisions and Solving Problems",
+                    "description": "Analyzing information and evaluating results to choose the best solution and solve problems.",
+                    "content": {}
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "4.A.4.a.2",
+                    "name": "Communicating with Supervisors, Peers, or Subordinates",
+                    "description": "Providing information to supervisors, co-workers, and subordinates by telephone, in written form, e-mail, or in person",
+                    "content": {}
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "4.A.1.a.1",
+                    "name": "Getting Information",
+                    "description": "Observing, receiving, and otherwise obtaining information from all relevant sources.",
+                    "content": {}
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "4.A.4.a.3",
+                    "name": "Communicating with Persons Outside Organization",
+                    "description": "Communicating with people outside the organization, representing the organization to customers, the public, government, and other external sources. This information can be exchanged in person, in writing, or by telephone or e-mail.",
+                    "content": {}
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "contexts",
+            "name": "Work Context Summary",
+            "description": "Work Context Summary desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "4.C.1.a.2.h",
+                    "name": "Electronic Mail",
+                    "description": "How often do you use electronic mail in this job?",
+                    "content": {
+                        "percentage": "100",
+                        "name": "Every day"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "4.C.1.a.2.l",
+                    "name": "Face-to-Face Discussions",
+                    "description": "How often do you have to have face-to-face discussions with individuals or teams in this job?",
+                    "content": {
+                        "percentage": "98",
+                        "name": "Every day"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "4.C.3.b.8",
+                    "name": "Structured versus Unstructured Work",
+                    "description": "To what extent is this job structured for the worker, rather than allowing the worker to determine tasks, priorities, and goals?",
+                    "content": {
+                        "percentage": "98",
+                        "name": "A lot of freedom"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "4.C.1.a.2.f",
+                    "name": "Telephone",
+                    "description": "How often do you have telephone conversations in this job?",
+                    "content": {
+                        "percentage": "100",
+                        "name": "Every day"
+                    }
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "4.C.3.a.4",
+                    "name": "Freedom to Make Decisions",
+                    "description": "How much decision making freedom, without supervision, does the job offer?",
+                    "content": {
+                        "percentage": "92",
+                        "name": "A lot of freedom"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "techandtools",
+            "name": "Tech and Tools",
+            "description": "Tech and Tools desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "43191501",
+                    "name": "Mobile phones",
+                    "content": {}
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "43211503",
+                    "name": "Notebook computers",
+                    "content": {}
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "43211508",
+                    "name": "Personal computers",
+                    "content": {}
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "43201813",
+                    "name": "High capacity removable media drives",
+                    "content": {}
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "43211504",
+                    "name": "Personal digital assistant PDAs or organizers",
+                    "content": {}
+                }
+            ]
+        },
+        {
+            "id": "uuid",
+            "type": "values",
+            "name": "Work Values Summary",
+            "description": "Work Values Summary desc",
+            "attributes": [
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.B.2.c",
+                    "name": "Recognition",
+                    "description": "Occupations that satisfy this work value offer advancement, potential for leadership, and are often considered prestigious. Corresponding needs are Advancement, Authority, Recognition and Social Status.",
+                    "content": {}
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.B.2.f",
+                    "name": "Independence",
+                    "description": "Occupations that satisfy this work value allow employees to work on their own and make decisions. Corresponding needs are Creativity, Responsibility and Autonomy.",
+                    "content": {}
+                },
+                {
+                    "id": "uuid",
+                    "originatorType": "Onet",
+                    "originatorId": "1.B.2.a",
+                    "name": "Achievement",
+                    "description": "Occupations that satisfy this work value are results oriented and allow employees to use their strongest abilities, giving them a feeling of accomplishment. Corresponding needs are Ability Utilization and Achievement.",
+                    "content": {}
+                }
+            ]
+        }
+    ]
+}
